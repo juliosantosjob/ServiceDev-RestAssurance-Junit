@@ -1,0 +1,1215 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=d6442bca0e12037da90d9c7c3f6e6b05
+Date=Wed, 12 Feb 2025 12:17:46 GMT
+Server=Google Frontend
+Content-Length=38222
+Body: {
+    "quantidade": 171,
+    "usuarios": [
+        {
+            "nome": "Miss Gilbert Gleason",
+            "email": "missgilbertgleason@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "0YvvaRby4MYT0nFN"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Feliciano Domingues",
+            "email": "Jaime.Pimentel@portugalmail.pt",
+            "password": "byWosqh2zf3ZMvb",
+            "administrador": "true",
+            "_id": "104Zc4wFf8QTqTOb"
+        },
+        {
+            "nome": "Eduardo Torres",
+            "email": "Gaspar_Pinto80@portugalmail.pt",
+            "password": "hIgaqMcBBNQk_Gk",
+            "administrador": "false",
+            "_id": "1Ic594sHQlawgZaR"
+        },
+        {
+            "nome": "Vicente Baptista",
+            "email": "Ivo97@portugalmail.pt",
+            "password": "HasDlVTGPut5DiJ",
+            "administrador": "true",
+            "_id": "1QU5ma8tCKIZCUta"
+        },
+        {
+            "nome": "Matilde Saraiva",
+            "email": "Mara.Leite61@mail.pt",
+            "password": "nqaY9EEdn7wOvWB",
+            "administrador": "true",
+            "_id": "1XDoQBW0ADGhDjNe"
+        },
+        {
+            "nome": "Olívia Tavares",
+            "email": "Afonso_Machado2@gmail.com",
+            "password": "fdfc51QQQNIK4UX",
+            "administrador": "false",
+            "_id": "2UTpWgV1OpQ15z2Y"
+        },
+        {
+            "nome": "Prof.ª Carminho Soares",
+            "email": "Sergio_Almeida@hotmail.com",
+            "password": "nYcgBKUQOjyERfG",
+            "administrador": "true",
+            "_id": "3AeQXLoU5Ka3rGVg"
+        },
+        {
+            "nome": "Vasco Cardoso",
+            "email": "Mia.Monteiro71@aeiou.pt",
+            "password": "dVwanzV1SXI_GZS",
+            "administrador": "true",
+            "_id": "3xDjmBakWxfdAF1Z"
+        },
+        {
+            "nome": "Manuel Leite",
+            "email": "Olivia_Teixeira30@yahoo.com",
+            "password": "NfYEu8V_hBoRom9",
+            "administrador": "false",
+            "_id": "4UosCRt1X0Uj1ERv"
+        },
+        {
+            "nome": "Ariana Araújo",
+            "email": "Madalena.Cunha19@sapo.pt",
+            "password": "tyAWVjIR5DSpBNp",
+            "administrador": "true",
+            "_id": "4ikVg1cc5dY7QT2X"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ufwg@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "5TXzSDjhdYC6ciFc"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "iteixeira@example.com",
+            "password": " w*3WwEQ+Bn",
+            "administrador": "true",
+            "_id": "5fyMiPAKHbG895QN"
+        },
+        {
+            "nome": "Romeu Fraga",
+            "email": "Edgar_Vieira@mail.pt",
+            "password": "KoYQiVsQlB6UVmW",
+            "administrador": "false",
+            "_id": "5oZgv90u3sPEv76C"
+        },
+        {
+            "nome": "Malvina19",
+            "email": "Berta.Gutmann@yahoo.com",
+            "password": "948428004",
+            "administrador": "true",
+            "_id": "7YsFDN35Izrjenre"
+        },
+        {
+            "nome": "Luana Costa",
+            "email": "Camila.Reis57@yahoo.com",
+            "password": "kor7t3JwaxvLPnO",
+            "administrador": "false",
+            "_id": "7gDpcnRPjwy3XYLM"
+        },
+        {
+            "nome": "David Assunção",
+            "email": "Julieta.Abreu@live.com",
+            "password": "dGihCNkKBmFa20_",
+            "administrador": "false",
+            "_id": "8cxuQMSBZworsaO9"
+        },
+        {
+            "nome": "Guilherme Ferreira",
+            "email": "Leonardo.Costa7@live.com",
+            "password": "9qUII5L9IKJkQ_K",
+            "administrador": "true",
+            "_id": "8g1qDM63aXH2Kd2V"
+        },
+        {
+            "nome": "Teresa Anjos",
+            "email": "Gabriela.Brito40@outlook.com",
+            "password": "59pBs3VDst_4Pww",
+            "administrador": "true",
+            "_id": "8sXCWxdYr2oqFEwD"
+        },
+        {
+            "nome": "Júlio Neto",
+            "email": "Vitoria.Cunha33@aeiou.pt",
+            "password": "2erAVMq1Aq0ttii",
+            "administrador": "false",
+            "_id": "98ygg60mN0aT8G9W"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "yuwx@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "9Mo4iGwheIZ1Ocps"
+        },
+        {
+            "nome": "Arq. Lourenço Nobre",
+            "email": "Fabiana_Rodrigues@gmail.com",
+            "password": "E8AgTto1hwTWWo5",
+            "administrador": "true",
+            "_id": "9dYidt7OOPX6eKhe"
+        },
+        {
+            "nome": "Fernando Albuquerque",
+            "email": "Simao_Moura@mail.pt",
+            "password": "TWIgEbLVyP19L_n",
+            "administrador": "false",
+            "_id": "9r2jJ2vEsFpigGGE"
+        },
+        {
+            "nome": "Matheus Cirino",
+            "email": "bruna99@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "9suC7zHtSKXfC4xK"
+        },
+        {
+            "nome": "Flora Effertz",
+            "email": "floraeffertz@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "ANLtfRMgafQz0dYP"
+        },
+        {
+            "nome": "Dr. Gwen Stokes",
+            "email": "colleengrimes@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Ag8L5DCAmxGqHgSX"
+        },
+        {
+            "nome": "J�lia Vasconcelos",
+            "email": "gabriela96@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AkPseuZaKYAxTJvK"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "gcaldeira@example.net",
+            "password": " jR5gpVVs@c",
+            "administrador": "true",
+            "_id": "BQLVrZq8anSKMOuZ"
+        },
+        {
+            "nome": "Núria Lima",
+            "email": "Edgar.Soares@portugalmail.pt",
+            "password": "UBaym3v0eRZb04p",
+            "administrador": "false",
+            "_id": "BrEe2amKKexMXNLP"
+        },
+        {
+            "nome": "Dra. Márcia Baptista",
+            "email": "Joana84@portugalmail.pt",
+            "password": "CqAhqLx7SIx9QZL",
+            "administrador": "false",
+            "_id": "C9mQl8s37wqtVo6G"
+        },
+        {
+            "nome": "Pilar Antunes",
+            "email": "Nuria14@live.com",
+            "password": "gVTlGvwYOJLlhwp",
+            "administrador": "false",
+            "_id": "CCZd4pCUiMrhTj9T"
+        },
+        {
+            "nome": "Pedro Mota",
+            "email": "Josue54@mail.pt",
+            "password": "PySMGpv3zNf43Wx",
+            "administrador": "false",
+            "_id": "CJOsg1YqfgMFdufT"
+        },
+        {
+            "nome": "Pedro Pires",
+            "email": "Paulo20@yahoo.com",
+            "password": "p1dpp5EB2KdHa7N",
+            "administrador": "false",
+            "_id": "CW9IGHv0V3AlSTZQ"
+        },
+        {
+            "nome": "Marcelo Pinho",
+            "email": "Leandro.Anjos94@gmail.com",
+            "password": "pVkC4P6v3mq4bxw",
+            "administrador": "true",
+            "_id": "CtpcJxIJNoTfyHVY"
+        },
+        {
+            "nome": "Leandro Assunção",
+            "email": "Alexandre7@aeiou.pt",
+            "password": "yEBb7svBCsapdE2",
+            "administrador": "true",
+            "_id": "D8h8SeR7HCM4X9es"
+        },
+        {
+            "nome": "Daniela Saraiva",
+            "email": "Silvia_Carvalho68@hotmail.com",
+            "password": "wM1vmGWfhOgViUe",
+            "administrador": "true",
+            "_id": "Dr0jNACW8LfAhlxc"
+        },
+        {
+            "nome": "Fernando Azevedo",
+            "email": "Martim15@portugalmail.pt",
+            "password": "aFKGbCMXiwISDyI",
+            "administrador": "true",
+            "_id": "EISoIbAs8x2mDtQS"
+        },
+        {
+            "nome": "Dr. Luís Costa",
+            "email": "Marcelo15@gmail.com",
+            "password": "8cFzzrukItnL_jV",
+            "administrador": "true",
+            "_id": "FCowQz8Kw0l74tzm"
+        },
+        {
+            "nome": "Cecília Lourinho",
+            "email": "Marcelo_Leal8@aeiou.pt",
+            "password": "pgDBdmYqWS20_JS",
+            "administrador": "true",
+            "_id": "FRPd2ti5h843Idgd"
+        },
+        {
+            "nome": "Carla Pimentel",
+            "email": "Tomas75@mail.pt",
+            "password": "e69Ym9SX1b5jWJo",
+            "administrador": "false",
+            "_id": "FmO88vY1cyCLIbMY"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "vypx@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "G0ml50pNaDAJAAZG"
+        },
+        {
+            "nome": "User Number 3264",
+            "email": "name.3264@qa.com",
+            "password": "t3ste",
+            "administrador": "true",
+            "_id": "GczrKEg2DFg4Hy3M"
+        },
+        {
+            "nome": "Diogo Queiroz",
+            "email": "Nuria.Lourinho@aeiou.pt",
+            "password": "m473OPwP3jzxnoq",
+            "administrador": "false",
+            "_id": "GuyMh5TUZTu4J81c"
+        },
+        {
+            "nome": "Sr. Júlio Teixeira",
+            "email": "Lucas_Ramos@hotmail.com",
+            "password": "gTmFsA78PsdeIQW",
+            "administrador": "true",
+            "_id": "HPTPMDwuDVDBZWZD"
+        },
+        {
+            "nome": "Henrique Torres",
+            "email": "Mia.Azevedo@hotmail.com",
+            "password": "SsfjaztUUfTHBX3",
+            "administrador": "false",
+            "_id": "HonLnMDOl36uwpCQ"
+        },
+        {
+            "nome": "Tomás Camacho",
+            "email": "Marcia_Carneiro78@aeiou.pt",
+            "password": "jf6ycEwpDNhVwhN",
+            "administrador": "true",
+            "_id": "Hpzi218d9RpqyhUX"
+        },
+        {
+            "nome": "Artur Medeiros",
+            "email": "Pedro80@yahoo.com",
+            "password": "oWhelcg8whBoJ16",
+            "administrador": "false",
+            "_id": "IA3p3LzmO9tPWISa"
+        },
+        {
+            "nome": "Enf. Raul Correia",
+            "email": "Renato75@live.com",
+            "password": "WL4tkdpbp4vkat6",
+            "administrador": "false",
+            "_id": "IBVpUjALWOwgsriF"
+        },
+        {
+            "nome": "Artur Pereira",
+            "email": "Henrique.Tavares@live.com",
+            "password": "33j6qmt0_bn1cEY",
+            "administrador": "false",
+            "_id": "IKYJFQoDiyD8XdRf"
+        },
+        {
+            "nome": "Dr. Dante Nogueira",
+            "email": "theo12@example.org",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J6bHUGCoWeNrvu98"
+        },
+        {
+            "nome": "Marcos Nobre",
+            "email": "Nuria_Lima66@mail.pt",
+            "password": "YeirHXaVdbJGMLL",
+            "administrador": "false",
+            "_id": "Kr5Z06iQrbV8uBGv"
+        },
+        {
+            "nome": "Vitória Almeida",
+            "email": "Salvador_Ramos@gmail.com",
+            "password": "DB32ZtMluFuWpwc",
+            "administrador": "false",
+            "_id": "KwkWJ866QW5dto5c"
+        },
+        {
+            "nome": "Valentim Fraga",
+            "email": "Francisco.Faria@outlook.com",
+            "password": "ks6zaY4R7p5s2O9",
+            "administrador": "true",
+            "_id": "L8Ptp6VSGpDVljYt"
+        },
+        {
+            "nome": "Lorena Morais",
+            "email": "Luis_Amaral@live.com",
+            "password": "FLZfuKB3B3VZDih",
+            "administrador": "false",
+            "_id": "LDMUdiYks68srrYg"
+        },
+        {
+            "nome": "Eduardo Torres",
+            "email": "Nuno14@gmail.com",
+            "password": "PcERo_gvQ7ts4HB",
+            "administrador": "true",
+            "_id": "LZlPlfdQrduESeXh"
+        },
+        {
+            "nome": "Gustavo Cunha",
+            "email": "Soraia_Anjos@hotmail.com",
+            "password": "QVVkKq3_UnPsCYH",
+            "administrador": "false",
+            "_id": "Lgz1mVNBQPHjg6XA"
+        },
+        {
+            "nome": "Eduardo Correia",
+            "email": "Hugo.Ramos12@sapo.pt",
+            "password": "1HJRisYg31S6wZH",
+            "administrador": "true",
+            "_id": "Ll3v5SNoH7HC3Wgd"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ziin@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "LzRPK4zpXgOfVWpm"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "bvpr@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "M4kUCGsmHTyqzZgR"
+        },
+        {
+            "nome": "Cristiano Xavier",
+            "email": "Alice_Amorim@mail.pt",
+            "password": "bsP8QUTeW6tT4Ws",
+            "administrador": "true",
+            "_id": "MAbmfwYRASav7iGv"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rwtc@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "N8cE4YGQFfPuyra8"
+        },
+        {
+            "nome": "Ivo Figueiredo",
+            "email": "Gabriela.Lima@mail.pt",
+            "password": "ArTh2vKpCudJDHo",
+            "administrador": "true",
+            "_id": "NDurxHhmFqj87QWn"
+        },
+        {
+            "nome": "Salvador Lima",
+            "email": "Carlos95@portugalmail.pt",
+            "password": "rFcE_McLT4Mgpq8",
+            "administrador": "false",
+            "_id": "NO3iX4zxnd7xulQP"
+        },
+        {
+            "nome": "Ana Brito",
+            "email": "Maria12@gmail.com",
+            "password": "4ErY5hL1GAouJfz",
+            "administrador": "false",
+            "_id": "OckovG0cPwkaDMWa"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano2@email.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "P88gzPoAlK0GYHiy"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "enzo-gabrielsantos@example.com",
+            "password": " (mCui6RIB2",
+            "administrador": "true",
+            "_id": "PKiV8G3sR9k6qfa6"
+        },
+        {
+            "nome": "Irina Domingues",
+            "email": "Ema_Vieira14@portugalmail.pt",
+            "password": "WXW470v2tpd7g8m",
+            "administrador": "true",
+            "_id": "Por1mUTgRfOtecHd"
+        },
+        {
+            "nome": "Tatiana Cardoso",
+            "email": "Julio.Cardoso77@yahoo.com",
+            "password": "goR_yWcruRrkQPx",
+            "administrador": "true",
+            "_id": "PvEJM9yAhtr1NUcd"
+        },
+        {
+            "nome": "Noélie",
+            "email": "noelie.robert@example.com",
+            "password": "felix1",
+            "administrador": "false",
+            "_id": "QaCvHrnb5cEoY72u"
+        },
+        {
+            "nome": "Dr. Sérgio Cunha",
+            "email": "Nicole87@outlook.com",
+            "password": "rxZJvtTvkBkjpMW",
+            "administrador": "true",
+            "_id": "QfEe02QzULlmbgNA"
+        },
+        {
+            "nome": "Alex Towne IV",
+            "email": "alextowneiv@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "QgQwBgwAMPLgTbae"
+        },
+        {
+            "nome": "Luísa Lopes",
+            "email": "Pilar.Coelho@hotmail.com",
+            "password": "qqZlS30AooTrCfe",
+            "administrador": "false",
+            "_id": "R9f3pHynZj6q7Xh3"
+        },
+        {
+            "nome": "Ricardo Carneiro",
+            "email": "Helio17@hotmail.com",
+            "password": "TqLrOM71oQlJrvc",
+            "administrador": "true",
+            "_id": "RMYBAYZyaoP6U235"
+        },
+        {
+            "nome": "Benjamim Batista",
+            "email": "Norberto.Neves85@sapo.pt",
+            "password": "S647OdKrLO4exhb",
+            "administrador": "false",
+            "_id": "RqxMvvdZnJKqFTTd"
+        },
+        {
+            "nome": "Gaspar Alves",
+            "email": "Clara_Neto@mail.pt",
+            "password": "Lv6KmPyulVkm94s",
+            "administrador": "false",
+            "_id": "RzdZcgyyyyd2dWYi"
+        },
+        {
+            "nome": "Olívia Raposo",
+            "email": "Daniela.Batista@outlook.com",
+            "password": "7E38tiN4yUp_5UA",
+            "administrador": "false",
+            "_id": "S6fcJSeWJTMhkUUg"
+        },
+        {
+            "nome": "Xavier Oliva",
+            "email": "Romeu_Sa69@yahoo.com",
+            "password": "4p0OHxkmboTUZQI",
+            "administrador": "true",
+            "_id": "SKmnj9e4szlQHVxS"
+        },
+        {
+            "nome": "Prof.ª Teresa Mariz",
+            "email": "Gil.Andrade26@aeiou.pt",
+            "password": "9jsS7ytU80dUfrN",
+            "administrador": "true",
+            "_id": "SzmWpGCRcPnMZKZW"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "wfdi@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "TIKCxtWYavFE0k8R"
+        },
+        {
+            "nome": "Aurora Gonçalves",
+            "email": "Silvia83@yahoo.com",
+            "password": "NqZYsLV_oFFFGnz",
+            "administrador": "true",
+            "_id": "TensWf6kAFEjiZ5D"
+        },
+        {
+            "nome": "Débora Valente",
+            "email": "Marcia_Martins50@yahoo.com",
+            "password": "wBiiqJm1_FWgfhd",
+            "administrador": "true",
+            "_id": "UTmBCZL7SJ9tiU64"
+        },
+        {
+            "nome": "Vitória Ferreira",
+            "email": "Rodrigo_Oliveira3@yahoo.com",
+            "password": "qnvZRo64IqwchNq",
+            "administrador": "false",
+            "_id": "UrwstU4OhwsUUEic"
+        },
+        {
+            "nome": "Ofélia Oliveira",
+            "email": "Afonso.Reis@mail.pt",
+            "password": "43TYgvXpO_FzEhD",
+            "administrador": "false",
+            "_id": "V1872OJAwORPk9aa"
+        },
+        {
+            "nome": "Luana Macedo",
+            "email": "Lia.Miranda70@live.com",
+            "password": "TIxLHlhMumTX8mu",
+            "administrador": "false",
+            "_id": "V5PwqEHy8ciVlYx3"
+        },
+        {
+            "nome": "Benjamim Braga",
+            "email": "Manel64@yahoo.com",
+            "password": "TV2wpsAv3X79Gvj",
+            "administrador": "false",
+            "_id": "VDesTqNDDjmAj0YO"
+        },
+        {
+            "nome": "Fabiana Castro",
+            "email": "Fabio.Carneiro@sapo.pt",
+            "password": "diWBGdKJss9VFtz",
+            "administrador": "true",
+            "_id": "VNpB6CvgoerV7ZJ3"
+        },
+        {
+            "nome": "Maria Julia Vieira",
+            "email": "sophiacastro@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "W6UOjQbuhSwRYeBp"
+        },
+        {
+            "nome": "Catarina Melo",
+            "email": "Joaquim38@hotmail.com",
+            "password": "aUh3LXw_g1cNoU3",
+            "administrador": "false",
+            "_id": "WZYnnweGOkg1MaSE"
+        },
+        {
+            "nome": "Luena Rocha",
+            "email": "Luena_Gaspar@sapo.pt",
+            "password": "K0x0KbDo7TZMldx",
+            "administrador": "true",
+            "_id": "XI3Wt1JjsuCXIMIw"
+        },
+        {
+            "nome": "Carlota Anjos",
+            "email": "Camila_Matos@live.com",
+            "password": "SGSWsCPkP8hyl3H",
+            "administrador": "true",
+            "_id": "XJo5RVA18qzpyLfE"
+        },
+        {
+            "nome": "Jonah",
+            "email": "alona.kris@yahoo.com",
+            "password": "enit7sxr3",
+            "administrador": "true",
+            "_id": "XjeaiST2fBipJ51X"
+        },
+        {
+            "nome": "Bárbara Oliva",
+            "email": "Soraia_Lourinho11@aeiou.pt",
+            "password": "v61ktNe_MKosdcs",
+            "administrador": "false",
+            "_id": "Yg4fHdrtJXbM6fnt"
+        },
+        {
+            "nome": "Márcia Faria",
+            "email": "Marcia_Albuquerque91@gmail.com",
+            "password": "Z05Fn4obPMboeow",
+            "administrador": "true",
+            "_id": "Z0479VTamLstjbfU"
+        },
+        {
+            "nome": "Bernardo Simões",
+            "email": "Cristiano.Morais37@live.com",
+            "password": "VIwM27LKPtDyHt6",
+            "administrador": "false",
+            "_id": "aYdKXlyzHOMgRLwf"
+        },
+        {
+            "nome": "Mariana Lima",
+            "email": "Vitoria.Guerreiro79@portugalmail.pt",
+            "password": "Dw9dXdOLwQGCOeX",
+            "administrador": "true",
+            "_id": "aiHwUp1rljqBDgix"
+        },
+        {
+            "nome": "Norberto Moreira",
+            "email": "Samuel.Matias39@gmail.com",
+            "password": "LEc0VvitG0_06ev",
+            "administrador": "true",
+            "_id": "aiTsntuMtONpLZlW"
+        },
+        {
+            "nome": "Fabiana Ribeiro",
+            "email": "Luna.Serra8@aeiou.pt",
+            "password": "RBlD34pQpesYsfm",
+            "administrador": "false",
+            "_id": "au2o2vSVXhztZVD0"
+        },
+        {
+            "nome": "Feliciano Miranda",
+            "email": "Fernando.Lacerda59@portugalmail.pt",
+            "password": "ROzMY2527U4GYBi",
+            "administrador": "false",
+            "_id": "bNXhQvB3NcRK2FeI"
+        },
+        {
+            "nome": "Frederico Veiga",
+            "email": "Iris.Antunes13@sapo.pt",
+            "password": "t7lSWGxawFpgmt5",
+            "administrador": "true",
+            "_id": "bdmQtNlgB0v2KzEt"
+        },
+        {
+            "nome": "Bert",
+            "email": "nigel.kunze@hotmail.com",
+            "password": "h5h6v1bqb",
+            "administrador": "true",
+            "_id": "bpDwKMbS1XduGWMZ"
+        },
+        {
+            "nome": "Pilar Pinho",
+            "email": "Raul.Pereira@portugalmail.pt",
+            "password": "ypgQ8c70MNEolKD",
+            "administrador": "false",
+            "_id": "c0HYYoPAxzuYCQm4"
+        },
+        {
+            "nome": "Bruna Xavier",
+            "email": "Sergio98@gmail.com",
+            "password": "GTkLE3id473a5t6",
+            "administrador": "true",
+            "_id": "c1wd0BPSUpCk1aM7"
+        },
+        {
+            "nome": "Sandro Falcão",
+            "email": "Alexandre.Henriques@portugalmail.pt",
+            "password": "rVhbA2vn5T9NeZx",
+            "administrador": "true",
+            "_id": "c950aRD5tx0QJB3J"
+        },
+        {
+            "nome": "Alexandra Azevedo",
+            "email": "Luena.Correia53@live.com",
+            "password": "pQalYNJhxOykpec",
+            "administrador": "true",
+            "_id": "cbJpOqGzuFRrIobU"
+        },
+        {
+            "nome": "Constança Pires",
+            "email": "Eduardo_Albuquerque27@mail.pt",
+            "password": "4jW364P3oLpEmW2",
+            "administrador": "true",
+            "_id": "ckRQiQ0fIexzDjYn"
+        },
+        {
+            "nome": "Beatriz Nascimento",
+            "email": "Lourenco.Nascimento@outlook.com",
+            "password": "tlN9Mjl5sA7b3DH",
+            "administrador": "true",
+            "_id": "cqRuiAkxF9VX2eZ4"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ipfu@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "dErdmV7eMjrfNz8R"
+        },
+        {
+            "nome": "Daniel Barbosa",
+            "email": "Diogo_Vaz45@portugalmail.pt",
+            "password": "GXMILaToOAheE88",
+            "administrador": "true",
+            "_id": "dcj4AFEI5DGLDkKI"
+        },
+        {
+            "nome": "Valentina Antunes",
+            "email": "Emanuel51@mail.pt",
+            "password": "fxZ_D4yQwm1_8Cq",
+            "administrador": "false",
+            "_id": "dqg0Hwosidss9G8R"
+        },
+        {
+            "nome": "Dr. Matias Santos",
+            "email": "Olivia58@aeiou.pt",
+            "password": "qC2kzXGdbj2h6cQ",
+            "administrador": "true",
+            "_id": "dwV13zFnlIgLNy5o"
+        },
+        {
+            "nome": "Roberto Reis",
+            "email": "Mario_Alves68@gmail.com",
+            "password": "qjvcbIhBVDwbQnJ",
+            "administrador": "false",
+            "_id": "e6QlyMaJKZ81BsUW"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "txch@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "eX1DMKGodhbiffls"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "yywh@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "f3JtqsiwCrTZH5Tf"
+        },
+        {
+            "nome": "André Magalhães",
+            "email": "Frederica0@outlook.com",
+            "password": "MviOBtULXS6hHC5",
+            "administrador": "true",
+            "_id": "fSXBvNZPDrZcv23i"
+        },
+        {
+            "nome": "Mafalda Falcão",
+            "email": "Diana44@yahoo.com",
+            "password": "9Sw0oEMEapy5S5X",
+            "administrador": "true",
+            "_id": "fanKA5hMnmwMk4AQ"
+        },
+        {
+            "nome": "Carminho Pacheco",
+            "email": "Erica24@aeiou.pt",
+            "password": "kd1cB9UCsQC8HAZ",
+            "administrador": "true",
+            "_id": "fpSsjbZrmCkOZ2cY"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ybet@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "fqcz9oc5lZi8Zffc"
+        },
+        {
+            "nome": "Prof.ª Elisa Neves",
+            "email": "Valentina_Lopes@hotmail.com",
+            "password": "MHCsOsmakkq0gBn",
+            "administrador": "false",
+            "_id": "g6gfsHawthiTqVIJ"
+        },
+        {
+            "nome": "Maria Gaspar",
+            "email": "Fabiana.Moraes@outlook.com",
+            "password": "4D4FLwjq77jHWhC",
+            "administrador": "true",
+            "_id": "gLHy7IaqUusYnBzh"
+        },
+        {
+            "nome": "Joana Veiga",
+            "email": "Simao.Andrade@live.com",
+            "password": "W0tTQFFBtRk5f0z",
+            "administrador": "true",
+            "_id": "gLxiQMxLFx6OdIBM"
+        },
+        {
+            "nome": "Eva Cruz",
+            "email": "Alice_Matos@sapo.pt",
+            "password": "llKkoZaTTakuSJi",
+            "administrador": "true",
+            "_id": "gNejXkz2vBbBVTHt"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "mqiq@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "gRq6Z4UFzH8nReRR"
+        },
+        {
+            "nome": "António Pacheco",
+            "email": "Eduardo99@mail.pt",
+            "password": "wbSRl2IEEZKSFay",
+            "administrador": "true",
+            "_id": "hUV3bddxLJrMbcd6"
+        },
+        {
+            "nome": "Mariana Neves",
+            "email": "Frederica.Azevedo0@outlook.com",
+            "password": "Vj_8nfu01FPHyFR",
+            "administrador": "true",
+            "_id": "hUZ3q2OWEULGXp6R"
+        },
+        {
+            "nome": "Luke Skywallker",
+            "email": "Skywallker@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hrXpNO55VLfxJI15"
+        },
+        {
+            "nome": "Eva Santos",
+            "email": "Mia.Moura@aeiou.pt",
+            "password": "R8Q3pRUg3CWNqmz",
+            "administrador": "false",
+            "_id": "i1skoXY8WXNLr6pl"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pdny@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "iDBJvRj1n2pYqPg6"
+        },
+        {
+            "nome": "Manel Albuquerque",
+            "email": "Gil91@hotmail.com",
+            "password": "tWTSQUyKDB73KpY",
+            "administrador": "true",
+            "_id": "ijK9K5MDHy3kJz6x"
+        },
+        {
+            "nome": "Guilherme Ferreira",
+            "email": "Dinis.Anjos17@portugalmail.pt",
+            "password": "7IKyeyOEhM8ZIuh",
+            "administrador": "false",
+            "_id": "itktjYY3QUpkjUhS"
+        },
+        {
+            "nome": "Mia Maia",
+            "email": "Martim.Martins@aeiou.pt",
+            "password": "ckS2vtmE37JD8bq",
+            "administrador": "true",
+            "_id": "jgmQWM7MUYRYxc5t"
+        },
+        {
+            "nome": "Carolina Vicente",
+            "email": "Flor_Abreu@live.com",
+            "password": "40QLilE5lMTdidt",
+            "administrador": "true",
+            "_id": "k2elryAWUDo9avxt"
+        },
+        {
+            "nome": "Eng.º Tiago Moraes",
+            "email": "Catarina.Carvalho@hotmail.com",
+            "password": "LNJm3jWLtoZchF6",
+            "administrador": "false",
+            "_id": "lPDqI9oFSGP9ruKG"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "qcng@emailtste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "lWzHJ4Uu1r27ZmIg"
+        },
+        {
+            "nome": "Leonardo Teixeira",
+            "email": "Matias.Barros4@hotmail.com",
+            "password": "sHqsaqX_RgjH1_u",
+            "administrador": "true",
+            "_id": "ltRGtzxU7oNZDDzB"
+        },
+        {
+            "nome": "Julliana",
+            "email": "email2@email.com",
+            "password": "testando12",
+            "administrador": "false",
+            "_id": "m4HSOb681Z95fPVX"
+        },
+        {
+            "nome": "Ariana Machado",
+            "email": "Valentina_Amado@portugalmail.pt",
+            "password": "BbfXtpGf0k6JeOU",
+            "administrador": "true",
+            "_id": "muvDFaZSw2eCc40u"
+        },
+        {
+            "nome": "Íris Cruz",
+            "email": "Safira.Carvalho24@live.com",
+            "password": "pMr9XdoaESexG38",
+            "administrador": "true",
+            "_id": "nUx7OAldYD9fpi5O"
+        },
+        {
+            "nome": "Íris Mariz",
+            "email": "Vitoria_Assuncao17@mail.pt",
+            "password": "p36btcZ6AvLXjt1",
+            "administrador": "false",
+            "_id": "nz7SoNMrZxHEJyEU"
+        },
+        {
+            "nome": "Julieta Macedo",
+            "email": "Frederica_Assuncao@mail.pt",
+            "password": "hJXsvdWXz15vh3a",
+            "administrador": "true",
+            "_id": "oH1SS6BPPN1ZZZOp"
+        },
+        {
+            "nome": "Valter Monteiro",
+            "email": "Mara90@live.com",
+            "password": "pnatkD0gW_0M0y6",
+            "administrador": "false",
+            "_id": "p9xGVoDhOvhFlwYj"
+        },
+        {
+            "nome": "Tatiana Garcia",
+            "email": "Rafaela.Faria89@yahoo.com",
+            "password": "S7Le0ox9Mschszi",
+            "administrador": "false",
+            "_id": "qDM7wktZa5ZN4dz8"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "fariassofia@example.org",
+            "password": " !W7F^jrtzx",
+            "administrador": "true",
+            "_id": "qzqKm1idQg2IAlt5"
+        },
+        {
+            "nome": "Alexandra Carvalho",
+            "email": "Luna.Goncalves@hotmail.com",
+            "password": "XcSD7KESHJ4XdHg",
+            "administrador": "false",
+            "_id": "rD4QbakzfMQaIYVk"
+        },
+        {
+            "nome": "Dennis Mante MD",
+            "email": "dennismantemd@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "rM9NigMwzuPIVTVP"
+        },
+        {
+            "nome": "Jéssica Amorim",
+            "email": "Isabel_Medeiros18@sapo.pt",
+            "password": "ZXZYAJiKgQSDNET",
+            "administrador": "true",
+            "_id": "rTOsAsDUTfWPx6So"
+        },
+        {
+            "nome": "Jos� Miguel Marques",
+            "email": "maria-flor58@example.org",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rvM9BSaK4fwZugCt"
+        },
+        {
+            "nome": "Frederica Vaz",
+            "email": "Ema.Lourenco@yahoo.com",
+            "password": "AaCAw4n4xd_gEKX",
+            "administrador": "false",
+            "_id": "s2oB1lbOmqkOfWLw"
+        },
+        {
+            "nome": "Gil Marques",
+            "email": "Isabel48@outlook.com",
+            "password": "La6JStGbCLLONGS",
+            "administrador": "false",
+            "_id": "sphrkABAJvNnX9lv"
+        },
+        {
+            "nome": "Téc. Daniel Freitas",
+            "email": "Nuria_Teixeira74@mail.pt",
+            "password": "IPcIGB0aGmeJKgM",
+            "administrador": "true",
+            "_id": "su6F7agJynCfQRPe"
+        },
+        {
+            "nome": "Sr. Francisco Faria",
+            "email": "Salvador.Santos81@hotmail.com",
+            "password": "kiPWTZI5Dd7HM3l",
+            "administrador": "true",
+            "_id": "t0uMqqxkJtPd4odN"
+        },
+        {
+            "nome": "Catarina Branco",
+            "email": "Tomas36@sapo.pt",
+            "password": "MFZratfpstKDc5V",
+            "administrador": "false",
+            "_id": "tKwzU0lS8fBDQnCc"
+        },
+        {
+            "nome": "Célia Teixeira",
+            "email": "Benjamim_Teixeira37@live.com",
+            "password": "Bmpt0vFtM3oAPUb",
+            "administrador": "true",
+            "_id": "tqbgqN5iRIv6ZFvZ"
+        },
+        {
+            "nome": "Filipa Cruz",
+            "email": "Elias53@sapo.pt",
+            "password": "POrQdzfgQQy6Uhl",
+            "administrador": "false",
+            "_id": "u3TkKWxt71J5jEwi"
+        },
+        {
+            "nome": "Olivia",
+            "email": "olivia.hall@example.com",
+            "password": "cunts",
+            "administrador": "false",
+            "_id": "uQzkD2Ux9aM2vOCh"
+        },
+        {
+            "nome": "Tatiana Teixeira",
+            "email": "Marco_Freitas60@sapo.pt",
+            "password": "OMboUsPU3ZEVOay",
+            "administrador": "false",
+            "_id": "vGpPDAYU8DMWAqaL"
+        },
+        {
+            "nome": "Feliciano Barbosa",
+            "email": "Marco.Braga48@portugalmail.pt",
+            "password": "wYv0Cozpx_FfJTX",
+            "administrador": "false",
+            "_id": "vIyH3puhON4sxc2v"
+        },
+        {
+            "nome": "Moisés Antunes",
+            "email": "Igor87@aeiou.pt",
+            "password": "tLM4EWUsKKuE54I",
+            "administrador": "false",
+            "_id": "vzVBxt3hSTexMauJ"
+        },
+        {
+            "nome": "Érica Moreira",
+            "email": "Carla.Fonseca50@mail.pt",
+            "password": "xA6DsweAoD2tNq4",
+            "administrador": "true",
+            "_id": "w4BG7MzZwJx2j8vI"
+        },
+        {
+            "nome": "Josué Meireles",
+            "email": "Helio_Tavares@aeiou.pt",
+            "password": "jNwOI8oJ36WKpKH",
+            "administrador": "false",
+            "_id": "wJLgbUNNlTuhoQ0E"
+        },
+        {
+            "nome": "Billie Wolf",
+            "email": "billiewolf@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "wQ6KVNgqZBhZab7c"
+        },
+        {
+            "nome": "Nuno Raposo",
+            "email": "Leonardo15@sapo.pt",
+            "password": "hdGh_NAc29LErws",
+            "administrador": "false",
+            "_id": "wShY1mswGl0XBAFU"
+        },
+        {
+            "nome": "Téc.ª Beatriz Mendes",
+            "email": "Ariana.Andrade20@yahoo.com",
+            "password": "RYNEmCPrNu1lcQj",
+            "administrador": "false",
+            "_id": "wbmboPpYQJVd1QRL"
+        },
+        {
+            "nome": "Vânia Queiroz",
+            "email": "Raul_Matias89@aeiou.pt",
+            "password": "j9gOz7p5V9HSvv9",
+            "administrador": "false",
+            "_id": "wkxNTSMTaxDA3bsa"
+        },
+        {
+            "nome": "Eduardo Martins",
+            "email": "Debora6@mail.pt",
+            "password": "2FGKgMSYJEaUFaC",
+            "administrador": "false",
+            "_id": "wlQeSL6LtUCTBQhz"
+        },
+        {
+            "nome": "Natália Araújo",
+            "email": "Juliana.Maia29@hotmail.com",
+            "password": "tdrjJ0wxBlMc6r9",
+            "administrador": "false",
+            "_id": "wmMWLP1xDGRv7oVB"
+        },
+        {
+            "nome": "Teresa Antunes",
+            "email": "Camila_Macedo5@aeiou.pt",
+            "password": "IZIhPmjvFthlFVd",
+            "administrador": "false",
+            "_id": "xIpt1LdfbKEGppY9"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "unovais@example.com",
+            "password": " +CPqdloYw3",
+            "administrador": "true",
+            "_id": "xYceOdRqmX9CtNW3"
+        },
+        {
+            "nome": "Bruna Cardoso",
+            "email": "Madalena.Meireles73@yahoo.com",
+            "password": "KqkvO32tzMjP0AT",
+            "administrador": "true",
+            "_id": "yS1dZzdP8TQESHw5"
+        },
+        {
+            "nome": "Mrs. Glenn Kirlin",
+            "email": "mrs.glennkirlin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "yov2DxkMpEcXiJ9p"
+        },
+        {
+            "nome": "Ricardo Mota",
+            "email": "Tiago58@sapo.pt",
+            "password": "3tKCf9LtClsJrtS",
+            "administrador": "true",
+            "_id": "zFXbQW7JJvMV122p"
+        },
+        {
+            "nome": "Alice Esteves",
+            "email": "Mafalda.Amado61@yahoo.com",
+            "password": "dhutjYfGhKkYNOT",
+            "administrador": "true",
+            "_id": "zgysusXHlcIDdxMI"
+        }
+    ]
+}
