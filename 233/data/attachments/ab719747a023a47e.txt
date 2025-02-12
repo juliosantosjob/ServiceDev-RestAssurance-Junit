@@ -1,0 +1,144 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=adb49ef1bef64c39c815ed1e647622bd
+Date=Wed, 12 Feb 2025 20:10:59 GMT
+Server=Google Frontend
+Content-Length=3887
+Body: {
+    "quantidade": 18,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "testador12",
+            "email": "fulano76467@qa.com",
+            "password": "testando",
+            "administrador": "true",
+            "_id": "0xNIEM7COcusK6Tm"
+        },
+        {
+            "nome": "AmoraLoo",
+            "email": "noobqa@test.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "7PSjQ9sZ6Wg9uNWF"
+        },
+        {
+            "nome": "Teste leandro 3",
+            "email": "leandro3@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "H4aZZKePsYshuWbZ"
+        },
+        {
+            "nome": "Teste leandro 5",
+            "email": "leandro5@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "IC5LZWVBVjvVTH3J"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "isisfreitas@example.org",
+            "password": " 4@8FcHQZ9c",
+            "administrador": "true",
+            "_id": "LCUt6abV521GCs9m"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "jklfxkchdkceqxvh@testemail.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "OWKgK8V10VypGWxH"
+        },
+        {
+            "nome": "Leandro Bonito",
+            "email": "leandro123@teste.com",
+            "password": "321456879",
+            "administrador": "true",
+            "_id": "XzJljxhrLxD9o2qG"
+        },
+        {
+            "nome": "EagerTiger270",
+            "email": "testador1@qa.com.br",
+            "password": "testando",
+            "administrador": "true",
+            "_id": "YFNMVTuVVzvzrJKs"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "wzjjzabpqyjwpnvn@testemail.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "acl1mmcSn5WCDClE"
+        },
+        {
+            "nome": "testador12",
+            "email": "fulano22953@qa.com",
+            "password": "testando",
+            "administrador": "true",
+            "_id": "bGNkcPLHCn5cBHit"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "c6E5l4Mls6K6taNy"
+        },
+        {
+            "nome": "Otto Oliveira",
+            "email": "yrocha@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dHx178Qr9wcwmAFR"
+        },
+        {
+            "nome": "Zachary",
+            "email": "eva.stanton@gmail.com",
+            "password": "przq8m7a81kumb",
+            "administrador": "true",
+            "_id": "hd0ocotb0WX3eJkN"
+        },
+        {
+            "nome": "Renate",
+            "email": "clement.harber@yahoo.com",
+            "password": "7gpz4xo7vv3al5",
+            "administrador": "true",
+            "_id": "s8nzOezDxNqn5AT0"
+        },
+        {
+            "nome": "Teste leandro 4",
+            "email": "leandro4@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "srVerh6CCi332nuu"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ttdcmtywispigeif@testemail.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "xVW9R4Cz45uCjYUq"
+        },
+        {
+            "nome": "Chaves QA",
+            "email": "cha@teste.com",
+            "password": "Teste@1234",
+            "administrador": "true",
+            "_id": "y71z5FLcJ7EqiPJs"
+        }
+    ]
+}
