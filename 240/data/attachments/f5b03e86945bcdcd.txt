@@ -1,0 +1,16 @@
+Status Code: 400
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=594a3cffb7ce8bc6e366d6a94d2b7b7f
+Date=Tue, 18 Feb 2025 12:18:04 GMT
+Server=Google Frontend
+Content-Length=50
+Body: {
+    "password": "password deve ser uma string"
+}
