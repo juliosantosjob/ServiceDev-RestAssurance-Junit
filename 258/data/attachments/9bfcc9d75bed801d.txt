@@ -1,0 +1,109 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=c511f916c7c3ee65ba21bafedb7b9ee6;o=1
+Date=Mon, 03 Mar 2025 12:18:49 GMT
+Server=Google Frontend
+Content-Length=2864
+Body: {
+    "quantidade": 13,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Mrs. Loretta Parker",
+            "email": "mrs.lorettaparker@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "2bkrkYK4FvZctdLn"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "nvst@emailteste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "8UxugrjPkJqSzOcn"
+        },
+        {
+            "nome": "Sandy Donnelly",
+            "email": "sandydonnelly@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "AGgLftSjqBxh3fDk"
+        },
+        {
+            "nome": "Toni Lehner",
+            "email": "tonilehner@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "BvEXKnFCkN71N596"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "wsom@emailteste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "DJFI7el1DxieHT7s"
+        },
+        {
+            "nome": "Michelle Frami",
+            "email": "michelleframi@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "IQkcLazva4ulKpjq"
+        },
+        {
+            "nome": "Basil",
+            "email": "hettie.hamill@gmail.com",
+            "password": "xyakbltpc1pj7ny",
+            "administrador": "true",
+            "_id": "aYX6kG6prrTRwLX2"
+        },
+        {
+            "nome": "Mellie",
+            "email": "linwood.bechtelar@hotmail.com",
+            "password": "bwvk1awpsg",
+            "administrador": "true",
+            "_id": "kLTC12XKSRw2X0ub"
+        },
+        {
+            "nome": "Natasha Larson",
+            "email": "natashalarson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "lZSAwasDbvVaK38o"
+        },
+        {
+            "nome": "Alice Harber",
+            "email": "rosemaryreinger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "np2nqTbAdfZYgzuJ"
+        },
+        {
+            "nome": "Jackie Lubowitz",
+            "email": "jackielubowitz@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "rfplm0z4erl3geEi"
+        },
+        {
+            "nome": "Domenic_Weimann77",
+            "email": "Larissa.Kuhlman79@yahoo.com",
+            "password": "436685754",
+            "administrador": "true",
+            "_id": "sGdXl9SDoRRoEiMp"
+        }
+    ]
+}
