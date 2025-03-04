@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=900f78c186507951a07fb1c9cd7eb722
+Date=Tue, 04 Mar 2025 12:18:20 GMT
+Server=Google Frontend
+Content-Length=2597
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Phillip Adams",
+            "email": "phillipadams@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "2Plz8DC5HjramFgM"
+        },
+        {
+            "nome": "Chi",
+            "email": "antony.auer@gmail.com",
+            "password": "1gc45ne8s",
+            "administrador": "true",
+            "_id": "74J2vUHU68lQ1XGw"
+        },
+        {
+            "nome": "Brendan Borer",
+            "email": "brendanborer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "BjRCcXJqZIr20Xyz"
+        },
+        {
+            "nome": "Lincoln.Robel",
+            "email": "Kenyon.Watsica@gmail.com",
+            "password": "704648433",
+            "administrador": "true",
+            "_id": "FTvNFdfncz3UTCLN"
+        },
+        {
+            "nome": "Tommy Kilback",
+            "email": "tommykilback@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "Mndrq4yfLMsrfluV"
+        },
+        {
+            "nome": "Glenn Baumbach",
+            "email": "glennbaumbach@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "TH0Si2EsgofmiZzi"
+        },
+        {
+            "nome": "April Abshire",
+            "email": "aprilabshire@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "UE2xH9FzR3Ab8qmE"
+        },
+        {
+            "nome": "Nancy Considine",
+            "email": "charleswisoky@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "bkPv2cSGlvALpakn"
+        },
+        {
+            "nome": "Clyde",
+            "email": "charline.ohara@hotmail.com",
+            "password": "c83angpw",
+            "administrador": "true",
+            "_id": "feOnLA7ykOcondpW"
+        },
+        {
+            "nome": "Kelley Morar",
+            "email": "kelleymorar@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "oHkp2U6C2MbYtHp6"
+        },
+        {
+            "nome": "Broski",
+            "email": "yuri@qa.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "sQZAcNQuXCIrOxc4"
+        }
+    ]
+}
