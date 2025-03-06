@@ -1,0 +1,109 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=c21703c4b88428c07105b4b2918d98cd
+Date=Thu, 06 Mar 2025 12:18:25 GMT
+Server=Google Frontend
+Content-Length=2866
+Body: {
+    "quantidade": 13,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Alex Navarro",
+            "email": "alexdevnavarro@gmail.com",
+            "password": "test@test.123",
+            "administrador": "true",
+            "_id": "COmAPTZKopNC0Pjz"
+        },
+        {
+            "nome": "Howard Auer DVM",
+            "email": "howardauerdvm@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "CYP7Qm5Ec9jA4C9u"
+        },
+        {
+            "nome": "Fernando",
+            "email": "dewitt.fay@yahoo.com",
+            "password": "xjimf6zr1zaiv",
+            "administrador": "true",
+            "_id": "EJVTgOhFISyd1pJF"
+        },
+        {
+            "nome": "Bernice Bartoletti",
+            "email": "bernicebartoletti@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "XkQdga9H7XU3C5ik"
+        },
+        {
+            "nome": "nathalia_qa",
+            "email": "nathalia@qa.com",
+            "password": "password",
+            "administrador": "true",
+            "_id": "fdkvqm8hqdTmyZsy"
+        },
+        {
+            "nome": "Laurence",
+            "email": "shelby.leuschke@hotmail.com",
+            "password": "gyjw3lq9",
+            "administrador": "true",
+            "_id": "jYWZn6s0ylgi3uBa"
+        },
+        {
+            "nome": "Colin1",
+            "email": "Elbert.White@hotmail.com",
+            "password": "128653503",
+            "administrador": "true",
+            "_id": "mFd79vjKM59Zqynu"
+        },
+        {
+            "nome": "Mrs. Elsie Schoen",
+            "email": "mrs.elsieschoen@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "oPai74XMcSLntY14"
+        },
+        {
+            "nome": "Jana Cruickshank II",
+            "email": "janacruickshankii@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "rKqldHuUnMSU98uq"
+        },
+        {
+            "nome": "Warren Rosenbaum V",
+            "email": "warrenrosenbaumv@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "uOv26W5uZ11K0DdW"
+        },
+        {
+            "nome": "Levi Beahan",
+            "email": "levibeahan@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ugmqyEDHfvP5R4NI"
+        },
+        {
+            "nome": "Julian Pacocha",
+            "email": "heidihaag@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "zTOxr3XXi2gQcXRB"
+        }
+    ]
+}
