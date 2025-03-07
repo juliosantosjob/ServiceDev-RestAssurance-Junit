@@ -1,0 +1,17 @@
+Status Code: 201
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+X-Cloud-Trace-Context=cd96af383ae4df1ec940ffbd5f5319e6
+Date=Fri, 07 Mar 2025 20:11:06 GMT
+Server=Google Frontend
+Content-Length=82
+Body: {
+    "message": "Cadastro realizado com sucesso",
+    "_id": "dTmujGN8PJdbltQw"
+}
