@@ -1,0 +1,207 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=8bd5d3b408adc6675e9862475474687b
+date=Mon, 17 Mar 2025 12:19:04 GMT
+server=Google Frontend
+Content-Length=5838
+Body: {
+    "quantidade": 27,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "uykui@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "6jOCQEP47Sut8ers"
+        },
+        {
+            "nome": "Spencer",
+            "email": "kera.pfannerstill@gmail.com",
+            "password": "n9jqnnazis68",
+            "administrador": "true",
+            "_id": "9POUN0MQOWJQURLD"
+        },
+        {
+            "nome": "Emanuel Williamson",
+            "email": "tonyajohnson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "DLr6UkXMoAjR49ku"
+        },
+        {
+            "nome": "Dewey Streich",
+            "email": "deweystreich@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "EaR0DhBDwKnwQIlZ"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "F65nlS93rgwqdWGo"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "cbxm@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "F92WF0uYYhdwi42q"
+        },
+        {
+            "nome": "Ms. Samantha Senger",
+            "email": "ms.samanthasenger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "IQ7SitwwkLdh29qL"
+        },
+        {
+            "nome": "Lilian",
+            "email": "minh.greenfelder@hotmail.com",
+            "password": "l34ii2bp2iiailv",
+            "administrador": "true",
+            "_id": "IrEsO3e29ZaoFet3"
+        },
+        {
+            "nome": "John Wicky",
+            "email": "johnwicky@msrtecnologia.com.br",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "MT44zHfZxVKuam4P"
+        },
+        {
+            "nome": "Desiree Gutmann",
+            "email": "desireegutmann@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "P0DDuXNlqNHGbKiK"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ifjei@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "R61OrHi0Uow6yHPW"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "xeim@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "S1HyFZ2Iw3ozvJaZ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "nuqin@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "SB7Zb4zXprLM2PKk"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "lvwnr@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "UjqHoDyj8CnE4oIz"
+        },
+        {
+            "nome": "Ms. Garrett McCullough",
+            "email": "ms.garrettmccullough@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "YCIObD77XMBZl2DV"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "abgtl@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "ZfSILDbjVCz8IRRL"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "xtwv@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "huEwu0GmVZT5bzxI"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "bmytn@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "kHx094s2gHbGt9t7"
+        },
+        {
+            "nome": "Erick Stanton",
+            "email": "erickstanton@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "keVZm6uRm3s5AkfQ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pahtq@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "kk7xEe0H5fcchxRi"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "kjlh@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "mrrLXHCRvBNuo5Mn"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "njbl@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "oRfN08JeqwmOCYRy"
+        },
+        {
+            "nome": "Lynette DuBuque",
+            "email": "lynettedubuque@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "p4ILogS8jZp7dgIZ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "rsczv@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "v7lLxlKjWkVHAX07"
+        },
+        {
+            "nome": "Tiffany35",
+            "email": "Ibrahim35@gmail.com",
+            "password": "019858452",
+            "administrador": "true",
+            "_id": "wHGjyupLt0RTyEeZ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ltmo@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "xsgDvAfGkYCSyQk9"
+        }
+    ]
+}
