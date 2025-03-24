@@ -1,0 +1,158 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=aedf3ef6dadcbb7613f866ac8f4f9c49
+date=Mon, 24 Mar 2025 12:19:41 GMT
+server=Google Frontend
+Content-Length=4378
+Body: {
+    "quantidade": 20,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ccyg@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "1B5rTtYBd3pOiltK"
+        },
+        {
+            "nome": "Nicole Wilkinson",
+            "email": "nicolewilkinson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "8QHiG7YObUgEveEH"
+        },
+        {
+            "nome": "Garrett Witting I",
+            "email": "garrettwittingi@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "9g5qzWWedV1HdUJv"
+        },
+        {
+            "nome": "Otavio Augusto",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "F6xczpJsZJt3gfZj"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "cyhe@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "Wx3B8xCAriAv6Crq"
+        },
+        {
+            "nome": "Randy",
+            "email": "justina.rogahn@yahoo.com",
+            "password": "pxv3yul6jd1",
+            "administrador": "true",
+            "_id": "XThHFmjxx2IPLZlW"
+        },
+        {
+            "nome": "Ms. Simon Keebler",
+            "email": "ms.simonkeebler@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YwDGO5DfyjulTmMi"
+        },
+        {
+            "nome": "Ellen Boyle",
+            "email": "ellenboyle@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Zjjg3mP2074BH3I4"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "vxcc@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "aD7USXnjZ05d6wvy"
+        },
+        {
+            "nome": "Rowland.Bahringer15",
+            "email": "Alexander.Beahan47@hotmail.com",
+            "password": "067385150",
+            "administrador": "true",
+            "_id": "bq0iJQwhQ7QrELsB"
+        },
+        {
+            "nome": "Omar Kutch II",
+            "email": "omarkutchii@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "gIH2iuZIvPmukwua"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ljxh@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "gqwrkfIp52rWINmy"
+        },
+        {
+            "nome": "Sandy Hintz",
+            "email": "pamelawill@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "hOBMOUKtJC9IvA5M"
+        },
+        {
+            "nome": "Tawanna",
+            "email": "steven.farrell@gmail.com",
+            "password": "fuou7ygw3m",
+            "administrador": "true",
+            "_id": "qqQC6zywWWuAjcM8"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "bmeu@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "s3d0v6pHfrCP86wH"
+        },
+        {
+            "nome": "Sicrano de tal",
+            "email": "sicrano-detal@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "tWGIffQbcGi2xkAr"
+        },
+        {
+            "nome": "Miss Roman Gibson",
+            "email": "missromangibson@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "uQLLnkiH0l5RnmAv"
+        },
+        {
+            "nome": "Dianne Kassulke",
+            "email": "0f7cc6b9-ca5c-4660-a43d-9ea818d6a764@uorak.com",
+            "password": "Teste@123",
+            "administrador": "true",
+            "_id": "v3BxCAWw045eyQg6"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "vG50DT0IlMWkc6aT"
+        }
+    ]
+}
