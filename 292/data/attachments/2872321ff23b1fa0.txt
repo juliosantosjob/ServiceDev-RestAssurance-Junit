@@ -1,0 +1,459 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=34bedd695a0ba1a8b6998b786448c848;o=1
+date=Wed, 26 Mar 2025 12:19:03 GMT
+server=Google Frontend
+Content-Length=14547
+Body: {
+    "quantidade": 63,
+    "usuarios": [
+        {
+            "nome": "Julia Stamm",
+            "email": "julia-stamm-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "0KZHVqn2H0btQulS"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Lorene Stark",
+            "email": "lorene-stark-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "1yUeRhhAk6are4ij"
+        },
+        {
+            "nome": "Jo Champlin",
+            "email": "jo-champlin-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "2XE2bWrKb82VQPt1"
+        },
+        {
+            "nome": "Lynda Anderson",
+            "email": "lynda-anderson-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "34r8BxbJJdo1kx5o"
+        },
+        {
+            "nome": "Jodi Kreiger",
+            "email": "jodikreiger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "3uG4WMjbqaVgHcUm"
+        },
+        {
+            "nome": "Carol Gutmann",
+            "email": "carol-gutmann-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "436HmcnoLEiKwBcN"
+        },
+        {
+            "nome": "Mrs. Helen Towne",
+            "email": "mrs.-helen-towne-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "4UHwaZDoqe6qIx9v"
+        },
+        {
+            "nome": "Lorene Stark",
+            "email": "lorene-stark-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "6VsBfQvX9CVF5EWh"
+        },
+        {
+            "nome": "Percy Murray",
+            "email": "percy-murray-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7G7urqIDWMTsnY44"
+        },
+        {
+            "nome": "Testezinho Gaúcho",
+            "email": "andre.avitorino@extreme.digital",
+            "password": "Teste123",
+            "administrador": "false",
+            "_id": "9svD20qi58eSOYSQ"
+        },
+        {
+            "nome": "Beulah Schuppe",
+            "email": "beulah-schuppe-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "A14djQ8mE3ZDeRWM"
+        },
+        {
+            "nome": "Tom Botsford",
+            "email": "tom-botsford-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "CG5JpYxFRS0sQxgv"
+        },
+        {
+            "nome": "Hora do QA",
+            "email": "horadoqa@serverest.com",
+            "password": "1q2w3e4r",
+            "administrador": "true",
+            "_id": "CzLkJnqImuKUaRa4"
+        },
+        {
+            "nome": "Betsy Hartmann",
+            "email": "betsy-hartmann-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "EoNtWLudU9F0TFzj"
+        },
+        {
+            "nome": "Tami White",
+            "email": "tamiwhite@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "F6dD2TJvV65rznpr"
+        },
+        {
+            "nome": "Constance Fadel",
+            "email": "constance-fadel-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "FKcYcK03UlsuP25H"
+        },
+        {
+            "nome": "Marguerite Kassulke",
+            "email": "marguerite-kassulke-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "FwFgEJCVaOTJtBpV"
+        },
+        {
+            "nome": "Freda Kuhic",
+            "email": "freda-kuhic-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "Gb2NwJcxYbuYB6ve"
+        },
+        {
+            "nome": "Cory Rowe",
+            "email": "cory-rowe-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "GbEI5VniRBPO34Ol"
+        },
+        {
+            "nome": "Winston Watsica DVM",
+            "email": "winston-watsica-dvm-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "GmNGJd65y0bGJQQg"
+        },
+        {
+            "nome": "Mrs. Brittany Torp",
+            "email": "mrs.-brittany-torp-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "ItB7s35UQ2GG4Isn"
+        },
+        {
+            "nome": "Dr. Arthur Hessel",
+            "email": "dr.-arthur-hessel-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "K6t0hfDLx8pO8wwx"
+        },
+        {
+            "nome": "Testezinho Gaucho",
+            "email": "testegaucho@test.com",
+            "password": "Teste123",
+            "administrador": "false",
+            "_id": "L2BmeB37qVHjpUO8"
+        },
+        {
+            "nome": "Minnie Konopelski DDS",
+            "email": "minnie-konopelski-dds-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "MHnfe0ahvm7uKpVy"
+        },
+        {
+            "nome": "Jack Farrell",
+            "email": "jackfarrell@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "NBDiHjeYw2XNHi80"
+        },
+        {
+            "nome": "Leland O'Kon",
+            "email": "leland-o'kon-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "O2x1S8XQJ1rpoKyR"
+        },
+        {
+            "nome": "Ricky Schroeder I",
+            "email": "mackbarrows@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "QOoFKqlst6GNyo4q"
+        },
+        {
+            "nome": "Kristy Hudson",
+            "email": "kristy-hudson-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "RDHO8h6QsAFrqWnL"
+        },
+        {
+            "nome": "Sherry Hagenes",
+            "email": "sherryhagenes@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "SNwnC6BTsproCqV6"
+        },
+        {
+            "nome": "Dixie_Rolfson",
+            "email": "Christine_Kuhlman23@gmail.com",
+            "password": "920051042",
+            "administrador": "true",
+            "_id": "TMI8HPoBpzsB12uq"
+        },
+        {
+            "nome": "Mr. Randall Veum",
+            "email": "mr.-randall-veum-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "TNDxPnv2wa6tJecY"
+        },
+        {
+            "nome": "Mr. Eugene Lueilwitz",
+            "email": "mr.-eugene-lueilwitz-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "VJGqLzbeUGSRKrck"
+        },
+        {
+            "nome": "Billy Bayer",
+            "email": "billy-bayer-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "VtUrDrlRFeP0lf46"
+        },
+        {
+            "nome": "Mrs. Bernadette Mitchell",
+            "email": "mrs.-bernadette-mitchell-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "W77OrHSmrP2gzWqG"
+        },
+        {
+            "nome": "Hora do QA",
+            "email": "fsdfdsf@hotmail.com",
+            "password": "1q2w3e4r",
+            "administrador": "true",
+            "_id": "WDITFymdl2vHjiBq"
+        },
+        {
+            "nome": "Elena Johns",
+            "email": "elena-johns-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "Xgx372YqYiVOiKqm"
+        },
+        {
+            "nome": "Clifford Pollich",
+            "email": "clifford-pollich-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "Z8Bl1TwcH3fIc7f4"
+        },
+        {
+            "nome": "Seth Bailey",
+            "email": "seth-bailey-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "acWxuUQtox2dLY0C"
+        },
+        {
+            "nome": "Testezinho Gaucho",
+            "email": "teste.gaucho@test.com",
+            "password": "test123",
+            "administrador": "false",
+            "_id": "atW5222Sbjw8OKkM"
+        },
+        {
+            "nome": "Al Rolfson",
+            "email": "al-rolfson-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "eGhOcY73Bym0QomQ"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "gEOW88TQsTXD6LUo"
+        },
+        {
+            "nome": "Daryl Kozey",
+            "email": "daryl-kozey-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "hUdF51YErxfe15fo"
+        },
+        {
+            "nome": "Joshua Witting",
+            "email": "joshua-witting-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "hiPAsvBoSyWlUEHl"
+        },
+        {
+            "nome": "Regena",
+            "email": "ouida.murphy@hotmail.com",
+            "password": "bs9dl2iihs60mwv",
+            "administrador": "true",
+            "_id": "iItwHzuhz6DGkPWs"
+        },
+        {
+            "nome": "Mr. Jeremiah Welch DDS",
+            "email": "mr.-jeremiah-welch-dds-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "iT9YxRQ3tSOOsWkQ"
+        },
+        {
+            "nome": "Yong",
+            "email": "dale.rempel@hotmail.com",
+            "password": "xnt64zguwzl9t",
+            "administrador": "true",
+            "_id": "kaEm1lLqHKUftVPN"
+        },
+        {
+            "nome": "Angelina Emmerich",
+            "email": "angelinaemmerich@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "l5RlXXgKNMA5q3vv"
+        },
+        {
+            "nome": "Jody Littel",
+            "email": "jody-littel-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "nMnk2CIt7yar322Q"
+        },
+        {
+            "nome": "Testezinho Gaucho",
+            "email": "testegaucho@teste.com",
+            "password": "Test123",
+            "administrador": "false",
+            "_id": "nWoOLnbEXae9G8Yn"
+        },
+        {
+            "nome": "Sylvia Powlowski II",
+            "email": "sylvia-powlowski-ii-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "o4SjP8hphXwGmchB"
+        },
+        {
+            "nome": "Constance Fadel",
+            "email": "constance-fadel-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "ou08OqVMIlxpIIzu"
+        },
+        {
+            "nome": "Mrs. Helen Towne",
+            "email": "mrs.-helen-towne-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "pceVUAiBnyR2VPYe"
+        },
+        {
+            "nome": "Darlene Tremblay-Purdy",
+            "email": "darlene-tremblay-purdy-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "qZIX532v7zX1C639"
+        },
+        {
+            "nome": "Virginia Reichel",
+            "email": "virginiareichel@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "r1OJaw3WrOVI4fpM"
+        },
+        {
+            "nome": "Mr. Jeremiah Welch DDS",
+            "email": "mr.-jeremiah-welch-dds-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "roUr0ryN1BoW9USx"
+        },
+        {
+            "nome": "Dr. Ira O'Connell",
+            "email": "dr.-ira-o'connell-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "ts4WGl1tETnkFhA2"
+        },
+        {
+            "nome": "Tony Schuster",
+            "email": "tony-schuster-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ugWsWt2lRFlMUQF9"
+        },
+        {
+            "nome": "Patti Rolfson",
+            "email": "patti-rolfson-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "v7l1diXfnDWhvjk7"
+        },
+        {
+            "nome": "Jonathon Ferry",
+            "email": "jonathon-ferry-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "vv5lynKv5zbkuahF"
+        },
+        {
+            "nome": "Mrs. Misty Franey",
+            "email": "mrs.-misty-franey-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "xUOStturOcAJPqdc"
+        },
+        {
+            "nome": "Jonathon Ferry",
+            "email": "jonathon-ferry-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "yOlznLG9WzfpAAgJ"
+        },
+        {
+            "nome": "Dr. Patrick Murazik",
+            "email": "dr.-patrick-murazik-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "zQEta08EaBDGqPzl"
+        }
+    ]
+}
