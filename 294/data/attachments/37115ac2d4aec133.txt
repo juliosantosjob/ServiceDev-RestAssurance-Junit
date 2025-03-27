@@ -1,0 +1,165 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=9e85712297a22fa88c6b5342ce62c206
+date=Thu, 27 Mar 2025 12:19:31 GMT
+server=Google Frontend
+Content-Length=4602
+Body: {
+    "quantidade": 21,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Emily Lewis",
+            "email": "judymckinney@example.org",
+            "password": "&GhD1Ez0ZC",
+            "administrador": "true",
+            "_id": "35fxWviHjhZgQGVz"
+        },
+        {
+            "nome": "Loren Reichel MD",
+            "email": "lorenreichelmd@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "4UFXOtwnAQzED6aq"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7pCphsVGskCxp7uF"
+        },
+        {
+            "nome": "Mr. Luke Rice",
+            "email": "mr.-luke-rice-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "BuAJLF8Xn3ukUfVH"
+        },
+        {
+            "nome": "Annie Mohr",
+            "email": "annie-mohr-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "BxyR418kUlGGnU8d"
+        },
+        {
+            "nome": "Velma Boyer",
+            "email": "velmaboyer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "CVouDJttcjN8jqBY"
+        },
+        {
+            "nome": "Ed Quitzon",
+            "email": "edquitzon@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "HwIuSlUAzimDlpOu"
+        },
+        {
+            "nome": "Dexter Pfannerstill DDS",
+            "email": "dexterpfannerstilldds@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "JB8BZbLrmSvbBOT5"
+        },
+        {
+            "nome": "Vivian Dibbert",
+            "email": "viviandibbert@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "PYHwT1jJFEGzAw23"
+        },
+        {
+            "nome": "Armand",
+            "email": "terence.emmerich@gmail.com",
+            "password": "b8mk5vtn",
+            "administrador": "true",
+            "_id": "Tuwq2D6inH8JFBfp"
+        },
+        {
+            "nome": "Paulo Santos",
+            "email": "PAULO@qa.com.br",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "VHdh7dYX8zoxIByb"
+        },
+        {
+            "nome": "Vivian Padberg",
+            "email": "vivian-padberg-teste@tuamaeaquelaursa.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "Xvk0is6yqhg1YbA2"
+        },
+        {
+            "nome": "Magnus.Gutmann37",
+            "email": "Damaris89@yahoo.com",
+            "password": "705908841",
+            "administrador": "true",
+            "_id": "ZJeUx46Y5QxFepUf"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "dcjt@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "g2Fv9k1k9C3eQ1EK"
+        },
+        {
+            "nome": "Lael",
+            "email": "jack.grady@gmail.com",
+            "password": "k8lzpwqzmp",
+            "administrador": "true",
+            "_id": "idho8BMYhilkrOCK"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "umqw@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "js0sTgreUzNhjQqW"
+        },
+        {
+            "nome": "Sandy Dickens",
+            "email": "genesenger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "jumZuE18vYZHx464"
+        },
+        {
+            "nome": "Dustin Chung",
+            "email": "erikaanderson@example.net",
+            "password": "_$So2IVf^i",
+            "administrador": "true",
+            "_id": "vn7uWfvlTtU4pPZl"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "qztn@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "wkLZXn876Udz89Ty"
+        },
+        {
+            "nome": "Allison Bashirian",
+            "email": "allisonbashirian@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "zF0iaUdEwn80Fbg0"
+        }
+    ]
+}
