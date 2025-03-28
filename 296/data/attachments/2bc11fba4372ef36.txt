@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=c5006adee867d59b7ca1353a8f9f23df
+date=Fri, 28 Mar 2025 12:18:35 GMT
+server=Google Frontend
+Content-Length=2648
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva - Atualizado",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Gisele",
+            "email": "cortez.pagac@gmail.com",
+            "password": "70elkmfzk",
+            "administrador": "true",
+            "_id": "42iX8MKIIx2302Jj"
+        },
+        {
+            "nome": "dia",
+            "email": "teste.eric@teste.com.br",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "4wFuUqqX0FNRcGsh"
+        },
+        {
+            "nome": "Wade McKenzie",
+            "email": "wademckenzie@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "CLvGelswO6mhw50n"
+        },
+        {
+            "nome": "Miss Stewart Gutkowski",
+            "email": "missstewartgutkowski@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "RT4yYrVXlFhu8GEw"
+        },
+        {
+            "nome": "Michal",
+            "email": "silva.metz@gmail.com",
+            "password": "ptkiof4gls7qk",
+            "administrador": "true",
+            "_id": "Vm46ze82WWw9kP6p"
+        },
+        {
+            "nome": "Dr. Hannah Boyer",
+            "email": "gerardodaugherty@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "lR6w6DINiANhvIz7"
+        },
+        {
+            "nome": "Michele Fritsch",
+            "email": "michelefritsch@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "pXFSuVxMgGHUUnde"
+        },
+        {
+            "nome": "Ed59",
+            "email": "Giuseppe_Kling@gmail.com",
+            "password": "092790336",
+            "administrador": "true",
+            "_id": "reTwXo8JVzpXLOi0"
+        },
+        {
+            "nome": "Tommie Jerde",
+            "email": "tommiejerde@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "sstnfeEL791hwq9G"
+        },
+        {
+            "nome": "Ms. Kathy Feil",
+            "email": "ms.kathyfeil@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "xMXucYXKRhO6Mw9n"
+        },
+        {
+            "nome": "Ms. Elizabeth Thiel",
+            "email": "ms.elizabeththiel@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "yrlmYXtTdLMEWZsa"
+        }
+    ]
+}
