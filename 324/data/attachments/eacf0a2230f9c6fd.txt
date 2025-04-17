@@ -1,0 +1,214 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=eedca90ac42b84be2bff5f00f34ae669
+date=Thu, 17 Apr 2025 12:19:34 GMT
+server=Google Frontend
+Content-Length=6058
+Body: {
+    "quantidade": 28,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Ericton Brito",
+            "email": "ericton@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "106nHko8TZGxAq8b"
+        },
+        {
+            "nome": "Trent",
+            "email": "yuonne.cormier@hotmail.com",
+            "password": "gvd67kgmb",
+            "administrador": "true",
+            "_id": "4OUBjZSTRvRVsbbD"
+        },
+        {
+            "nome": "Wendy Wehner",
+            "email": "waltergorczany@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "IKwSeSoNzkmAM0HJ"
+        },
+        {
+            "nome": "Apollo",
+            "email": "apolloTeste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "IynSOFg266yVWhF2"
+        },
+        {
+            "nome": "noesis1",
+            "email": "noesis1@qa.com.br",
+            "password": "noesis",
+            "administrador": "true",
+            "_id": "KKnfbjd3qcxUK8S5"
+        },
+        {
+            "nome": "Teste",
+            "email": "teste1@email.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "LMQeWwh0tbWQUMIp"
+        },
+        {
+            "nome": "Linda Kris",
+            "email": "lindakris@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "NJZaNXbGaEj2hfmb"
+        },
+        {
+            "nome": "Wm Haley",
+            "email": "wmhaley@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "NiClWdjuGLGcd9cI"
+        },
+        {
+            "nome": "Apollo Brito Atualizado",
+            "email": "apollo.atualizado1744891617014@email.com",
+            "password": "novaSenha321",
+            "administrador": "true",
+            "_id": "Nzx5Mv49VfR5y4fJ"
+        },
+        {
+            "nome": "Srta. Nina S�",
+            "email": "luiz-henriquedias@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Opw22YvsVQWoB0hx"
+        },
+        {
+            "nome": "Marty Kuphal",
+            "email": "martykuphal@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "PW6dgfVFK57YEzDf"
+        },
+        {
+            "nome": "Apollo Brito",
+            "email": "orpha.bins@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "T2vmzYSRDzz87JPq"
+        },
+        {
+            "nome": "Luz Marvin I",
+            "email": "luzmarvini@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "W9c62X5zAMxy9Y3O"
+        },
+        {
+            "nome": "Sarah Green",
+            "email": "Bell87@gmail.com",
+            "password": "md2qGCrCLWP7kkH",
+            "administrador": "false",
+            "_id": "Xo17nqhuAA6DKkCI"
+        },
+        {
+            "nome": "Antonia Heathcote",
+            "email": "antoniaheathcote@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YaClaiib2iyagAQh"
+        },
+        {
+            "nome": "Iva",
+            "email": "mervin.hane@yahoo.com",
+            "password": "zysb5zuhvohba0i",
+            "administrador": "true",
+            "_id": "cdjks55nUq3EvTOh"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "cvSeSC5tee02y1WT"
+        },
+        {
+            "nome": "Georgette.Weissnat23",
+            "email": "Michaela.Nienow74@hotmail.com",
+            "password": "181344233",
+            "administrador": "true",
+            "_id": "f1gAnW1mCHCTaAA0"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "leandrodomingos68@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "lWcIRw6Vz8EJTqSp"
+        },
+        {
+            "nome": "Johanna Ondricka",
+            "email": "johannaondricka@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "nKC6En63EqDopPD5"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "moraeshenry@example.com",
+            "password": " k(_9N_o%+K",
+            "administrador": "true",
+            "_id": "oCMvdSSGxqkFJEWu"
+        },
+        {
+            "nome": "Apollo Brito",
+            "email": "michael32@kassulke.org",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "pfZaUs4FZpUcojkG"
+        },
+        {
+            "nome": "Apollo Brito",
+            "email": "cremin.shaina@tromp.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "r38IEgckHayFIVX9"
+        },
+        {
+            "nome": "Apollo Brito",
+            "email": "hoeger.marisa@braun.biz",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tJmmfyDMaKT9BetO"
+        },
+        {
+            "nome": "Apollo Brito",
+            "email": "jaren.swaniawski@mckenzie.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "uFlLx4hmvU51ovAo"
+        },
+        {
+            "nome": "USER",
+            "email": "Gvitor7062@gmail.com",
+            "password": "Rania@2511",
+            "administrador": "false",
+            "_id": "upGygWXsd1kU6IVL"
+        },
+        {
+            "nome": "Apollo Brito",
+            "email": "stewart87@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "yvpCY0XA4ae9inyT"
+        }
+    ]
+}
