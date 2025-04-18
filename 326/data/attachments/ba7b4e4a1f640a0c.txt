@@ -1,0 +1,17 @@
+Status Code: 400
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=d74b46d83f9aff09c752b5df512335dd
+date=Fri, 18 Apr 2025 12:18:32 GMT
+server=Google Frontend
+Content-Length=104
+Body: {
+    "email": "email não pode ficar em branco",
+    "password": "password não pode ficar em branco"
+}
