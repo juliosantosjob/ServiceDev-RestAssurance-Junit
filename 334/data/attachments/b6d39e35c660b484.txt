@@ -1,0 +1,326 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=d0889e50817f073cf718ec9af6781b51
+date=Thu, 24 Apr 2025 12:20:12 GMT
+server=Google Frontend
+Content-Length=9823
+Body: {
+    "quantidade": 44,
+    "usuarios": [
+        {
+            "nome": "Usuário Atualizado",
+            "email": "usuario1745488283759@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "0oql4WLfMknXLMoG"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "usuario1745487222483@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "pachecoisabela@example.net",
+            "password": " W3^!6)Icnm",
+            "administrador": "true",
+            "_id": "2igLD5rhD4kAnMND"
+        },
+        {
+            "nome": "Rosalie Lind",
+            "email": "rosalielind@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "3YeqFBd5sEwwzU9p"
+        },
+        {
+            "nome": "Login Incorreto",
+            "email": "valido1745487207451@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "74hjFjSfHjMeBmnM"
+        },
+        {
+            "nome": "Ivan Flatley",
+            "email": "diannadickinson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "B0P17aJ12LETCOo3"
+        },
+        {
+            "nome": "Carlos Buscador",
+            "email": "carlos1745488276699@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CcSFJi5ijXjQzpyG"
+        },
+        {
+            "nome": "Usuário Teste 1745487202897",
+            "email": "usuario1745487202897@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "GB2bV187bAkrSYCF"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "olivia47@example.com",
+            "password": " !n*0NP&wFP",
+            "administrador": "true",
+            "_id": "Gm4LszZ1PyBNs4oC"
+        },
+        {
+            "nome": "Falha Esperada",
+            "email": "falha1745487224749@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IA0FCBH7Uadwb2vq"
+        },
+        {
+            "nome": "Angie",
+            "email": "zula.pfannerstill@yahoo.com",
+            "password": "u6buyg63ewwy",
+            "administrador": "true",
+            "_id": "IGOCiApT4D1571x4"
+        },
+        {
+            "nome": "Usuário Dein Comun",
+            "email": "eduarda@mail.com",
+            "password": "password",
+            "administrador": "false",
+            "_id": "IJvsq9YlAgNZYgJY"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "davi47@example.com",
+            "password": " b5R1jMoZ(1",
+            "administrador": "true",
+            "_id": "Il0q1hcsJ6jQz0WP"
+        },
+        {
+            "nome": "Santos.Kuvalis",
+            "email": "Earl_Ebert@yahoo.com",
+            "password": "520009458",
+            "administrador": "true",
+            "_id": "LJwn4U5fqG2LcwQW"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano02@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Lo5pMBiYoDmNnzLK"
+        },
+        {
+            "email": "celiolopescarvalho1@gmail.com",
+            "password": "teste123",
+            "nome": "Usuário Teste",
+            "administrador": "false",
+            "_id": "ONUGorCAF1OEjIUg"
+        },
+        {
+            "nome": "Mr. Gene Ullrich",
+            "email": "mr.geneullrich@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "PDuG1zYd41cZb1ji"
+        },
+        {
+            "nome": "Truman",
+            "email": "lawerence.larkin@yahoo.com",
+            "password": "nccct5wz",
+            "administrador": "true",
+            "_id": "PLavYYotEm5KmQ79"
+        },
+        {
+            "nome": "João Admin 1745488249958",
+            "email": "joao.admin1745488249958@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "SMkRZlYb96Qv1AjQ"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "eguerra@example.com",
+            "password": " EUHr5wSep)",
+            "administrador": "true",
+            "_id": "TJoBNs0fnmxQc8Tv"
+        },
+        {
+            "nome": "Usuário Teste 1745488265132",
+            "email": "usuario1745488265132@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "YB1aDlPTKaNJTLLd"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "YPQOhY7P3mBvpq3V"
+        },
+        {
+            "nome": "Flora Wintheiser",
+            "email": "florawintheiser@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YdvwSwaaEIcKXZ9A"
+        },
+        {
+            "nome": "Dra. Maria Clara Rezende",
+            "email": "sofiapereira@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z1ndkVk1kYyXCZO8"
+        },
+        {
+            "nome": "Login Incorreto",
+            "email": "valido1745488268919@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "asluJnwrNrsJ6wIQ"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "c4tHL1f5ZzML04Ye"
+        },
+        {
+            "nome": "Frankie Strosin",
+            "email": "frankiestrosin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "dEngGZq7vMsCwbFW"
+        },
+        {
+            "nome": "Maria Eduarda Andrade",
+            "email": "lavinia55@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "f5qwPqSx0tQZ0rPt"
+        },
+        {
+            "nome": "Falha Esperada",
+            "email": "falha1745488285915@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fWnWIv2EzmHf4bGe"
+        },
+        {
+            "nome": "Jo�o Gabriel Monteiro",
+            "email": "isis02@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fXdkij7b8L871Av9"
+        },
+        {
+            "nome": "Carol Veum MD",
+            "email": "carolveummd@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "gZrbIXq7tmFQD9m7"
+        },
+        {
+            "nome": "Célio da Silva",
+            "email": "admin_1745494481256@gmail.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "i10W7LX2zySptbX6"
+        },
+        {
+            "nome": "Maria Usuária 1745487188255",
+            "email": "maria1745487188255@teste.com",
+            "password": "teste123",
+            "administrador": "false",
+            "_id": "j0w1dxd9Br0tEhGh"
+        },
+        {
+            "nome": "Usuário Existente",
+            "email": "celiolopescarvalho@gmail.com",
+            "password": "teste123",
+            "administrador": "false",
+            "_id": "m1fk6xqN9cUGe94u"
+        },
+        {
+            "nome": "Maria Teste",
+            "email": "maria1745487217745@teste.com",
+            "password": "senha321",
+            "administrador": "false",
+            "_id": "mm3aOOkFSqFxAkVB"
+        },
+        {
+            "nome": "Jennie Sawayn",
+            "email": "jenniesawayn@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "n2plNll3hLvCtsVt"
+        },
+        {
+            "nome": "Maria Usuária 1745488255383",
+            "email": "maria1745488255383@teste.com",
+            "password": "teste123",
+            "administrador": "false",
+            "_id": "sKlY22jcqSXaFU6e"
+        },
+        {
+            "nome": "Dra. Luiza Foga�a",
+            "email": "joaquim03@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "szDLOcc0LlXutYT0"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltranoo@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tA5kJz6AaJBnoJZJ"
+        },
+        {
+            "nome": "Vitor Cardoso",
+            "email": "mirella67@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "tV3a4UQHtrROLF0B"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "fulano@qa.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "v5IfzRR813sMPDUt"
+        },
+        {
+            "nome": "Usu�rio de Teste",
+            "email": "lunna82@example.net",
+            "password": " FF)_8G7ew0",
+            "administrador": "true",
+            "_id": "vKwksKCGeOgMW9sx"
+        },
+        {
+            "nome": "João Admin 1745487176080",
+            "email": "joao.admin1745487176080@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "vkuX1QjHEtqcbMSL"
+        },
+        {
+            "nome": "Carlos Buscador",
+            "email": "carlos1745487215402@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "wmUXyvUFGY355tLY"
+        }
+    ]
+}
