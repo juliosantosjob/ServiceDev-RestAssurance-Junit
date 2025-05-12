@@ -1,0 +1,165 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=db3be7fb2fa9f90f61807dee36334b70
+date=Mon, 12 May 2025 12:20:51 GMT
+server=Google Frontend
+Content-Length=4600
+Body: {
+    "quantidade": 21,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "lavelle.torphy@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "1UTI9ELh97Ka2lQk"
+        },
+        {
+            "nome": "Polly.Durgan",
+            "email": "Clair.Nolan14@gmail.com",
+            "password": "333652664",
+            "administrador": "true",
+            "_id": "4LQrNr0yZIP6cyxG"
+        },
+        {
+            "nome": "Jailyn.Pollich-DuBuque",
+            "email": "Miles.Smith@hotmail.com",
+            "password": "252064709",
+            "administrador": "true",
+            "_id": "6fAao3BSn2UHo073"
+        },
+        {
+            "nome": "Teisha",
+            "email": "carl.miller@gmail.com",
+            "password": "gz71v2h5omp6kpt",
+            "administrador": "true",
+            "_id": "7yuOwYqJ6Qd9agQP"
+        },
+        {
+            "nome": "Jessy.Zemlak65",
+            "email": "Marcia.Dach@yahoo.com",
+            "password": "398992696",
+            "administrador": "true",
+            "_id": "988cJozOenX0OChU"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "horace.christiansen@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "AOANbLb5AuiHXUot"
+        },
+        {
+            "nome": "Irving Beier",
+            "email": "irvingbeier@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Aty7hVyaLzy5acVS"
+        },
+        {
+            "nome": "Miss Gloria Schaefer",
+            "email": "missgloriaschaefer@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "KT4REDfNzXnqiCER"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "keneth.graham@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "QstKo3fWT4c3R6HM"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "micki.huels@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "RyqoDmCM2ubuMizQ"
+        },
+        {
+            "password": "teste",
+            "administrador": "true",
+            "nome": "Fulano da Silva",
+            "email": "nenita.bergnaum@gmail.com",
+            "_id": "SVXbKSdIv9taxPJm"
+        },
+        {
+            "nome": "Howard Fahey",
+            "email": "howardfahey@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "WLDTmyvJvRachGX3"
+        },
+        {
+            "nome": "Cassandra Tromp",
+            "email": "cassandratromp@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "XcOcgLwpxFDXHanr"
+        },
+        {
+            "nome": "Carlos Hahn DVM",
+            "email": "carloshahndvm@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "gwHb07NqLxakk0p7"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ryann.welch@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "njfif0WOmyMdLlEI"
+        },
+        {
+            "nome": "Jaqueline6",
+            "email": "Salvador69@yahoo.com",
+            "password": "868031681",
+            "administrador": "true",
+            "_id": "of8O8K7Cz6VFQ9Lx"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qatest2.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "q110ixk1MnpptxJz"
+        },
+        {
+            "nome": "Garry Stark",
+            "email": "garrystark@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "tkNbo0KWvhCPk6NA"
+        },
+        {
+            "nome": "Jamaal",
+            "email": "shirley.prohaska@yahoo.com",
+            "password": "jcw838b5xy",
+            "administrador": "true",
+            "_id": "v5VyyP8rRJsaGEAL"
+        },
+        {
+            "nome": "Mathew Wilkinson Sr.",
+            "email": "darylstracke@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "wg9IBMBfi1hYn9w4"
+        }
+    ]
+}
