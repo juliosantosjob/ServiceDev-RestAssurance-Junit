@@ -1,0 +1,17 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=ba6300dffa9b9155258c9376395d7b08
+date=Tue, 20 May 2025 20:12:21 GMT
+server=Google Frontend
+Content-Length=291
+Body: {
+    "message": "Login realizado com sucesso",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxpbmNvbG4ubWF5ZXJ0QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoicnZwOWUwbHhveDFqZSIsImlhdCI6MTc0Nzc3MTk0MSwiZXhwIjoxNzQ3NzcyNTQxfQ.tdi2bE0EiGsJygUyEQslLKjJ5hZFZgaXVJ3LlSN8pXc"
+}
