@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=a2ec62481426fb681c8586d4b52f7a87
+date=Wed, 04 Jun 2025 12:21:21 GMT
+server=Google Frontend
+Content-Length=2641
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Carmen Marquardt",
+            "email": "carmenmarquardt@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "PNK40Pq1sbHyQjDu"
+        },
+        {
+            "nome": "Jaime Schamberger",
+            "email": "jaimeschamberger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Pnz4NBnfHmAQydHf"
+        },
+        {
+            "nome": "Mr. Bonnie Cronin",
+            "email": "mr.bonniecronin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "V8LwWiTEmOC0pEgL"
+        },
+        {
+            "nome": "Devon",
+            "email": "cathy.stanton@hotmail.com",
+            "password": "s0vybhr3i2n9",
+            "administrador": "true",
+            "_id": "VbJK7zYxvEy3Ikyq"
+        },
+        {
+            "nome": "Clinton Treutel IV",
+            "email": "clintontreuteliv@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YI6TOosiFrk1C3rl"
+        },
+        {
+            "nome": "Ramiro Gorczany",
+            "email": "ramirogorczany@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "bgHKJS8naQX8xSfa"
+        },
+        {
+            "nome": "Deven.Grady",
+            "email": "Theo_Lehner@yahoo.com",
+            "password": "093239691",
+            "administrador": "true",
+            "_id": "g81ZskgcdWTBl2gf"
+        },
+        {
+            "nome": "Otha",
+            "email": "anna.wisoky@hotmail.com",
+            "password": "jd2rsnale8ni",
+            "administrador": "true",
+            "_id": "jeLPBEDTrmlO6HbL"
+        },
+        {
+            "nome": "Ms. Edmund Huels",
+            "email": "kathleenkris@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "pBbUsZfH9PR2LXeU"
+        },
+        {
+            "nome": "Alfredo Dooley",
+            "email": "alfredodooley@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "prx8LdFOVR6OsVRr"
+        },
+        {
+            "nome": "Bea triz",
+            "email": "beat@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "vAspAV2G7BlSQlcr"
+        }
+    ]
+}
