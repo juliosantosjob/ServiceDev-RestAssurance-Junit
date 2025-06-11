@@ -1,0 +1,116 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=75491c75ef8765ae275842fbfb5de297
+date=Wed, 11 Jun 2025 12:21:29 GMT
+server=Google Frontend
+Content-Length=3055
+Body: {
+    "quantidade": 14,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Lowell Cronin",
+            "email": "lowellcronin@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "GZZNnhuAH6KTUj8L"
+        },
+        {
+            "nome": "Wilma White",
+            "email": "wilmawhite@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "L23rIcOU5fzVpy3J"
+        },
+        {
+            "nome": "Barbie",
+            "email": "kirk.deckow@yahoo.com",
+            "password": "katsk701",
+            "administrador": "true",
+            "_id": "VH3xX17SyJr6XFMl"
+        },
+        {
+            "nome": "Bridget Braun",
+            "email": "bridgetbraun@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "W1eAsH7pcFe21X1B"
+        },
+        {
+            "nome": "Arnold Murphy MD",
+            "email": "arnoldmurphymd@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "a8xBvcdsJhXclGWp"
+        },
+        {
+            "nome": "Nancy Bayer",
+            "email": "nancybayer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "bwmm7hmbM19fwq6T"
+        },
+        {
+            "nome": "Kenya_Hammes18",
+            "email": "Melisa.Von39@hotmail.com",
+            "password": "730222560",
+            "administrador": "true",
+            "_id": "dpxmsxlrO4aDjepR"
+        },
+        {
+            "nome": "Keeley14",
+            "email": "Rebecca_Pollich@gmail.com",
+            "password": "524714367",
+            "administrador": "true",
+            "_id": "edw9ZdvwkMiACoQ8"
+        },
+        {
+            "nome": "Carlos McLaughlin",
+            "email": "joeylind@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "gBs5ki74bWOiWHpf"
+        },
+        {
+            "nome": "Billy Stiedemann",
+            "email": "billystiedemann@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "h2hRjQ3DGwpWEp36"
+        },
+        {
+            "nome": "Morgan.Bruen",
+            "email": "Hailie.Considine@gmail.com",
+            "password": "934604384",
+            "administrador": "true",
+            "_id": "mOkUHNy9GsnvpLiF"
+        },
+        {
+            "nome": "José Gomes",
+            "email": "josegomesf89@gmail.com",
+            "password": "testes",
+            "administrador": "true",
+            "_id": "sKo44X4flppuGZZX"
+        },
+        {
+            "nome": "Latina",
+            "email": "bennett.reichel@yahoo.com",
+            "password": "x3371t70k8uj",
+            "administrador": "true",
+            "_id": "vQLn7WOk7C0LN6tm"
+        }
+    ]
+}
