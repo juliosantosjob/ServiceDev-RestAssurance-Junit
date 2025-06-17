@@ -1,0 +1,151 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=15173288f0a1af7db9d5e221fb81c03f
+date=Tue, 17 Jun 2025 12:21:50 GMT
+server=Google Frontend
+Content-Length=4159
+Body: {
+    "quantidade": 19,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Miss Alexandra Jaskolski",
+            "email": "missalexandrajaskolski@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "1rab3MQFiAWflutK"
+        },
+        {
+            "nome": "Sandra Kunde",
+            "email": "sandrakunde@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "3bLQUnIaYRR8Qrt6"
+        },
+        {
+            "nome": "Viola.Wehner61",
+            "email": "Destin15@yahoo.com",
+            "password": "027146320",
+            "administrador": "true",
+            "_id": "4RKyKU0Jz7Ed5R2a"
+        },
+        {
+            "nome": "Harriet Christiansen",
+            "email": "harrietchristiansen@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "C92F7xB0VHUZkqnq"
+        },
+        {
+            "nome": "Mrs. Jeffrey Kassulke",
+            "email": "mrs.jeffreykassulke@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Cibk1ODvF8RZi8Dl"
+        },
+        {
+            "nome": "Jerilyn",
+            "email": "oliver.marks@gmail.com",
+            "password": "3jwt83u2fcx4u4h",
+            "administrador": "true",
+            "_id": "E3uZTF2AfVJZ6LyG"
+        },
+        {
+            "nome": "Elyssa_Casper52",
+            "email": "Jaylan62@yahoo.com",
+            "password": "314211389",
+            "administrador": "true",
+            "_id": "EDIWjMhDOPICyDNl"
+        },
+        {
+            "nome": "Antonia.Kovacek74",
+            "email": "Rhoda41@gmail.com",
+            "password": "430019428",
+            "administrador": "true",
+            "_id": "QxERMeVyqdMDNqXf"
+        },
+        {
+            "nome": "Jesus Moore",
+            "email": "jesusmoore@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "RLAU4TR5QEv9ZfIC"
+        },
+        {
+            "nome": "Maurice.Wehner-Gleichner",
+            "email": "Ethel83@yahoo.com",
+            "password": "422851028",
+            "administrador": "true",
+            "_id": "SwSTv24ziYGnNCj7"
+        },
+        {
+            "nome": "Viola Bode",
+            "email": "hubertdach@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "W6edF2sUupQCXNko"
+        },
+        {
+            "nome": "Darnell Keebler",
+            "email": "darnellkeebler@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "aEbFwcrbwvjTMP8V"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "c399TGoyGtzCPpcD"
+        },
+        {
+            "nome": "Outro Fulano",
+            "email": "outrofulano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "jWp6hvOY4lqmKsY0"
+        },
+        {
+            "nome": "Outros teste",
+            "email": "outrost@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "kFFu3aZ0DaPKYmTA"
+        },
+        {
+            "nome": "Tony",
+            "email": "frankie.kunze@hotmail.com",
+            "password": "scysvf69s61lpcs",
+            "administrador": "true",
+            "_id": "m8HnzLVXMMq1LDyn"
+        },
+        {
+            "nome": "Hemyllin",
+            "email": "hemyllin21@gmail.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "mixlkfMwGikeZzcI"
+        },
+        {
+            "nome": "Brendon Carvalho",
+            "email": "brendon@qa.com.br",
+            "password": "novasenha",
+            "administrador": "true",
+            "_id": "uIXdleNKbWpr56Gy"
+        }
+    ]
+}
