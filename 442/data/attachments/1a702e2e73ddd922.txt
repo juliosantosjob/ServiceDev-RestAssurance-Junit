@@ -1,0 +1,109 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=e72659f543caf10658c2176320bd1757
+date=Wed, 09 Jul 2025 12:21:31 GMT
+server=Google Frontend
+Content-Length=2822
+Body: {
+    "quantidade": 13,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Fred Auer",
+            "email": "fredauer@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "3Kc5SXuzNstzHKaz"
+        },
+        {
+            "nome": "Conrad Medhurst",
+            "email": "conradmedhurst@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "CDTASeIkuk807XMw"
+        },
+        {
+            "nome": "Nigel",
+            "email": "jerry.vandervort@hotmail.com",
+            "password": "frono2p4qf",
+            "administrador": "true",
+            "_id": "D564WmDhzcOP9jJd"
+        },
+        {
+            "nome": "Justin Kling",
+            "email": "justinkling@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "GYLUi62P7fUr97M6"
+        },
+        {
+            "nome": "Nicki",
+            "email": "troy.zemlak@gmail.com",
+            "password": "da1vsrsd87u17o",
+            "administrador": "true",
+            "_id": "I3AoO4mv5rR5vQrK"
+        },
+        {
+            "nome": "Rogelio Hickle",
+            "email": "rogeliohickle@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "L1pRf9hsxQpfdb9p"
+        },
+        {
+            "nome": "joão",
+            "email": "nbgjoao@gmail.com",
+            "password": "jojo123",
+            "administrador": "false",
+            "_id": "PcrDjLPyIaR7tajf"
+        },
+        {
+            "nome": "teste",
+            "email": "admin@test.com",
+            "password": "admin",
+            "administrador": "false",
+            "_id": "RXvnfUEwgWNGoyGe"
+        },
+        {
+            "nome": "Johnny Willms V",
+            "email": "karabernhard@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "SVIFalQ7LL2ibwKO"
+        },
+        {
+            "nome": "Erma Douglas",
+            "email": "ermadouglas@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "TWfBWReZK8I6oKxt"
+        },
+        {
+            "nome": "Ruby McKenzie",
+            "email": "rubymckenzie@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "XXGcQEdhzCKphXzv"
+        },
+        {
+            "nome": "Estefania.Gutkowski72",
+            "email": "Cristobal_Williamson@hotmail.com",
+            "password": "751702912",
+            "administrador": "true",
+            "_id": "oEdSeZ40x70ryKt3"
+        }
+    ]
+}
