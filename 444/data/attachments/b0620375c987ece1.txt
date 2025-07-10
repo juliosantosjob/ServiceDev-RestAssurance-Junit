@@ -1,0 +1,319 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=6cda52f328ed61166f965e16bb3b9d34
+date=Thu, 10 Jul 2025 12:21:41 GMT
+server=Google Frontend
+Content-Length=9505
+Body: {
+    "quantidade": 43,
+    "usuarios": [
+        {
+            "nome": "Loretta Sawayn MD",
+            "email": "user1752150037500@teste.com",
+            "password": "1752150037500",
+            "administrador": "true",
+            "_id": "0FkGpzMreQGsQeOc"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1752149150772@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "0nUe9zk2YEleej9P"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Automacao cypress",
+            "email": "teste099@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "1B1l4TKZMndpcftY"
+        },
+        {
+            "nome": "Automacao cypress",
+            "email": "teste0998@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "2NhWPWNdhdogj3Md"
+        },
+        {
+            "nome": "Neta",
+            "email": "korey.glover@yahoo.com",
+            "password": "yu0x23mr5yry60",
+            "administrador": "true",
+            "_id": "3Uvg3T0HneGQ9cG1"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "atualizado_1752149152370@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3YP08skRcgrJUrUj"
+        },
+        {
+            "nome": "Casey Becker",
+            "email": "caseybecker@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "4gSMoIcrli6jy57O"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "atualizado_1752149441914@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4wjjsGkrMZ6dSFJU"
+        },
+        {
+            "nome": "Jaime Wyman",
+            "email": "Alyce22@gmail.com",
+            "password": "YSVK4m21mhdCNtP",
+            "administrador": "false",
+            "_id": "6SOsQ8UX53VH1SrP"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1752149915014@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "7rzy3aW3OON4B7ZG"
+        },
+        {
+            "nome": "vztzva98n8",
+            "email": "vztzva98n8@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "82dOyVPRxgYrsQq8"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "atualizado_1752148782897@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "8crgAZY98qJJOmKK"
+        },
+        {
+            "nome": "8lhcs9jvfz9",
+            "email": "8lhcs9jvfz9@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "APodleTeSzIbZh4M"
+        },
+        {
+            "nome": "Brett Kuhic",
+            "email": "brettkuhic@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "BcYKI62FOWlkNySS"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "atualizado_1752149400203@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "F1j8lO0EBcqkI12D"
+        },
+        {
+            "nome": "Russell Bartoletti",
+            "email": "Gregorio_Gleason@yahoo.com",
+            "password": "cCHV5m83T8f_aPq",
+            "administrador": "true",
+            "_id": "GCSap1qNLzzbH7Hi"
+        },
+        {
+            "nome": "Eduardo Strosin",
+            "email": "Felton_Zemlak@hotmail.com",
+            "password": "zSVy0Fk3xmEbk4Q",
+            "administrador": "true",
+            "_id": "GfcnRyJJGzSPq9dm"
+        },
+        {
+            "nome": "Alberto Goodwin",
+            "email": "Skye96@gmail.com",
+            "password": "mMNDHeLnaPquMag",
+            "administrador": "true",
+            "_id": "H2fY0fJN8lFF7TWx"
+        },
+        {
+            "nome": "Marta Gleichner",
+            "email": "martagleichner@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "IiOCjxR7KzwFsqxj"
+        },
+        {
+            "nome": "Teste",
+            "email": "asdsad@afasd.com",
+            "password": "asdsad@afasd.com",
+            "administrador": "true",
+            "_id": "MLVdYIutX4Koa3xX"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1752149398698@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "PkST3N4g7MXMqAh7"
+        },
+        {
+            "nome": "Kellee",
+            "email": "alberta.vandervort@gmail.com",
+            "password": "6v93k8d2",
+            "administrador": "true",
+            "_id": "QIDLqvd2v6FMCsSd"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1752149466376@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "SiIzqXfCyOCXfKhY"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "atualizado_1752149467377@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TpsxMCsuE9NU4PW0"
+        },
+        {
+            "nome": "q71l4twfej",
+            "email": "q71l4twfej@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "aKKOkm8Y53agV2K5"
+        },
+        {
+            "nome": "Theresa Medhurst",
+            "email": "theresamedhurst@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ctI9oeS83YkfV6V8"
+        },
+        {
+            "nome": "Dominick Cole",
+            "email": "Darius_Hartmann86@gmail.com",
+            "password": "tBackQVGLEc7VaV",
+            "administrador": "true",
+            "_id": "djSDuYanWrYv7GZx"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1752148781073@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "fm8EXwBGyX8coUon"
+        },
+        {
+            "nome": "João da Silva",
+            "email": "joao@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ft7iZi6PDGsWyR1C"
+        },
+        {
+            "nome": "Horace Quitzon",
+            "email": "Dangelo_Kilback43@yahoo.com",
+            "password": "rJQmttUGPH1834Z",
+            "administrador": "true",
+            "_id": "hHn8gw7mbyXCrDQ1"
+        },
+        {
+            "nome": "Jerod.Yost",
+            "email": "Meredith60@hotmail.com",
+            "password": "194595109",
+            "administrador": "true",
+            "_id": "ipoe1JYLD8fd1pnx"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1752149440731@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "j9LOYZMF4HzHrFJk"
+        },
+        {
+            "nome": "Rhonda Feeney Jr.",
+            "email": "Micheal_Halvorson63@gmail.com",
+            "password": "VB4Drp4qAK1KQbL",
+            "administrador": "true",
+            "_id": "jUAjcIbCVpFOZYK1"
+        },
+        {
+            "nome": "Tara Haag",
+            "email": "tarahaag@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "l1MSuumZbT0ZEVdD"
+        },
+        {
+            "nome": "Janis O'Kon",
+            "email": "francismayert@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "mtuRhHtlwJ0lj2Ct"
+        },
+        {
+            "nome": "Renee Hoeger",
+            "email": "beltrano@qa.com.br",
+            "password": "63ojrIJMJN3RtlN",
+            "administrador": "true",
+            "_id": "oX8Q0g7Fo9daD6kJ"
+        },
+        {
+            "nome": "Usuário Atualizado",
+            "email": "atualizado_1752149917036@qa.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pxnFy3cJ1d2DG1qZ"
+        },
+        {
+            "nome": "Jaime West-Kris",
+            "email": "Sanford_VonRueden@yahoo.com",
+            "password": "Hjc5di4za643BrA",
+            "administrador": "true",
+            "_id": "qG69dq9ROJztbqNy"
+        },
+        {
+            "nome": "Automacao cypress",
+            "email": "teste@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tPQ5WuPlvoh8oVBT"
+        },
+        {
+            "nome": "Sadie Heaney",
+            "email": "Virginia.Marquardt-Murray@yahoo.com",
+            "password": "jQnC9WMybe2naOb",
+            "administrador": "true",
+            "_id": "x5lKdSeLQBacJMG0"
+        },
+        {
+            "nome": "Sean Wilderman",
+            "email": "seanwilderman@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "yxQvSlsDgxmySyVn"
+        },
+        {
+            "nome": "Kristi Prosacco",
+            "email": "Bettie72@hotmail.com",
+            "password": "SLuIchrqHrZbAHK",
+            "administrador": "true",
+            "_id": "znOa0LNY1WDc9t7y"
+        }
+    ]
+}
