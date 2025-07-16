@@ -1,0 +1,158 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=0ae396c160de59631d790d0cbc71067d
+date=Wed, 16 Jul 2025 12:22:22 GMT
+server=Google Frontend
+Content-Length=4395
+Body: {
+    "quantidade": 20,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Peggy Veum",
+            "email": "Ellen_Runte@hotmail.com",
+            "password": "SSanzcVwrIOpkfH",
+            "administrador": "false",
+            "_id": "7hMEQJWHDIXGO3N7"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "testeASvai@bol.com.br",
+            "password": "senha123453123",
+            "administrador": "false",
+            "_id": "EIG8mazvAKSv5NbA"
+        },
+        {
+            "nome": "Rudy Roberts",
+            "email": "Mohamed.Wilkinson@yahoo.com",
+            "password": "cx3wv3B6DzC3wl5",
+            "administrador": "true",
+            "_id": "JsLeNZFgwMFx2i2K"
+        },
+        {
+            "nome": "Bill Greenfelder",
+            "email": "billgreenfelder@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "MLN7IUye0T6c3Bv2"
+        },
+        {
+            "nome": "Matt",
+            "email": "thanh.raynor@hotmail.com",
+            "password": "l09729htcw8gy75",
+            "administrador": "true",
+            "_id": "MvTkD5uO0AMyNoux"
+        },
+        {
+            "nome": "Antonio Willms",
+            "email": "antoniowillms@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "NvghPrtlNPjRkf1E"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "yrho@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "SyI7gKOkJkTKBgP2"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "cssg@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "VIeJnax8dY0zHEAU"
+        },
+        {
+            "nome": "Muriel Homenick",
+            "email": "murielhomenick@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "XKOvD4dP99GMeokw"
+        },
+        {
+            "nome": "Karl Christiansen",
+            "email": "karlchristiansen@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "c2HsSBXMMKzn0tet"
+        },
+        {
+            "nome": "Angelo Runolfsson",
+            "email": "angelorunolfsson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "dOzY8UpmfQsTfd3j"
+        },
+        {
+            "nome": "Noemi6",
+            "email": "Buster.Stehr@yahoo.com",
+            "password": "777415851",
+            "administrador": "true",
+            "_id": "hSzEywrPnyijP6D7"
+        },
+        {
+            "nome": "Kelley Cormier IV",
+            "email": "kelleycormieriv@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "kSJ82EOpj8G18Ili"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "lfat@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "kkmyQjb08OlqDxIQ"
+        },
+        {
+            "nome": "Silas",
+            "email": "loren.conn@yahoo.com",
+            "password": "r6sj5d4ug0w8o",
+            "administrador": "true",
+            "_id": "l2SR7u9aPqWvHnBo"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "TesteasNTT123hg@bol.com.br",
+            "password": "senha123453123",
+            "administrador": "false",
+            "_id": "r8zQeotYAI3p6mcM"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "cotn@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "w1YdWj7UexEAP57p"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "kjlm@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "xyqMZw7zprU5lbnD"
+        },
+        {
+            "nome": "Genevieve Skiles",
+            "email": "ms.robinbalistreri@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "yoDOGXz5aSc1IfIJ"
+        }
+    ]
+}
