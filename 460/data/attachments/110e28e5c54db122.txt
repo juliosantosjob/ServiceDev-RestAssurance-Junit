@@ -1,0 +1,158 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=fac94579eb6615b2b9d52e059faab146
+date=Tue, 22 Jul 2025 12:22:25 GMT
+server=Google Frontend
+Content-Length=4312
+Body: {
+    "quantidade": 20,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Jaime O'Kon",
+            "email": "jaimeo'kon@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "1sPc4Sj4sVSbIpTd"
+        },
+        {
+            "nome": "Ms. Janie Kuhlman",
+            "email": "ms.janiekuhlman@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "4d90WbGiBaKcYgW3"
+        },
+        {
+            "nome": "Gustavo R",
+            "email": "test@qa.com.br",
+            "password": "novasenha",
+            "administrador": "true",
+            "_id": "B0yjVd6T04MbNMQG"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1753180329386@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "EWAl0sBzhIfj1i7l"
+        },
+        {
+            "nome": "QA Robot",
+            "email": "qarobo@qa.com.br",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "FuKRPYiYwVpXvJ1g"
+        },
+        {
+            "nome": "QA Robot",
+            "email": "qarobot1@qa.com.br",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "KYClOEOKnhkXMZDC"
+        },
+        {
+            "nome": "Jeffrey Cormier",
+            "email": "jeffreycormier@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "NsiGTTFfhjThzgoR"
+        },
+        {
+            "nome": "Lucretia",
+            "email": "issac.ritchie@gmail.com",
+            "password": "tpho607r3yq3pvx",
+            "administrador": "true",
+            "_id": "P9lsBrHNwMUCQrU4"
+        },
+        {
+            "nome": "Teste",
+            "email": "teste@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "PtHlH43gRUfybOdi"
+        },
+        {
+            "nome": "Leona Beer",
+            "email": "leonabeer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "R6c2b7FSSzHC9Ux8"
+        },
+        {
+            "nome": "Florence Wehner",
+            "email": "eduardospinka@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "TK9dMNRRej2NVSJ6"
+        },
+        {
+            "nome": "QA Robot",
+            "email": "qarobot@qa.com.br",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "YgSwuqmsKLWBZ5a9"
+        },
+        {
+            "nome": "Teste da Silva",
+            "email": "testesilva@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "b4XxNMqmYCz7xGyQ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano1@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "eJ9h8vVp53VCH9op"
+        },
+        {
+            "nome": "Brandyn.Corkery",
+            "email": "Alisha.Murazik99@yahoo.com",
+            "password": "464378304",
+            "administrador": "true",
+            "_id": "fsKFrdH8w90GzjS9"
+        },
+        {
+            "nome": "Alida",
+            "email": "sharleen.okeefe@yahoo.com",
+            "password": "udih1v54dvv",
+            "administrador": "true",
+            "_id": "iqsVgethT99E4otg"
+        },
+        {
+            "nome": "Domingo Kautzer",
+            "email": "domingokautzer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "jiwtOLSX1Bf0PK2s"
+        },
+        {
+            "nome": "Raquel Nitzsche",
+            "email": "raquelnitzsche@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "l0i8awrKvU6jNEPZ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tWrEQJP9or7ZSEl7"
+        }
+    ]
+}
