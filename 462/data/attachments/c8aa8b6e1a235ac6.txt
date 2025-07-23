@@ -1,0 +1,144 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=a674b5c0233698a6e6345eb75efa6df8
+date=Wed, 23 Jul 2025 12:22:28 GMT
+server=Google Frontend
+Content-Length=3903
+Body: {
+    "quantidade": 18,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1753266742416@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "8zuTj2f91fsvqjfz"
+        },
+        {
+            "nome": "Mrs. Krista Bruen",
+            "email": "mrs.kristabruen@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "BichTxZdYLL1EmYd"
+        },
+        {
+            "nome": "Betty McClure",
+            "email": "bettymcclure@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "EZUr8Ztf3Mhz6h4H"
+        },
+        {
+            "nome": "QA Robot",
+            "email": "qarob123@qa.com.br",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "F8tt75mPjVjoVGna"
+        },
+        {
+            "nome": "Jeannette Pouros",
+            "email": "jeannettepouros@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "HEYBHowlovOizt3S"
+        },
+        {
+            "nome": "Reece33",
+            "email": "Candice_Mills@yahoo.com",
+            "password": "195488816",
+            "administrador": "true",
+            "_id": "LkR6EwVSbMih24LM"
+        },
+        {
+            "nome": "Dianna Medhurst",
+            "email": "diannamedhurst@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Y0wqsdJnzqe14KQ8"
+        },
+        {
+            "nome": "Beulah Runte",
+            "email": "mr.karlhettinger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YIX6F51PcmwQ5gSy"
+        },
+        {
+            "nome": "Hilario",
+            "email": "iola.jacobs@gmail.com",
+            "password": "o7d442hei2eakaa",
+            "administrador": "true",
+            "_id": "fiv9Cai8IeLT4BRO"
+        },
+        {
+            "nome": "Teste",
+            "email": "teste@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "hTdys5UK28fOufZ9"
+        },
+        {
+            "nome": "QA Robot",
+            "email": "qarob1234567dsdfsd676@qa.com.br",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "htysISEniY9kWBAk"
+        },
+        {
+            "nome": "Shanelle",
+            "email": "lanita.weissnat@gmail.com",
+            "password": "z4m2ul9uuxrt",
+            "administrador": "true",
+            "_id": "kkhqKGXroaHY8pgv"
+        },
+        {
+            "nome": "Gustavo R",
+            "email": "testando@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "mfLhNmlyTeIBb6E8"
+        },
+        {
+            "nome": "Ron Ratke",
+            "email": "ronratke@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "nWlgrakPR92Im8cV"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "qEACbWHeEbXZBpZz"
+        },
+        {
+            "nome": "Kristen Herzog",
+            "email": "kristenherzog@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "qOy78iUdFXG0npB8"
+        },
+        {
+            "nome": "QA Robot",
+            "email": "qarob1234567676@qa.com.br",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "xLhuJUnrH5Pi6sQs"
+        }
+    ]
+}
