@@ -1,0 +1,116 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=e6cce39522d9f71f056284a807323bc1
+date=Thu, 24 Jul 2025 12:22:41 GMT
+server=Google Frontend
+Content-Length=3043
+Body: {
+    "quantidade": 14,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Emmett Fahey",
+            "email": "emmettfahey@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "2pr1Ky7M17qsIYVq"
+        },
+        {
+            "nome": "Dr. Earl Pagac",
+            "email": "dr.earlpagac@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "4r0FKCx28ZAMQYdj"
+        },
+        {
+            "nome": "João Marcos Jotha Da Silva ",
+            "email": "jotha@gmail.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "Hgz3rornhuMs1bfv"
+        },
+        {
+            "nome": "Darrel Little",
+            "email": "darrellittle@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "RCQqEvCWpvBVHDbI"
+        },
+        {
+            "nome": "Verlie_Koch",
+            "email": "Frank35@gmail.com",
+            "password": "854511051",
+            "administrador": "true",
+            "_id": "SJG1TgviiHdiOpq9"
+        },
+        {
+            "nome": "Laverne",
+            "email": "kenia.haag@yahoo.com",
+            "password": "ymyjulvc",
+            "administrador": "true",
+            "_id": "WbvKRWAjKBc2VXgT"
+        },
+        {
+            "nome": "Fredrick Bayer",
+            "email": "fredrickbayer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ZmZlwML22CTmal9m"
+        },
+        {
+            "nome": "Teresa",
+            "email": "chase.bartoletti@hotmail.com",
+            "password": "yncnpm8yahm",
+            "administrador": "true",
+            "_id": "f6EQJBQRudM4aMAA"
+        },
+        {
+            "nome": "Joan Monahan",
+            "email": "sheldonlarson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "jZXLvQUlFLTcktQ7"
+        },
+        {
+            "nome": "Kara Leannon",
+            "email": "karaleannon@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "rVTbU7yXKnHs21Hq"
+        },
+        {
+            "nome": "User Number 1358",
+            "email": "name.1358@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "szmKXt7ziYSmcOlb"
+        },
+        {
+            "nome": "User Number 4309",
+            "email": "name.4309@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "yHHiqipRgJ0kINrI"
+        },
+        {
+            "nome": "Valerie Parisian",
+            "email": "valerieparisian@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "z63U5FraWIJj8aJi"
+        }
+    ]
+}
