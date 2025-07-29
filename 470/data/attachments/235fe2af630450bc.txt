@@ -1,0 +1,186 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=c49ad05667c3d549a624ed5dea281781
+date=Tue, 29 Jul 2025 12:23:30 GMT
+server=Google Frontend
+Content-Length=5166
+Body: {
+    "quantidade": 24,
+    "usuarios": [
+        {
+            "nome": "John Doe",
+            "email": "user.1753786413@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "059USG9XXyAjOVB6"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Erik Wisoky",
+            "email": "erikwisoky@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "50V6wLJy92TrF9Po"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753787748@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "5kHsJxMC8TiCA9EU"
+        },
+        {
+            "nome": "Eddie Lynch I",
+            "email": "eddielynchi@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "6DBOmhN2IOcThlwN"
+        },
+        {
+            "nome": "Machelle",
+            "email": "benita.morissette@hotmail.com",
+            "password": "j6u24hzmv",
+            "administrador": "true",
+            "_id": "E6ORsu7vABNRq45q"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753787572@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "FuppzqhZhfey35l8"
+        },
+        {
+            "nome": "test0007",
+            "email": "test0007@qa.com",
+            "password": "test0007",
+            "administrador": "true",
+            "_id": "GalNIpHO2RQj2ngV"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753785728@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "KTCR7OM6UavYiLJ4"
+        },
+        {
+            "nome": "Bethany Davis",
+            "email": "lorenzocummings@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Quf0lSbkif9lvUrz"
+        },
+        {
+            "nome": "Laury56",
+            "email": "Marjory_Walsh58@yahoo.com",
+            "password": "401259532",
+            "administrador": "true",
+            "_id": "Tj6ALeqmYl4UqF5r"
+        },
+        {
+            "nome": "Stella Kling DVM",
+            "email": "stellaklingdvm@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "bNIV2T0xBz3p3DPl"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753787665@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "fW7yuYMXu9vT0ZHQ"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753788122@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "iH8L0wR8vo6lfjNK"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1753785093984@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "kDowIbxzO1ZCHznb"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753787776@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "mC2XPkAJMByXeUUe"
+        },
+        {
+            "nome": "Juana Pfeffer MD",
+            "email": "juanapfeffermd@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "qhf95vaeM2COlhJq"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753786440@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "s2fdZjOhQLfzaULF"
+        },
+        {
+            "nome": "Frederick",
+            "email": "sook.murray@gmail.com",
+            "password": "qccrqr2i0gbox1c",
+            "administrador": "true",
+            "_id": "tlItxXWe2v0ZONxy"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753787378@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "uMP67AxBYBXlFtUa"
+        },
+        {
+            "nome": "Ms. Bill Hilll",
+            "email": "ms.billhilll@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "wIcx2OvIZgbrkwIl"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753785802@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "wNIXpxQbCojUr0h8"
+        },
+        {
+            "nome": "John Doe",
+            "email": "user.1753787348@mail.com",
+            "password": "qwe123",
+            "administrador": "true",
+            "_id": "xrqeAEp76FM3oZ6M"
+        },
+        {
+            "nome": "Harold Funk",
+            "email": "haroldfunk@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "zSuuWAJe4VIy1NNt"
+        }
+    ]
+}
