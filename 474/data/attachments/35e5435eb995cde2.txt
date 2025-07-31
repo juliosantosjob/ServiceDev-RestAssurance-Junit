@@ -1,0 +1,137 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=187bf372f9b76686f53c3bae51322901
+date=Thu, 31 Jul 2025 12:21:18 GMT
+server=Google Frontend
+Content-Length=3725
+Body: {
+    "quantidade": 17,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Carla Hilpert",
+            "email": "carlahilpert@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "6YtWUMoIItq4iGK5"
+        },
+        {
+            "nome": "Karmen",
+            "email": "zoila.casper@gmail.com",
+            "password": "bpcic3guqjcj",
+            "administrador": "true",
+            "_id": "Ac2kHIwEgyKTwcYR"
+        },
+        {
+            "nome": "Fernando da Silva",
+            "email": "fernand.silva445@gmail.com",
+            "password": "1234567",
+            "administrador": "true",
+            "_id": "B7NIMoS42B6GQREd"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1753957956220@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "DqzbW4H6oTX3wd40"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "wcqd@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "E7r0LX1By5yO1QTi"
+        },
+        {
+            "nome": "Fernando da Silva",
+            "email": "fernando.silva445@gmail.com",
+            "password": "1234567",
+            "administrador": "true",
+            "_id": "ERE1KQpKZ3Fo1Kes"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "kiji@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "OpUcLpVkKn51mvws"
+        },
+        {
+            "nome": "Sheila Emard",
+            "email": "sheilaemard@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "OrShyJOakru7asNt"
+        },
+        {
+            "nome": "Lavern",
+            "email": "whitney.mraz@gmail.com",
+            "password": "k4tngmgbs0ii",
+            "administrador": "true",
+            "_id": "RP0cgm9pMdUHgGZj"
+        },
+        {
+            "nome": "Jenny Ortiz",
+            "email": "jennyortiz@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "UUEkJBtaSSttns9e"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "olrv@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "W8Fz1D9ginG3lr7G"
+        },
+        {
+            "nome": "Oliver Connelly",
+            "email": "freddiestoltenberg@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "aEXkMkVflGpE5VTu"
+        },
+        {
+            "nome": "Judith Mohr V",
+            "email": "judithmohrv@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "gOVyOf1cHVHY41KO"
+        },
+        {
+            "nome": "Roberto Carlos de Nobrega",
+            "email": "carlos.Roberto554@gmail.com",
+            "password": "01234567",
+            "administrador": "true",
+            "_id": "tgUqVISWpZoot4Jz"
+        },
+        {
+            "nome": "Andrew Carter",
+            "email": "andrewcarter@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "tjlslZglKSrKMqCH"
+        },
+        {
+            "nome": "Jasmine White",
+            "email": "jasminewhite@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ztao4nkyrdZxoAQw"
+        }
+    ]
+}
