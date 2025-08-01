@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=cfb9fddc3a6863c358bc807de2713cd5
+date=Fri, 01 Aug 2025 12:22:49 GMT
+server=Google Frontend
+Content-Length=2630
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Nicholas O'Connell",
+            "email": "dawnjacobs@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "6kw2fPhkiSeeEdy3"
+        },
+        {
+            "nome": "Sang",
+            "email": "tyrell.mckenzie@hotmail.com",
+            "password": "2oj5rz8xamps",
+            "administrador": "true",
+            "_id": "F3SBtnCiITAkt3za"
+        },
+        {
+            "nome": "Lecia",
+            "email": "divina.weber@gmail.com",
+            "password": "xj938i6kn4t",
+            "administrador": "true",
+            "_id": "H8Ci4AukFGYpciYX"
+        },
+        {
+            "nome": "Hemy",
+            "email": "hemyllin21@gmail.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "OD91b38GJ6SJEbxv"
+        },
+        {
+            "nome": "Alton Dooley",
+            "email": "altondooley@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "T1YEM0dHVpXjjGn4"
+        },
+        {
+            "nome": "Mabel Sanford",
+            "email": "mabelsanford@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "e7Yycha7lo4lEMjD"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1754044335738@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "fm9I9eNQmkJWOQUw"
+        },
+        {
+            "nome": "Maxine Kirlin",
+            "email": "maxinekirlin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ioXOIaJ06oGH5kXp"
+        },
+        {
+            "nome": "Agnes Douglas",
+            "email": "agnesdouglas@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "jC3S8p0d39K1RNb6"
+        },
+        {
+            "nome": "Marlon Hodkiewicz",
+            "email": "marlonhodkiewicz@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "khEq01jT64INb6YD"
+        },
+        {
+            "nome": "Woodrow Goodwin",
+            "email": "woodrowgoodwin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "khczufRo8pCf02Ss"
+        }
+    ]
+}
