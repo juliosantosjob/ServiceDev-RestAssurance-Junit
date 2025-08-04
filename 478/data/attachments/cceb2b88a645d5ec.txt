@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=80c315a8a47471069b4d186f10e680bf
+date=Mon, 04 Aug 2025 12:23:48 GMT
+server=Google Frontend
+Content-Length=2628
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Abraham Deckow",
+            "email": "abrahamdeckow@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "39bdPMwFo0lBgDsp"
+        },
+        {
+            "nome": "Sherman Kemmer",
+            "email": "shermankemmer@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ABJWcGbY0pXbY2Ty"
+        },
+        {
+            "nome": "Carlos",
+            "email": "cassiso91@gmail.com",
+            "password": "220692",
+            "administrador": "true",
+            "_id": "BwWjVPsGC3LOs67c"
+        },
+        {
+            "nome": "Todd Hessel",
+            "email": "toddhessel@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Hv3FJRsaL1gaUPRb"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1754303631549@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "MFeQUGg0HId01237"
+        },
+        {
+            "nome": "Al Abernathy",
+            "email": "alabernathy@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "Nw3UKLoPt27eiJMA"
+        },
+        {
+            "nome": "Pearline",
+            "email": "tomas.jenkins@yahoo.com",
+            "password": "1xbc3asjq4n4qm",
+            "administrador": "true",
+            "_id": "OF22VTf3ZsICvoyt"
+        },
+        {
+            "nome": "Roscoe",
+            "email": "orville.douglas@yahoo.com",
+            "password": "xhgmgdkp6il",
+            "administrador": "true",
+            "_id": "VWXv443pCgWQpVpZ"
+        },
+        {
+            "nome": "Miss Ted Ferry",
+            "email": "misstedferry@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "a8O9Hs6M4RGGjFi7"
+        },
+        {
+            "nome": "Rochelle Turner",
+            "email": "rochelleturner@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "dcxWKM0HJipHSqlV"
+        },
+        {
+            "nome": "Kay Kuhlman MD",
+            "email": "candicestrosin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "qznHIaJvCNGOT4Ui"
+        }
+    ]
+}
