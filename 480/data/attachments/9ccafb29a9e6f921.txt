@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=c56086af87fb8607c5114843ba9cc1de
+date=Tue, 05 Aug 2025 12:24:06 GMT
+server=Google Frontend
+Content-Length=2576
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Ted Brown",
+            "email": "misszacharykrajcik@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "38ehDnjeDzlmAbA8"
+        },
+        {
+            "nome": "Issac",
+            "email": "boris.runolfsdottir@gmail.com",
+            "password": "vtlng36lrl",
+            "administrador": "true",
+            "_id": "73qYlMsjvRTA2OCP"
+        },
+        {
+            "nome": "Betty Collier",
+            "email": "bettycollier@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "A4JtRhhz5BMeajry"
+        },
+        {
+            "nome": "Anne Larson",
+            "email": "annelarson@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "C9rKxkkSBW6DYO59"
+        },
+        {
+            "nome": "adm",
+            "email": "adm@adm.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "FrAVRZTJQ2QgdANQ"
+        },
+        {
+            "nome": "June Batz",
+            "email": "junebatz@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "HiuvI2i0ijCqH37S"
+        },
+        {
+            "nome": "Pablo Reis",
+            "email": "reispablo87@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JhEY5vwVphxk2t0T"
+        },
+        {
+            "nome": "Ken",
+            "email": "altagracia.cassin@gmail.com",
+            "password": "xgz73tc7xyp47",
+            "administrador": "true",
+            "_id": "cMSZwrdaNPlzTUfQ"
+        },
+        {
+            "nome": "Marty Zieme",
+            "email": "martyzieme@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "hBkIOKEgG3iuXQZi"
+        },
+        {
+            "nome": "Tamara White",
+            "email": "tamarawhite@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "lW3ujhgV6ulxDZlW"
+        },
+        {
+            "nome": "Bill Zemlak",
+            "email": "billzemlak@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "qxtaCsYsU2vTMtWU"
+        }
+    ]
+}
