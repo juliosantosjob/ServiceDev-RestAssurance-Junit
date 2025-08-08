@@ -1,0 +1,88 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=78bdfdae2d321406265e5f6550107f28
+date=Fri, 08 Aug 2025 12:22:55 GMT
+server=Google Frontend
+Content-Length=2208
+Body: {
+    "quantidade": 10,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Jan",
+            "email": "tinisha.sporer@hotmail.com",
+            "password": "j8muyajujx2x",
+            "administrador": "true",
+            "_id": "BJxqHlhN9VI6Hnom"
+        },
+        {
+            "nome": "Delbert Morar",
+            "email": "delbertmorar@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "EhGpnh68dsjqx81a"
+        },
+        {
+            "nome": "Salvador Lueilwitz",
+            "email": "salvadorlueilwitz@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "H7WjZNvYvjbRYhlg"
+        },
+        {
+            "nome": "Randal Johnson",
+            "email": "sarao'kon@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "K2E2sTdVu1cKeITe"
+        },
+        {
+            "nome": "Bobby Fahey",
+            "email": "bobbyfahey@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "acn31uzGN4zhcwAK"
+        },
+        {
+            "nome": "Joseph Wiegand",
+            "email": "josephwiegand@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "lkLJmij3mUODZJRi"
+        },
+        {
+            "nome": "Dr. Alexandra Glover",
+            "email": "dr.alexandraglover@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "v8GGCqUFy5I3vjM1"
+        },
+        {
+            "nome": "Erin Brakus",
+            "email": "erinbrakus@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "vI29LSrhnqeERqWH"
+        },
+        {
+            "nome": "Donald",
+            "email": "andera.lebsack@yahoo.com",
+            "password": "53kej1l0q8ol45h",
+            "administrador": "true",
+            "_id": "yFABWnAGrk5WSfAw"
+        }
+    ]
+}
