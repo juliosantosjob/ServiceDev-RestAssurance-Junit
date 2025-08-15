@@ -1,0 +1,53 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=89a764799f85dae724dda3402bdf0ff1
+date=Fri, 15 Aug 2025 20:12:25 GMT
+server=Google Frontend
+Content-Length=1081
+Body: {
+    "quantidade": 5,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "romulo",
+            "email": "romulo@teste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Irkur9p7HrdxHapZ"
+        },
+        {
+            "nome": "Gus",
+            "email": "randall.lebsack@yahoo.com",
+            "password": "1x13xszx1t5pzqi",
+            "administrador": "true",
+            "_id": "eFTyfxrdLjrqhDKk"
+        },
+        {
+            "nome": "sergio",
+            "email": "romulo2@teste.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "hHPzoSWSfnbxMo9l"
+        },
+        {
+            "nome": "Karma",
+            "email": "bennie.okeefe@yahoo.com",
+            "password": "rzhxzjlnd",
+            "administrador": "true",
+            "_id": "vu3ypslk2ceYj3TW"
+        }
+    ]
+}
