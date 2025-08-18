@@ -1,0 +1,130 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=84031c93aa59d48cae09d88b6aafcade
+date=Mon, 18 Aug 2025 12:22:40 GMT
+server=Google Frontend
+Content-Length=3444
+Body: {
+    "quantidade": 16,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "User Number 2909",
+            "email": "name.2909@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "4ABoJHWhXtEZsuy0"
+        },
+        {
+            "nome": "Seth Jacobson",
+            "email": "sethjacobson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "9WKSwxOrzi8qnc4H"
+        },
+        {
+            "nome": "Patty Morar",
+            "email": "pattymorar@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "AnqwQfGus7mgbbHD"
+        },
+        {
+            "nome": "Carlos",
+            "email": "cassiso91@gmail.com",
+            "password": "220692",
+            "administrador": "true",
+            "_id": "KkmiR3Yrh9J7fc2l"
+        },
+        {
+            "nome": "User Number 1769",
+            "email": "name.1769@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "MAjN81Iuc3xLpkeS"
+        },
+        {
+            "nome": "Adrienne O'Connell",
+            "email": "adrienneo'connell@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "RDwVR3UkCZmd01W4"
+        },
+        {
+            "nome": "Kandi",
+            "email": "manual.mclaughlin@hotmail.com",
+            "password": "hvjf8p90p",
+            "administrador": "true",
+            "_id": "WjhrAIsItmKigx99"
+        },
+        {
+            "nome": "teste automatizado",
+            "email": "eNgSd@teste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "YaHX2Qsq4FMxKk2B"
+        },
+        {
+            "nome": "Lynsey",
+            "email": "jeremy.willms@gmail.com",
+            "password": "xfj2ctvzogcs",
+            "administrador": "true",
+            "_id": "cBTOrDFjThPd9ns4"
+        },
+        {
+            "nome": "Minga Mauro",
+            "email": "maura@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "dDQx5Up1xjFyViw9"
+        },
+        {
+            "nome": "Melba Greenfelder I",
+            "email": "erind'amore@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "jNCpsTo7IvEQI77g"
+        },
+        {
+            "nome": "Mary Green",
+            "email": "marygreen@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "okUhuZTkuRNbBk6Q"
+        },
+        {
+            "nome": "User Number 5522",
+            "email": "name.5522@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "t1U9BaU5GRwddHLB"
+        },
+        {
+            "nome": "Angelo Parker",
+            "email": "angeloparker@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "vEDe50dKf9mlRzjz"
+        },
+        {
+            "nome": "Elijah Rowe V",
+            "email": "elijahrowev@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "vqWzcrhvMDhb7qOR"
+        }
+    ]
+}
