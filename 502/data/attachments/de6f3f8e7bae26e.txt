@@ -1,0 +1,88 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=926212147cb1ee46e0384603b6485c1f
+date=Wed, 20 Aug 2025 12:21:01 GMT
+server=Google Frontend
+Content-Length=2190
+Body: {
+    "quantidade": 10,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Peter Tremblay",
+            "email": "petertremblay@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "1BAyL5eE1iec3ujs"
+        },
+        {
+            "nome": "Daryl Dicki",
+            "email": "javiercronin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "AYhpm3EdfEuBT3bJ"
+        },
+        {
+            "nome": "Cesar Hahn",
+            "email": "cesarhahn@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "T2kZYpMba8AbiYRg"
+        },
+        {
+            "nome": "Raul Hansen",
+            "email": "raulhansen@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "VGUA6ymw1Lhqb6Ap"
+        },
+        {
+            "nome": "Hugh Oberbrunner",
+            "email": "hughoberbrunner@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "a8j8sbQhZa2CFbb3"
+        },
+        {
+            "nome": "Jan Ritchie",
+            "email": "janritchie@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "izWYAwyseKWRN80L"
+        },
+        {
+            "nome": "Cecil",
+            "email": "raymon.mcclure@gmail.com",
+            "password": "tt9l9a68wxim",
+            "administrador": "true",
+            "_id": "lTgChT6f03ve4nF7"
+        },
+        {
+            "nome": "Manual",
+            "email": "gladys.schmeler@hotmail.com",
+            "password": "v73sz3moi3nwwcz",
+            "administrador": "true",
+            "_id": "pgfh5gJw7lF0WgbA"
+        },
+        {
+            "nome": "Terry O'Reilly",
+            "email": "terryo'reilly@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "uCGFhmwnYlzHDvju"
+        }
+    ]
+}
