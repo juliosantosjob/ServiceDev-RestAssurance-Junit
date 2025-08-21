@@ -1,0 +1,109 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=15d7a85a0f51f1102703e41783b5fbf3
+date=Thu, 21 Aug 2025 12:21:13 GMT
+server=Google Frontend
+Content-Length=2784
+Body: {
+    "quantidade": 13,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Kasi",
+            "email": "francisca.crooks@yahoo.com",
+            "password": "f5vmh5v9n0ukya",
+            "administrador": "true",
+            "_id": "4nAY1WvYRqYocLHd"
+        },
+        {
+            "nome": "Angel O'Hara",
+            "email": "angelo'hara@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "7wkDRCyakIGoP5Ng"
+        },
+        {
+            "nome": "Jimmie Koss",
+            "email": "jimmiekoss@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "MDsDzyVPhsX105GO"
+        },
+        {
+            "nome": "romulo",
+            "email": "romulo@teste.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "MhTKwXPNdC8gwiPc"
+        },
+        {
+            "nome": "Linnie",
+            "email": "haydee.kuhic@gmail.com",
+            "password": "ddrnhahy1f",
+            "administrador": "true",
+            "_id": "XdlVbBHS4eLA7Z4u"
+        },
+        {
+            "nome": "Erick Waelchi",
+            "email": "erickwaelchi@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "bWJbThaQxBOne5X3"
+        },
+        {
+            "nome": "romulo",
+            "email": "romuloAdmin@teste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "gcMa6s5iK37soBf6"
+        },
+        {
+            "nome": "Kyle Mante",
+            "email": "kylemante@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "jmvUNq5b7jt2oWrt"
+        },
+        {
+            "nome": "Miss Jonathon Hintz",
+            "email": "susanbode@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "qC6GZ1nPtljYOjxa"
+        },
+        {
+            "nome": "Alma Welch",
+            "email": "almawelch@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "ubACcnmPGH8UNYz0"
+        },
+        {
+            "nome": "Heidi Kulas",
+            "email": "heidikulas@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "vFZZS4umlY8J7BGp"
+        },
+        {
+            "nome": "Leonardo",
+            "email": "leonardo4q@gmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "wg14fq3ZT9shNpeV"
+        }
+    ]
+}
