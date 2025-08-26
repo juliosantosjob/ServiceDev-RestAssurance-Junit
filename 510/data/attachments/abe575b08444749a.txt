@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=1ce4b1bcb8d8dee90ff169950d95a6a2
+date=Tue, 26 Aug 2025 12:21:49 GMT
+server=Google Frontend
+Content-Length=2607
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "David Santos",
+            "email": "Lottie@squece6.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "GM5z0c5tbBfchKl9"
+        },
+        {
+            "nome": "Alfred Swaniawski PhD",
+            "email": "alfredswaniawskiphd@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "KuCv793s1S1gAKH5"
+        },
+        {
+            "nome": "Harvey Daniel",
+            "email": "harveydaniel@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "MLGKFuFwgK4gKr64"
+        },
+        {
+            "nome": "Edwin Koch",
+            "email": "edwinkoch@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "NYxSxsWAfqsuGlOx"
+        },
+        {
+            "nome": "Marty Steuber",
+            "email": "martysteuber@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "SmOZl1BexkEJ2iSf"
+        },
+        {
+            "nome": "Laura Huel DDS",
+            "email": "laurahueldds@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "TaWEgfNy4Mj3ud05"
+        },
+        {
+            "nome": "Mark",
+            "email": "faustino.larson@yahoo.com",
+            "password": "6i5lm46ybkl1",
+            "administrador": "true",
+            "_id": "XiNYsXsyKIS6j9ug"
+        },
+        {
+            "nome": "Devin Veum",
+            "email": "brucehand@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Z1b5m28ZB36MFogN"
+        },
+        {
+            "nome": "David Santos",
+            "email": "Monte@squece6.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "g3SQZm0FcmiG4RSk"
+        },
+        {
+            "nome": "Dion",
+            "email": "tamera.von@yahoo.com",
+            "password": "m7vrkt4t2wyff7",
+            "administrador": "true",
+            "_id": "n8NQU6XoCVWuLk7X"
+        },
+        {
+            "nome": "Annie Schiller",
+            "email": "annieschiller@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "vkYiQbKcLvPQH3P9"
+        }
+    ]
+}
