@@ -1,0 +1,102 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=83d367f8a6b1d53d0b58d79268643d3e
+date=Mon, 08 Sep 2025 20:11:50 GMT
+server=Google Frontend
+Content-Length=2582
+Body: {
+    "quantidade": 12,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "crud Teste",
+            "email": "crud.1757361313418@exemplo.com",
+            "password": "12345678",
+            "administrador": "true",
+            "_id": "4lgADLcKKSCOBcJY"
+        },
+        {
+            "nome": "Xuxuxuxu",
+            "email": "xuxuteste@gmail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "5gtm3mmi5uRO4axq"
+        },
+        {
+            "nome": "Novo Nome",
+            "email": "novo_pzwko@teste.com",
+            "password": "nova_senha",
+            "administrador": "false",
+            "_id": "73HPJmAX7JssOBCD"
+        },
+        {
+            "nome": "Cletus",
+            "email": "cheyenne.howell@hotmail.com",
+            "password": "d1mbuoawqwc4h",
+            "administrador": "true",
+            "_id": "HwFf86E05OfwaPHn"
+        },
+        {
+            "nome": "TESTE QA",
+            "email": "qa@qa.io",
+            "password": "123",
+            "administrador": "true",
+            "_id": "OeHovjEp5moU9ZMr"
+        },
+        {
+            "nome": "Usuário Atualizado CRUD",
+            "email": "alyson114@gmail.com",
+            "password": "12345678",
+            "administrador": "true",
+            "_id": "QlDcknSgrTNm6CEW"
+        },
+        {
+            "nome": "Garry",
+            "email": "irwin.luettgen@yahoo.com",
+            "password": "ckruhrb1",
+            "administrador": "true",
+            "_id": "T0YEAgXvyZAhhGsX"
+        },
+        {
+            "nome": "X",
+            "email": "x@gmail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "dL51xfrFixkiUtUa"
+        },
+        {
+            "nome": "Novo Nome",
+            "email": "novo_klmbh@teste.com",
+            "password": "nova_senha",
+            "administrador": "false",
+            "_id": "i5knG11YpXgDP2yQ"
+        },
+        {
+            "nome": "Novo Nome",
+            "email": "novo_gmkdz@teste.com",
+            "password": "nova_senha",
+            "administrador": "false",
+            "_id": "oRmvJU1nkLYZtOKf"
+        },
+        {
+            "nome": "crud Teste",
+            "email": "crud.1757361194627@exemplo.com",
+            "password": "12345678",
+            "administrador": "true",
+            "_id": "s0Hn6OKXdRpE4rs3"
+        }
+    ]
+}
