@@ -1,0 +1,403 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=22988fea98f19b6a6543c150aadce2b3
+date=Thu, 11 Sep 2025 12:19:43 GMT
+server=Google Frontend
+Content-Length=12425
+Body: {
+    "quantidade": 55,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Teste",
+            "email": "teste@gmail.com",
+            "password": "Pedra123",
+            "administrador": "false",
+            "_id": "1MJKs9bTfA9YFeXV"
+        },
+        {
+            "nome": "Teste",
+            "email": "bispo@gmail.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "1ZARNWDn2VDoPxrv"
+        },
+        {
+            "nome": "Usuário auto",
+            "email": "auto_1757590141086@teste.com",
+            "password": "{{password}}",
+            "administrador": "true",
+            "_id": "5w3EQ2AuG0OKRmbm"
+        },
+        {
+            "nome": "Nelson Stanton",
+            "email": "gradyarmstrong@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "7AqUGwUkVMtPB5Az"
+        },
+        {
+            "nome": "Ronald Stiedemann",
+            "email": "ronaldstiedemann@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "7ejl5CY5gjsgoF00"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590484@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "8RoVjMMSuToKUZ4W"
+        },
+        {
+            "nome": "Big Silva",
+            "email": "big@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "8padoz6jWjHpa9dB"
+        },
+        {
+            "nome": "Tamara Cruickshank",
+            "email": "tamaracruickshank@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "9NlbQ71DpcotGFoi"
+        },
+        {
+            "nome": "Cypress Admin 1757593161196",
+            "email": "cypress_admin_1757593161196@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AT4cIvjqkCoMPoTO"
+        },
+        {
+            "nome": "Cypress Admin 1757593132851",
+            "email": "cypress_admin_1757593132851@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "B8VsK3mnoPE6AlDV"
+        },
+        {
+            "nome": "Cypress Admin 1757593132251",
+            "email": "cypress_admin_1757593132251@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EcwEhLoaVZmz2ygn"
+        },
+        {
+            "nome": "Cypress Admin 1757593136676",
+            "email": "cypress_admin_1757593136676@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "F0UTFNEwxFyEvRY7"
+        },
+        {
+            "nome": "Cypress Admin 1757593136933",
+            "email": "cypress_admin_1757593136933@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Ffy4Jg0lu1FWQ74p"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590338@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "G2Gb9ZexFPigch9E"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590318@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "G6kqJfQquY2a28O1"
+        },
+        {
+            "nome": "Cypress Admin 1757593136418",
+            "email": "cypress_admin_1757593136418@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GPJ6zzK6aiQVvvdp"
+        },
+        {
+            "nome": "Cypress Admin 1757593168191",
+            "email": "cypress_admin_1757593168191@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "H3AHFbA5h2sbBdbr"
+        },
+        {
+            "nome": "Dup",
+            "email": "dup_user@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "HSo6c9fSYLu2MF1x"
+        },
+        {
+            "nome": "Cypress Admin 1757593136142",
+            "email": "cypress_admin_1757593136142@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IZ3f5GFUVHqK6mJm"
+        },
+        {
+            "nome": "Cypress User",
+            "email": "Cypress_1757593166380@Cypress.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "JNHWuBHMkfmhww0X"
+        },
+        {
+            "nome": "test",
+            "email": "1757589009@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JYdzBMIg0QJuHo6t"
+        },
+        {
+            "nome": "JP",
+            "email": "teste@teste.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "KBluL5t7062Sk66X"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Kk8JSpgP9oAEBpOf"
+        },
+        {
+            "nome": "Usuário auto",
+            "email": "auto_1757588864933@teste.com",
+            "password": "{{password}}",
+            "administrador": "true",
+            "_id": "S0PDKS2lfRaNUx9Z"
+        },
+        {
+            "nome": "Cypress Admin 1757593140412",
+            "email": "cypress_admin_1757593140412@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ScGBw9rKXmW4dqgW"
+        },
+        {
+            "nome": "victor siq",
+            "email": "victor.1757586393156@teste.com",
+            "password": "victor1234",
+            "administrador": "false",
+            "_id": "V5RBNnEPP5pTCI73"
+        },
+        {
+            "nome": "Cypress Admin 1757593140185",
+            "email": "cypress_admin_1757593140185@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VFnbhQ9WZFDDnh1B"
+        },
+        {
+            "nome": "Cypress Admin 1757593139949",
+            "email": "cypress_admin_1757593139949@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VZG2ZBQDYaQRdxA4"
+        },
+        {
+            "nome": "Cypress Admin 1757593139687",
+            "email": "cypress_admin_1757593139687@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YH5lKI2UxnnU40rw"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590379@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bplwzWgtncYY4SmN"
+        },
+        {
+            "nome": "Edyth",
+            "email": "donny.raynor@yahoo.com",
+            "password": "s2bjnn073518oy",
+            "administrador": "true",
+            "_id": "cVxB8hvNjRBINcYM"
+        },
+        {
+            "nome": "Connie Howell",
+            "email": "conniehowell@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "cyZAFDdUJ38it9Db"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user1223@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fUb9QXE4iFFqCU1A"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590297@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ft8Jbi9eaRbkc9lL"
+        },
+        {
+            "nome": "Ramona Schamberger",
+            "email": "ramonaschamberger@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "h88FUVi0hBtcRpbA"
+        },
+        {
+            "nome": "Usuário auto",
+            "email": "auto_1757590141246@teste.com",
+            "password": "{{password}}",
+            "administrador": "true",
+            "_id": "iNIcYAz3r9wUSVgF"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590688@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "j4QJ90LgNz8CuGx7"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590566@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "j8e4jb6JuDKHO2UR"
+        },
+        {
+            "nome": "test",
+            "email": "1757589022@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kyGTT8IwRXsBor4d"
+        },
+        {
+            "nome": "Cypress Admin 1757593158045",
+            "email": "cypress_admin_1757593158045@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "nbzFYZZ5jZicR3XA"
+        },
+        {
+            "nome": "Cecil Dietrich",
+            "email": "cecildietrich@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "nfUY0yuyqg8Ad13k"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590647@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "nzQ3oRuqhWGcFPKs"
+        },
+        {
+            "nome": "Susie Gulgowski",
+            "email": "susiegulgowski@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "oqFVzbaNAP4eT9oD"
+        },
+        {
+            "nome": "Cypress Admin 1757593165246",
+            "email": "cypress_admin_1757593165246@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pXOyfJA2qqE7UvQe"
+        },
+        {
+            "nome": "Usuário auto",
+            "email": "auto_1757588865320@teste.com",
+            "password": "{{password}}",
+            "administrador": "true",
+            "_id": "qSlTlvfDEZZSBtNn"
+        },
+        {
+            "nome": "Cypress Admin 1757593133116",
+            "email": "cypress_admin_1757593133116@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "sz0dh5i63IvN58gf"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590596@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "t3PScQNYkgZBWSah"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user_1757590359@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "tBKX1pwA3Y38SKzC"
+        },
+        {
+            "nome": "Linwood",
+            "email": "sammie.hermiston@hotmail.com",
+            "password": "fch8jm7wubgx57b",
+            "administrador": "true",
+            "_id": "tsyM6xAwgyuPsYWv"
+        },
+        {
+            "nome": "Usuário auto",
+            "email": "auto_1757590141500@teste.com",
+            "password": "{{password}}",
+            "administrador": "true",
+            "_id": "uX5mh4UAJpRDIKHO"
+        },
+        {
+            "nome": "Cypress User 1757593146766",
+            "email": "Cypress_1757593146766@Cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xeq7Trudrcc6sEzC"
+        },
+        {
+            "nome": "VITOR RIBEIRO SILVA",
+            "email": "vitor.rs94@hotmail.com",
+            "password": "v170",
+            "administrador": "false",
+            "_id": "xkiAtr9ROXNTTM29"
+        },
+        {
+            "nome": "test",
+            "email": "test1757588996@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yLdQwaWSWMOKSu6l"
+        },
+        {
+            "nome": "Usuário auto",
+            "email": "auto_1757588864737@teste.com",
+            "password": "{{password}}",
+            "administrador": "true",
+            "_id": "z7qxxQNr6rucTFEo"
+        }
+    ]
+}
