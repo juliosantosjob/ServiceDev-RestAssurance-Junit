@@ -1,0 +1,1481 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=32657925f18ec308496df1a6e56ae6e4
+date=Tue, 16 Sep 2025 12:20:42 GMT
+server=Google Frontend
+Content-Length=46014
+Body: {
+    "quantidade": 209,
+    "usuarios": [
+        {
+            "nome": "rodrigo reis ",
+            "email": "rodrigo_reis87@hotmail.com",
+            "password": "22589857Ro",
+            "administrador": "false",
+            "_id": "03aMnt4dg9bo3EDM"
+        },
+        {
+            "nome": "admintest2",
+            "email": "admintest2@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0NRGVRPhEnkMlSGe"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758016596@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "0UknrZSe7mxgbG3s"
+        },
+        {
+            "nome": "a",
+            "email": "adminc571a514-62db-4c5a-8852-203115464ce7@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "0ZzRtjKLHAfdu7pN"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "test",
+            "email": "testuser123@example.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "1GtA0DA1TNmiaJz1"
+        },
+        {
+            "nome": "Georgia Wolf",
+            "email": "georgiawolf@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "1QdDM1rhzhQtiu03"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022778admin@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "1RLrUkrvvYHpsxAF"
+        },
+        {
+            "nome": "Cypress Admin 1758025206661",
+            "email": "cypress_admin_1758025206661@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1fGFy0wT0Ng03LaG"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758015720@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "2dKhTssNlBb5njZ8"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758016395@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "36QraJMrvLjGSNJj"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758016395@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "3DQRk5cwkyhRBU0T"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014813@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "3WOgHftYi6TSjrl1"
+        },
+        {
+            "nome": "Tester",
+            "email": "test1758014245@example.com",
+            "password": "Test123",
+            "administrador": "true",
+            "_id": "3wxhDWiMwVMlRF5S"
+        },
+        {
+            "nome": "Test User",
+            "email": "test24349@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "4GqDBbx8aTu8OxT9"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022881adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "4TiafbP178NlpINP"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758016394@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "5HTpRWVwNEUdpdhp"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "normal_user@example.com",
+            "password": "user123",
+            "administrador": "false",
+            "_id": "5ZWRFoNstdLVQmVV"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758015593@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "5ckw9yeU33GZMY5V"
+        },
+        {
+            "nome": "Cypress Admin 1758025232327",
+            "email": "cypress_admin_1758025232327@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "5jZbcwnj2NXFBXCF"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014573@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "6BuLc1oXBvPodMnX"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758016318@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "6LHTQBtdH2XKnNuL"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758015674@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "6uNaUiSYwfHAckai"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758016230@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "71zZI1gamvFZFzvx"
+        },
+        {
+            "nome": "Admin",
+            "email": "adm1758023281@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "76H4t5hTGmgscQuZ"
+        },
+        {
+            "nome": "a",
+            "email": "admin80cca4ef-a2cd-47bb-aa08-732305532c9a@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "7eM3VPC1vuuLP6ZI"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "admin1758024146@example.com",
+            "password": "pwdadmin",
+            "administrador": "true",
+            "_id": "83T9ZFZV4QNYZkgP"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022955adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "8MJhi6eGFNkbJ6e6"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "admincart@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "8XxObW9dy461illB"
+        },
+        {
+            "nome": "Admin2",
+            "email": "admin2@example.com",
+            "password": "admin2pass",
+            "administrador": "true",
+            "_id": "8g43Xq9om5ctSMUj"
+        },
+        {
+            "nome": "Bethany",
+            "email": "bart.swift@hotmail.com",
+            "password": "yc7n1p6msgbn",
+            "administrador": "true",
+            "_id": "8n09cFNWkxmEV4Nu"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user_1758022090@example.com",
+            "password": "userPass",
+            "administrador": "false",
+            "_id": "8sApXynoWAilZNXO"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758015720@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "97vzV3ILC7rDAqpg"
+        },
+        {
+            "nome": "Cypress Admin 1758025213998",
+            "email": "cypress_admin_1758025213998@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "99shb8FBRKWVbpDV"
+        },
+        {
+            "nome": "AdminUser_2",
+            "email": "admin2_admin_user@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "9DuMF8G7hjhePzc2"
+        },
+        {
+            "nome": "a",
+            "email": "admine8178e55-757c-4080-be6f-fdd1daee66ac@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "9kXr1tMmaYX5L7bY"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014720@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "9yrQcVL0QVAXMdZA"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758015593@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "A8JUUOpersG6FJ9V"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758016393@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "ALmiC4wDhTk4Ne2P"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014581@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "AiA0xBIuFMIQ8z2F"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user_1758022121@example.com",
+            "password": "userPass",
+            "administrador": "false",
+            "_id": "AqLaA8feiso3Doxg"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022872adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "BbcFj8QWxaGHEWhJ"
+        },
+        {
+            "nome": "a",
+            "email": "admincee462bf-c148-41fe-a63c-3dc0bd4568ae@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "BqjEoG8ULa6qhHSt"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758023171adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "BvP5CQJKMyvHDRVx"
+        },
+        {
+            "nome": "a",
+            "email": "admin3e9dadd7-f7a2-4bd7-a1c6-d1dd7720cd60@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "D3KfrFwlIGHmwKt3"
+        },
+        {
+            "nome": "a",
+            "email": "adminc084c742-f5a0-498d-bdef-465152562d3a@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "DAMLWLiYx8eloGki"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014385@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "DTFNeW7TaVmKNHs1"
+        },
+        {
+            "nome": "Test User",
+            "email": "robotframework@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DpwmaELISg1Z8NWm"
+        },
+        {
+            "nome": "Cypress Admin 1758025235725",
+            "email": "cypress_admin_1758025235725@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EJfiU8e8fLbZ0gnx"
+        },
+        {
+            "nome": "a",
+            "email": "admindfbcc0ec-24aa-4c1c-bf4d-f81e5239efb8@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "EwlyeyGW031TXPVH"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022946adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "FJygRfffCDLi5vSu"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014623@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "FqCTrZfbPrWk3ygv"
+        },
+        {
+            "nome": "Miss Caroline Ritchie",
+            "email": "misscarolineritchie@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "G9iGIWFeHfZc45DP"
+        },
+        {
+            "nome": "Admin",
+            "email": "adm1758023268@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "GpGaBeGi54GM4OtM"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "admin1758016520@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "HNpRZ6NZlF8QgnLl"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022864adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "HTHWJJWVu9Q4NHh7"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014805@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "HeWzhgHZrZGsVhr0"
+        },
+        {
+            "nome": "a",
+            "email": "adminf8803ca8-cad7-4ad2-bf50-b948ad9c2c80@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "HiA6BawZWiqlYdPs"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014517@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "Htlb3U3bHraF1lRP"
+        },
+        {
+            "nome": "a",
+            "email": "admin2ba509d3-7409-43c4-9994-1c5c9bd0d33a@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "I6XQuKNfanf0Z7CK"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758016596@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "IBi0z2XFex5MHGme"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user1758016520@example.com",
+            "password": "UserPass123",
+            "administrador": "false",
+            "_id": "IGZDCvfneipSn6rj"
+        },
+        {
+            "nome": "admintest3",
+            "email": "admintest3@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IO6vVHA8oVrskRUH"
+        },
+        {
+            "nome": "a",
+            "email": "admin171e2aa5-04ca-40b8-887f-fb0a6b1d0fad@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "IsvgwwnLyM3ySnlG"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758016230@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "JLKrs8cewHfsEljH"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758015720@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "K32VUpr46Z68rOhO"
+        },
+        {
+            "nome": "admin",
+            "email": "admin967d21ab-5a17-4bd0-bcec-b3f88c36644f@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "KCPQQMX6e2XCfyNY"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758015674@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "KFjM2Phuq6ILrcuA"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014653@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "KHlg7zXbmO44Kgxq"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758015720@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "KJ1e8phZ9aPqjNrx"
+        },
+        {
+            "nome": "admin",
+            "email": "admined633fc2-8ffe-4996-af5d-2c5cd736b1e0@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "KLlFxiN4ifWprNkb"
+        },
+        {
+            "nome": "admin user",
+            "email": "adminuser123@example.com",
+            "password": "admin123",
+            "administrador": "true",
+            "_id": "KVmNZwn3zdotriGw"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "testadmin2@example.com",
+            "password": "adminpwd",
+            "administrador": "true",
+            "_id": "KZGeBSwKHHtjU662"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin@example.com",
+            "password": "cartpwd",
+            "administrador": "true",
+            "_id": "KvLSdhxdnHYqVlx0"
+        },
+        {
+            "nome": "admin",
+            "email": "admin_user40f80707-58dc-41c1-be90-d8459bbd23e6@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "LKmJJjW9WmcBLuWl"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022928adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "LXOv0Rw4IUn6lIA4"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758015673@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "LZZP1hpk3rhW5PM5"
+        },
+        {
+            "nome": "a",
+            "email": "adminbabffdc7-614f-4047-b2d5-6effd72e465f@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "LZbKPV1wA0MSoFBi"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014492@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "MHIv0He6PgYng5tD"
+        },
+        {
+            "nome": "admin",
+            "email": "admin84222f46-7e9a-41ac-927c-33c08d5428ed@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "MIvXFpfPVEmPoldo"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin@test.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "MmooR6WtroUAf9Ef"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022796adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "Mn6moBmhSYj3hv3t"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022909adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "MqrOaRI9HT9x10QW"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "admin1758016319@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "NVZWMLQRCBN6AIVP"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014274@example.com",
+            "password": "AdminPass",
+            "administrador": "true",
+            "_id": "Ns8Rd84qH7P0bplD"
+        },
+        {
+            "nome": "Admin",
+            "email": "a1758014307@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "OtITgSediijUTY0c"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user_1758022372@example.com",
+            "password": "userPass",
+            "administrador": "false",
+            "_id": "P3TejcSpokc2Ws5R"
+        },
+        {
+            "nome": "Ken Kutch",
+            "email": "angelinarath@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "PCjtNS7jWbopIU5P"
+        },
+        {
+            "nome": "a",
+            "email": "admin28f56371-2e5a-4596-a65e-abb0ca0c6af0@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "PcGNgiaIzSdS59tX"
+        },
+        {
+            "nome": "RegularUser",
+            "email": "testnonadmin@example.com",
+            "password": "regularpwd",
+            "administrador": "false",
+            "_id": "PkQ80R5WDOUPY70p"
+        },
+        {
+            "nome": "a",
+            "email": "admin59344188-6a06-4665-8ad2-e90ecf4f2e5e@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "PmGNV6S9yz5rwXSj"
+        },
+        {
+            "nome": "Cypress Admin 1758025210393",
+            "email": "cypress_admin_1758025210393@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Q5q2fQXf8PnLeZST"
+        },
+        {
+            "nome": "a",
+            "email": "admind8e7dec3-1244-4a69-a007-508b1d4676bc@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "QBI9rpByOBDJbnru"
+        },
+        {
+            "nome": "Cypress Admin 1758025209618",
+            "email": "cypress_admin_1758025209618@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "QJKUvCPMfoS2crgQ"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758016519@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "QfvRFDMVcYP0SvXE"
+        },
+        {
+            "nome": "admin",
+            "email": "admin2970f02b-6daa-4f6c-a684-d76f8df05ee9@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "QhcRe1PIBkBGkTYi"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014338@example.com",
+            "password": "AdminPass",
+            "administrador": "true",
+            "_id": "QtXPYE1ITWaKfWp9"
+        },
+        {
+            "nome": "Cypress Admin 1758025206906",
+            "email": "cypress_admin_1758025206906@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "RHO3sMiTD8QOVhyo"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758016596@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "RgQ7Q1ALAhljIH3E"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014732@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "S2OB5A6L2XMFsCvX"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "user1758024033@example.com",
+            "password": "pwdlogin",
+            "administrador": "false",
+            "_id": "SJ1IGDdttTuDEUO8"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "admin1758024033@example.com",
+            "password": "pwdadmin",
+            "administrador": "true",
+            "_id": "SKsJqZtkY8Tf4txv"
+        },
+        {
+            "nome": "Angelica Gutkowski",
+            "email": "angelicagutkowski@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "SUjb7TdSm0GxhoPW"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "admin_user@example.com",
+            "password": "admin123",
+            "administrador": "true",
+            "_id": "SZAGbwpwud0woOLz"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758016318@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "TNsHUtTbvO2N5GwT"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014868@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "TT9EAjUXsgyN33it"
+        },
+        {
+            "nome": "User",
+            "email": "nonadm1758023269@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "TegZODfcXRoQ7r15"
+        },
+        {
+            "nome": "temp",
+            "email": "temp${RANDOM}@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "U5KQQuacqJcaYKNY"
+        },
+        {
+            "nome": "CartUser",
+            "email": "cartuser@example.com",
+            "password": "cartpass",
+            "administrador": "false",
+            "_id": "UBNAdrgvq5rccDlL"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014860@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "UMvNHUdUWmQalO87"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022787adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "UrANfH6B7qcQvlFN"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014764@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "UvWWwuAKFjdnHeJF"
+        },
+        {
+            "nome": "NonAdmin",
+            "email": "nonadmin_1758019582@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "VCZeJ8QPYoNUiR0A"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758016318@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "W4940giTJPdkOja7"
+        },
+        {
+            "nome": "Test",
+            "email": "testnew354650c3@example.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "WQciCzmJ2YbIV510"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014466@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "WbdY9gqEHO5gSdDl"
+        },
+        {
+            "nome": "Cypress Admin 1758025213780",
+            "email": "cypress_admin_1758025213780@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Wu4PSf0emwwDGbks"
+        },
+        {
+            "nome": "nonadmin",
+            "email": "nonadmin@example.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "WyrF3EkOdBbWPizV"
+        },
+        {
+            "nome": "a",
+            "email": "adminf738e90c-a6bd-4d9a-a8f4-6a3e714d4229@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "X0XR838cFNRXBcfs"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login_user@example.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "XXlVYgIDRIvnUDYU"
+        },
+        {
+            "nome": "Cypress Admin 1758025239636",
+            "email": "cypress_admin_1758025239636@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "XzbQRwAaaHEJCORg"
+        },
+        {
+            "nome": "Mckenna.Shanahan",
+            "email": "Brisa_DuBuque99@gmail.com",
+            "password": "183141688",
+            "administrador": "true",
+            "_id": "Yfvc2xBuzc3zCBQd"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758019424@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "Yj9EmadXXWs4fkne"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014264@example.com",
+            "password": "AdminPass",
+            "administrador": "true",
+            "_id": "ZCPLXQ62rSQ7RVOH"
+        },
+        {
+            "nome": "a",
+            "email": "adminedb26416-7566-48e5-97e9-7a950a64b603@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "ZNMXIg9EtcQ0IDDV"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014545@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "ZnIBkSn2NyKVIvjW"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014742@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "ZtVz48ZwV1Lm8ws1"
+        },
+        {
+            "nome": "Cypress User 1758025220467",
+            "email": "Cypress_1758025220467@Cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "a9QdNEbcb1wlX05H"
+        },
+        {
+            "nome": "Frances",
+            "email": "carlo.gerlach@gmail.com",
+            "password": "l4ux4eby8u",
+            "administrador": "true",
+            "_id": "aFpX9fqKLcqxOWds"
+        },
+        {
+            "nome": "a",
+            "email": "adminf7cd4a61-681a-4655-b0a1-375fb65cca83@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "aKVlQByu4eLsQWgM"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758023161adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "aMpz1Yx3AUS6WJaG"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758015673@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "at1gEaEtv8qZFFLJ"
+        },
+        {
+            "nome": "a",
+            "email": "admincc3c5e57-049e-4754-8395-90dfaba25e7a@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "ayhjd37XjPpCC6mI"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "admin1758016396@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "bAr3sjyKsv8RKUPk"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014405@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "bP0syoTOzLV45RIr"
+        },
+        {
+            "nome": "a",
+            "email": "admin6c402a2c-4631-49b6-bcb6-f5f29bfef179@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "bfoN24BwuyEdpOIY"
+        },
+        {
+            "nome": "a",
+            "email": "admin8abca5f6-ab03-4640-aef6-e7a8cb8ff306@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "bmetDniEtpQSwwRj"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cart_admin@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "cnoIMAXx9oxNze9U"
+        },
+        {
+            "nome": "a",
+            "email": "adminc2254363-0c24-4015-946f-b39798edfd71@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "cotBPzPrvqNxZsm8"
+        },
+        {
+            "nome": "Test",
+            "email": "test8db18ae3-905c-4870-830e-2e201abacb74@mail.com",
+            "password": "test",
+            "administrador": "true",
+            "_id": "dC6IijCojvjpVEbZ"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758016597@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "dIEovLu3w8sOceZs"
+        },
+        {
+            "nome": "test",
+            "email": "admin974433c7-9730-415e-8789-a1eb4f285fbd@mail.com",
+            "password": "test",
+            "administrador": "true",
+            "_id": "dYyAZxNaAAApdbMT"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014438@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "dcjiokhbzulXno0u"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014824@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "dlrDg7UAOrZvocZV"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014559@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "fBUcieNBxf7liwUY"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758015594@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "fEGkw0TVKKpxV6ou"
+        },
+        {
+            "nome": "admin",
+            "email": "admin9b4db14a-7a89-476b-b164-b0dd780394e6@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "ft5Zc4rWIZeuCbQg"
+        },
+        {
+            "nome": "Admin Test User",
+            "email": "admin_test_user@example.com",
+            "password": "adminPass123",
+            "administrador": "true",
+            "_id": "gNdGvj5xmLEJvl8o"
+        },
+        {
+            "nome": "admin",
+            "email": "admind5ebf5ff-6446-4d19-a8af-6af502f16da6@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "gUtplmLcLUwjBNI6"
+        },
+        {
+            "nome": "admin",
+            "email": "admined74b21a-9e22-4998-bcb6-1a4f4a60259c@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "gaC4b2TCOmjEQWo1"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014685@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "gaiYO6dwEO1L6BuJ"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014536@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "h43H8ZlG0DxXRt9f"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "admin1758024219@example.com",
+            "password": "pwdadmin",
+            "administrador": "true",
+            "_id": "h7Q36NSVXd3tzWVX"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014786@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "hTWlKGs6nhWCDw7s"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758016519@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "hXI4dQJXcIiK95BI"
+        },
+        {
+            "nome": "admin",
+            "email": "adminf9dabfed-875a-4345-a88e-ce9f1e7e82f9@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "jvD2he6wDB5Ds0iQ"
+        },
+        {
+            "nome": "Cypress Admin 1758025210141",
+            "email": "cypress_admin_1758025210141@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jvdWpKnGfB97NE3m"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user1758016396@example.com",
+            "password": "UserPass123",
+            "administrador": "false",
+            "_id": "jvguxBiBfdiplLvs"
+        },
+        {
+            "nome": "admin",
+            "email": "admin4efc6e8b-a7a0-4f54-9c3d-1beabb87b873@mail.com",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "jw635LVCMTOgOekT"
+        },
+        {
+            "nome": "Johnnie Davis",
+            "email": "johnniedavis@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "kAYGqeJVaqjHobOq"
+        },
+        {
+            "nome": "User",
+            "email": "test1758023290login@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "kHmEXlFm4xazu5Dt"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758016229@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "kK7LiSoF5PIwGBjT"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014509@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "kcNRNWSBlIX1zDTT"
+        },
+        {
+            "nome": "Cypress Admin 1758025213522",
+            "email": "cypress_admin_1758025213522@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "l0KrZzOkTqgLU4Cc"
+        },
+        {
+            "nome": "Robert Ryan",
+            "email": "stacy35@example.com",
+            "password": "7gBv77&v)a",
+            "administrador": "true",
+            "_id": "lJD9CRCpTtpXr6AJ"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014301@example.com",
+            "password": "AdminPass",
+            "administrador": "true",
+            "_id": "mN9oJpzYW7CBABcH"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758016519@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "mlI7iwrlYD8xZVWj"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014665@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "mt8Vi1CVRQTManyc"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022840adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "nTzOcSXOCbS7zolR"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014457@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "ncdanRxhR90MxzLK"
+        },
+        {
+            "nome": "Loretta Bergnaum",
+            "email": "9eee44b3-bf38-4fb7-919a-43774beea3ac@uorak.com",
+            "password": "Teste@123",
+            "administrador": "true",
+            "_id": "njipuc2GL14z3Uqg"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022851adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "npEzraOWuZV1SH5s"
+        },
+        {
+            "nome": "Test User",
+            "email": "test${RANDOM}@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "nxJhdsOvlcl6MxmP"
+        },
+        {
+            "nome": "admintest",
+            "email": "admintest@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "o4LfiNZGtZfTraas"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014290@example.com",
+            "password": "AdminPass",
+            "administrador": "true",
+            "_id": "oZZS9D6r7QEIS0Xn"
+        },
+        {
+            "nome": "Wellington QA",
+            "email": "wellqa@qa.com",
+            "password": "teste2",
+            "administrador": "true",
+            "_id": "oc9wEIEUSdZeh4D4"
+        },
+        {
+            "nome": "a",
+            "email": "admind932a6f5-4313-4d01-a6fd-07a5c5b58f9c@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "osHQU6iIjb1SXVxG"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014674@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "pDPrPj2cPkwhxfmp"
+        },
+        {
+            "nome": "LoginFailUser",
+            "email": "loginfail1758016318@example.com",
+            "password": "CorrectPass",
+            "administrador": "false",
+            "_id": "pOjjFrIkG30BFd6D"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "admin@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "paD1UbLsiVSbMBr1"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022816adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "qLyu2l5iiRUgdxdV"
+        },
+        {
+            "nome": "Cypress Admin 1758025213251",
+            "email": "cypress_admin_1758025213251@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qaw7RY8g8bTTSCF6"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "cartadmin1758016518@example.com",
+            "password": "CartPass123",
+            "administrador": "true",
+            "_id": "qdmh6t1doe9amGxG"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "loginuser@example.com",
+            "password": "pass123",
+            "administrador": "false",
+            "_id": "rjxj1pQ3FYSaU6H2"
+        },
+        {
+            "nome": "AdminUser",
+            "email": "admin1758015721@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "rlz9FtQo0nOgcrhN"
+        },
+        {
+            "nome": "Dr. Sharon Schumm",
+            "email": "dr.sharonschumm@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "sM3ATRUDfCyh7HhB"
+        },
+        {
+            "nome": "Kate Marvin",
+            "email": "katemarvin@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "sbsx940j6Txd4gkn"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022805adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "sroDQshgqOB4hL8X"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user_1758022216@example.com",
+            "password": "userPass",
+            "administrador": "false",
+            "_id": "tEv9PArxDQESfI5S"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022938adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "tQzdx5HHOVIbjR45"
+        },
+        {
+            "nome": "Temp Admin",
+            "email": "test1758022889adm@example.com",
+            "password": "pwd",
+            "administrador": "true",
+            "_id": "tqZGvSRBduZr1dDZ"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014645@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "uO5gUkX3ueoBjYHc"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014694@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "ue1cc5LRGT8AmiJF"
+        },
+        {
+            "nome": "a",
+            "email": "adminb17f98c4-fb7c-4383-a30c-3b0591415791@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "v7febbrZlHG7EkBQ"
+        },
+        {
+            "nome": "CartAdmin",
+            "email": "admin1758024099@example.com",
+            "password": "pwdadmin",
+            "administrador": "true",
+            "_id": "v9DdjkotpX725Mh6"
+        },
+        {
+            "nome": "TestAdmin",
+            "email": "testadmin@example.com",
+            "password": "testpwd",
+            "administrador": "true",
+            "_id": "vFEbvRy4INlhvvg9"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014415@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "wGzFuWxoDG2KRPeC"
+        },
+        {
+            "nome": "test",
+            "email": "nonadmin2@example.com",
+            "password": "pwd",
+            "administrador": "false",
+            "_id": "wIsY6vno0NdJCZWH"
+        },
+        {
+            "nome": "Cypress Admin 1758025206128",
+            "email": "cypress_admin_1758025206128@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "x2LsNQK1spfOLHVl"
+        },
+        {
+            "nome": "Cypress Admin 1758025209894",
+            "email": "cypress_admin_1758025209894@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xWl3a9xWheEU8d4g"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758015594@example.com",
+            "password": "AdminPass123",
+            "administrador": "true",
+            "_id": "xu9Gs8uhLZrByNDb"
+        },
+        {
+            "nome": "NormalUser",
+            "email": "user_1758022237@example.com",
+            "password": "userPass",
+            "administrador": "false",
+            "_id": "xxTPWPQRoFUQCq65"
+        },
+        {
+            "nome": "NormalUser2",
+            "email": "normal_user2@example.com",
+            "password": "user123",
+            "administrador": "false",
+            "_id": "y1aQzor3HZR5Z585"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014320@example.com",
+            "password": "AdminPass",
+            "administrador": "true",
+            "_id": "yUGWHfmefLzFcQnI"
+        },
+        {
+            "nome": "a",
+            "email": "admine999aeec-1180-4e1e-9233-cc305cb92851@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "yY6eOxzjXL2WHmva"
+        },
+        {
+            "nome": "a",
+            "email": "adminb598168e-e827-48ea-a23a-ac0fdf17d6d9@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "z8UgxQQfGMCuQfxA"
+        },
+        {
+            "nome": "Admin",
+            "email": "admin1758014525@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "zHkO5RlskSdgrf0C"
+        },
+        {
+            "nome": "LoginUser",
+            "email": "login1758016229@example.com",
+            "password": "LoginPass123",
+            "administrador": "false",
+            "_id": "zRlk6nRi8RSedW4G"
+        },
+        {
+            "nome": "a",
+            "email": "admin350d2f5d-6693-484b-9017-10ab102b6ae4@mail.com",
+            "password": "a",
+            "administrador": "true",
+            "_id": "zSPo5flwjBH7cNNo"
+        }
+    ]
+}
