@@ -1,0 +1,151 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=f32fe744925b842a7d1b289207b080e9
+date=Thu, 18 Sep 2025 20:11:55 GMT
+server=Google Frontend
+Content-Length=4087
+Body: {
+    "quantidade": 19,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Random Number 4065",
+            "email": "Name.4065@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "1TcfHaJmqcztT2d1"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1758226121584@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "6Ulsocycw1clJ1Rt"
+        },
+        {
+            "nome": "Random Number 1359",
+            "email": "Name.1359@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "CEIcw2KT2KZvu4ZY"
+        },
+        {
+            "nome": "Random Number 6432",
+            "email": "Name.6432@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "H5XuKEmRju3Gxw7T"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1758223763724@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "KESUqUQKyqRjqTr7"
+        },
+        {
+            "nome": "Random Number 5264",
+            "email": "Name.5264@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "LSFSDU9UzPSmd39T"
+        },
+        {
+            "nome": "deborah",
+            "email": "deborah@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "LmjjrxXdD1CYmUwm"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste_1758224975376@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "Lx1bUOvs0B7a81eU"
+        },
+        {
+            "nome": "Random Number 3029",
+            "email": "Name.3029@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "YRVi26mDHbkeLguq"
+        },
+        {
+            "nome": "Random Number 1186",
+            "email": "Name.1186@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ZPmoMFnvXCG8uUm7"
+        },
+        {
+            "nome": "Random Number 3330",
+            "email": "Name.3330@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "bOz08R87Z3J3ekSF"
+        },
+        {
+            "nome": "Mario",
+            "email": "keren.ziemann@gmail.com",
+            "password": "3fcw4va2a",
+            "administrador": "true",
+            "_id": "cKD8K4Q6dW4kIXvC"
+        },
+        {
+            "nome": "Random Number 3366",
+            "email": "Name.3366@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "g4Wepi1eQ9smIn5p"
+        },
+        {
+            "nome": "Random Number 8216",
+            "email": "Name.8216@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "jJA11QyPb6PSj1FS"
+        },
+        {
+            "nome": "Emerson",
+            "email": "luis.dietrich@gmail.com",
+            "password": "54rd8rig4ohn4fs",
+            "administrador": "true",
+            "_id": "twcpYw0E8CL2ki0g"
+        },
+        {
+            "nome": "Random Number 1711",
+            "email": "Name.1711@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "u6eg7Pl7sPsXnenL"
+        },
+        {
+            "nome": "Random Number 209",
+            "email": "Name.209@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "yMQ9WBK5909KHCC1"
+        },
+        {
+            "nome": "fhdnd",
+            "email": "ghd@gmail.com",
+            "password": "jfghfhs",
+            "administrador": "true",
+            "_id": "yy2goj4o5nh4DvF0"
+        }
+    ]
+}
