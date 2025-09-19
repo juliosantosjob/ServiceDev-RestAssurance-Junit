@@ -1,0 +1,606 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=383cfd87e8b8d906bbd06c0f98f3d723
+date=Fri, 19 Sep 2025 20:11:27 GMT
+server=Google Frontend
+Content-Length=18574
+Body: {
+    "quantidade": 84,
+    "usuarios": [
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758303928737@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "0eFRKVMTqvMrEaGH"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758303629@example.com",
+            "password": "securepassword123",
+            "administrador": "true",
+            "_id": "1SiVSVgtJewkMozP"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste4@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "1sIW2nB3qiNSYHJa"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758304578184@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "2lBMTpAVJpoGRByT"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758305454017@example.com",
+            "password": "1",
+            "administrador": "false",
+            "_id": "32XMePIM0gahryny"
+        },
+        {
+            "nome": "Carlos Teste",
+            "email": "Lea_Spinka@hotmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "3ULxwRwp5LpquEnf"
+        },
+        {
+            "nome": "hdsfhdf",
+            "email": "fdhdfhsd@gmail.com",
+            "password": "123teste",
+            "administrador": "false",
+            "_id": "3nYFmEFGKk2haJBM"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758304578448@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "49XLQ2wDDb69dai8"
+        },
+        {
+            "nome": "Marcelo",
+            "email": "guido@qa.com.br",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "4PiSZ6cjqG09bn24"
+        },
+        {
+            "nome": "fdhdf",
+            "email": "gfhsf@gmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "4granD5ndRRV2SrO"
+        },
+        {
+            "nome": "Loca Shakira",
+            "email": "shakiojos@qa.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "6z5XmmUs3kidMGHj"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758303159989@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "761iepYD1dLzyUz7"
+        },
+        {
+            "nome": "Pantera Negra",
+            "email": "capitao@qa.com",
+            "password": "teste12345",
+            "administrador": "true",
+            "_id": "7RQiOTJXZVkG752i"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758301812435@example.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "7o4Do7mFesXQkxJQ"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758301812033@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "7s5M6ZeqYggj7ltl"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "Miguel.Leannon0@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "9LicrwnnugLdbWzC"
+        },
+        {
+            "nome": "Claudio M",
+            "email": "claudio@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "9Ny6YokumGs3IlQP"
+        },
+        {
+            "nome": "Carlos Teste",
+            "email": "Lora14@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "AJWJnkPDVqWieu3l"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758302449830@example.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "CKhjKicSh3VklkpR"
+        },
+        {
+            "nome": "Teste Novo para Automação",
+            "email": "teste12345@qa.com",
+            "password": "teste12345",
+            "administrador": "true",
+            "_id": "CW1gnTAgRGwWhO41"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758310579674@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "DCmZC7uHlwCksnF7"
+        },
+        {
+            "nome": "Mr. ",
+            "email": "Tara.Yundt@hotmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "F177TsAVhaM46TOL"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758305775890@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "FDrZIZxeGmN3VBL3"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758303092914@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "FsJir9ljtwb8wl7v"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758308203942@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "HSo3DHshZJXumtAu"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758305127802@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "HT0OkZXlnEgoKRLG"
+        },
+        {
+            "password": "teste123",
+            "administrador": "true",
+            "nome": "QA Teste Criado",
+            "email": "qa.teste.1758301668137@test.com",
+            "_id": "ImsGpiiFrlbfJK7A"
+        },
+        {
+            "nome": "Test User",
+            "email": "test_user@example.com",
+            "password": "test_password",
+            "administrador": "true",
+            "_id": "JdPBOscoth95omEo"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758303160235@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "JdbuEohv9jjY0V2O"
+        },
+        {
+            "nome": "Mrs. ",
+            "email": "Janessa.Schulist@hotmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JwKi1qwJOBoZqNAQ"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758305453918@example.com",
+            "password": "1",
+            "administrador": "false",
+            "_id": "KEUwPcxvQM8yZbKK"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758303928536@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "KK1qSe7PcjcFWngU"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758303666515@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "NjSS5MCUBKevhpwP"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758303160472@example.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "OAFCYaWj4BzNf6iN"
+        },
+        {
+            "nome": "Carlos Teste",
+            "email": "Rupert.McLaughlin17@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "PASM8Mjv5DUagnDV"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758304578966@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "QP6e79j3nC6r14Cq"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste3@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "R4lVfCiZmVWhh7aD"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758305453817@example.com",
+            "password": "1",
+            "administrador": "false",
+            "_id": "RGvhJ8z8N8hz2VPf"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758305453717@example.com",
+            "password": "1",
+            "administrador": "false",
+            "_id": "SWjv7UyMGWuXqM0I"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758303928646@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "SbJ6HwUeBEZfAY8H"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758311441392@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "TbET7yb3O7FNomPY"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758304100217@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "VuPbKlUYxtlaIjpp"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758302777@example.com",
+            "password": "securepassword123",
+            "administrador": "true",
+            "_id": "WbV7vpfduKvo1CFR"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandro@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "WbtODegE2Yt8FOtU"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758305453515@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "XDU4ZocHqKczLIIp"
+        },
+        {
+            "nome": "New User",
+            "email": "newuser1758302631365@test.com",
+            "password": "P@ssw0rd",
+            "administrador": "true",
+            "_id": "Xc8FlVDq20Wks6iD"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "YgF4JbvKQQmqEjvB"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758304578770@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "YjesWpDGWbI3XR8o"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste9@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ZXkeXvGd2EQJWphH"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758305875930@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "cyW5xnkEexwBmVxA"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758302449460@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "dxpsW4W8bnDfWZ1d"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste0@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "eKD8zQL3TBx50Dzo"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandro@gmail.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "eLdG9ZsyyqlEyBe4"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "erYraydokqebVcN7"
+        },
+        {
+            "nome": "Cypress Admin",
+            "email": "cypress_test_admin@example.com",
+            "password": "Teste@123",
+            "administrador": "true",
+            "_id": "fMW29ZAeINYkpAge"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758303928307@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "fYlDqO6LMPfIBCdQ"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758304633980@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "gmfB5iCNU3G7acGj"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758301813019@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "h7LYJeQ7UUiABk4b"
+        },
+        {
+            "nome": "Emmie",
+            "email": "jacinda.maggio@hotmail.com",
+            "password": "ncktumnzct",
+            "administrador": "true",
+            "_id": "ino4LIzXzZItd0aa"
+        },
+        {
+            "nome": "Test User",
+            "email": "test.user@example.com",
+            "password": "Test@123",
+            "administrador": "true",
+            "_id": "jVN5GLkDvLP7Lq1U"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758304579188@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "jrDIEuMJU6JNrCaA"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758303928065@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "kDIqrR29WvLnVi4I"
+        },
+        {
+            "nome": "Miss ",
+            "email": "Norwood.Bauch67@gmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "knhhsytzNSnp7Eo6"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758309702681@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "l7QCVPOjPmL9sixe"
+        },
+        {
+            "nome": "New User",
+            "email": "newuser1758303405381@test.com",
+            "password": "P@ssw0rd",
+            "administrador": "true",
+            "_id": "llZrIMRw655uwake"
+        },
+        {
+            "nome": "Test User False",
+            "email": "testuser_false_1758306972755_6@example.com",
+            "password": "securePassword123",
+            "administrador": "false",
+            "_id": "opLCrufOGKsCmW6G"
+        },
+        {
+            "nome": "Mayara",
+            "email": "qatest@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "oxZLTkV4b7pdL7rV"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758305876176@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "pqmphI7H29FQ3SgM"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste6@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "qfupWfhdS0kNgB4j"
+        },
+        {
+            "nome": "I ",
+            "email": "Emilio.Medhurst26@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "rC1lvGTVHtv2SPcd"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758308687692@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "rHZPDDElaZKY4A52"
+        },
+        {
+            "nome": "Duplicate User",
+            "email": "duplicate_1758306971822_1@example.com",
+            "password": "password123",
+            "administrador": "true",
+            "_id": "rvuRBMCxhLoIHxdP"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste5@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tOnDY8ZcPJn64QoO"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758306971575_0@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "ugrz31g4jOnsf7Zb"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758309218187@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "up6gSxtx3oq123P1"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "Felicity2@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "v96r5t8If6rykeBT"
+        },
+        {
+            "nome": "Teste Sem Carrinho",
+            "email": "semcarrinho_1758302456972@qa.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "vcyGQT3BkO5iTQUv"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758305453246@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "wfeVfE1unmwFkIuz"
+        },
+        {
+            "nome": "Carlos ",
+            "email": "teste@uorak.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "wjiQ4BRwc7XPJ0XP"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1758307812069@example.com",
+            "password": "securepassword",
+            "administrador": "true",
+            "_id": "y09Yo0mR9v5F3BFO"
+        },
+        {
+            "nome": "Weak Password User",
+            "email": "weakpass_1758304579072@example.com",
+            "password": "12345",
+            "administrador": "false",
+            "_id": "zC8khhpIzijEKW1g"
+        },
+        {
+            "nome": "Test User",
+            "email": "testuser_1758302448988@example.com",
+            "password": "securePassword123",
+            "administrador": "true",
+            "_id": "zPyym62wSyQKYDou"
+        },
+        {
+            "nome": "Preston",
+            "email": "frances.wyman@gmail.com",
+            "password": "igp1q7v59c47z",
+            "administrador": "true",
+            "_id": "zaDU9vS8FKAhFGlw"
+        }
+    ]
+}
