@@ -1,0 +1,137 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=d00abb2cfc8d52a841babef4211f26e8
+date=Mon, 22 Sep 2025 12:21:09 GMT
+server=Google Frontend
+Content-Length=3863
+Body: {
+    "quantidade": 17,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Cypress Admin 1758543665958",
+            "email": "cypress_admin_1758543665958@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4B9YglI5n46AH0Lu"
+        },
+        {
+            "nome": "Cypress Admin 1758543669692",
+            "email": "cypress_admin_1758543669692@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BK5ReAKe1ES6DFec"
+        },
+        {
+            "nome": "Elvira Abshire",
+            "email": "elviraabshire@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "KFgrktarBDktqkGl"
+        },
+        {
+            "nome": "Cypress Admin 1758543669415",
+            "email": "cypress_admin_1758543669415@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Ltq05gOm4Dc13OwQ"
+        },
+        {
+            "nome": "Cypress Admin 1758543666235",
+            "email": "cypress_admin_1758543666235@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "MGa9KiT5ZDe18LGF"
+        },
+        {
+            "nome": "Patricia Heathcote",
+            "email": "jodyratke@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "MGyzEJUU8jQKNvV6"
+        },
+        {
+            "nome": "Cypress Admin 1758543665511",
+            "email": "cypress_admin_1758543665511@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "MsyeyiQGLd2cNsQm"
+        },
+        {
+            "nome": "Cypress Admin 1758543669105",
+            "email": "cypress_admin_1758543669105@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "MzP5QKY4Ls67EM9A"
+        },
+        {
+            "nome": "Al Legros",
+            "email": "allegros@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "TikvNdE1IYVOmatE"
+        },
+        {
+            "nome": "Trey",
+            "email": "sanford.langosh@hotmail.com",
+            "password": "mt7dct0h",
+            "administrador": "true",
+            "_id": "XjpxpmeOChjhyOhQ"
+        },
+        {
+            "nome": "Mr. Martha McKenzie",
+            "email": "mr.marthamckenzie@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "hHz3pxahmkKfXoAO"
+        },
+        {
+            "nome": "Candice Upton",
+            "email": "candiceupton@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "kIqnrmYOjZBX12dM"
+        },
+        {
+            "nome": "Tyrone Ledner",
+            "email": "tyroneledner@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "raCEu8SRUANLo32A"
+        },
+        {
+            "nome": "Lindsey",
+            "email": "kyle.oberbrunner@hotmail.com",
+            "password": "icse1n5lz",
+            "administrador": "true",
+            "_id": "w3WWs3cK4alEgIoK"
+        },
+        {
+            "nome": "Molly Johns",
+            "email": "mollyjohns@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ykqyutCvA3EMMUqf"
+        },
+        {
+            "nome": "Big Silva",
+            "email": "big@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "zlvbFmm0tkOfQQgs"
+        }
+    ]
+}
