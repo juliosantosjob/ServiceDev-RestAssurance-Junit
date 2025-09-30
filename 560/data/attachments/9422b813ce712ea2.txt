@@ -1,0 +1,340 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=648cc520598213b76e0a8b51eca55a91
+date=Tue, 30 Sep 2025 12:21:43 GMT
+server=Google Frontend
+Content-Length=10607
+Body: {
+    "quantidade": 46,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Oscar Pagac",
+            "email": "oscarpagac@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "1AC3cjoakPNdDrpL"
+        },
+        {
+            "nome": "Noah Dietrich",
+            "email": "Nathen.Auer56@hotmail.com",
+            "password": "X8WX4beKsegrYNy",
+            "administrador": "false",
+            "_id": "3zt1RvUHhQYXuV1o"
+        },
+        {
+            "nome": "Cypress Admin 1759234841410",
+            "email": "cypress_admin_1759234841410@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4HePUASHdJrgS7Rn"
+        },
+        {
+            "nome": "Wesley Abbott",
+            "email": "Minerva.Wiegand32@hotmail.com",
+            "password": "IsUUX2oNir3ZNOh",
+            "administrador": "false",
+            "_id": "5ByaDjnPUqeeUD0x"
+        },
+        {
+            "nome": "Arlie",
+            "email": "melissia.pagac@hotmail.com",
+            "password": "20f4mn8lxlf2",
+            "administrador": "true",
+            "_id": "5IUnLDTlcxEfEJL0"
+        },
+        {
+            "nome": "Cypress Admin 1759234876327",
+            "email": "cypress_admin_1759234876327@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "76Pa04SSEp9aWr3x"
+        },
+        {
+            "nome": "Ada35",
+            "email": "Marcelino.Murray@hotmail.com",
+            "password": "320156789",
+            "administrador": "true",
+            "_id": "7byMAiJYwtXAFQKy"
+        },
+        {
+            "nome": "Horace Crona",
+            "email": "murieljohnston@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Ajn0bbjD0p5vRcaa"
+        },
+        {
+            "nome": "Cypress Admin 1759234848767",
+            "email": "cypress_admin_1759234848767@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Amf4RojI4GYgmimi"
+        },
+        {
+            "nome": "Cypress User",
+            "email": "Cypress_1759234874672@Cypress.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "CMl3Xb2YbCTAjlLy"
+        },
+        {
+            "nome": "Leona Kertzmann",
+            "email": "Evalyn47@gmail.com",
+            "password": "xeeoOAW0RlOLFAS",
+            "administrador": "true",
+            "_id": "CTsCXyEnclotEupa"
+        },
+        {
+            "nome": "Cypress User 1759234854913",
+            "email": "Cypress_1759234854913@Cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CmAmZ8iB9cUnxW6X"
+        },
+        {
+            "nome": "Miss Charlene Schuster",
+            "email": "misscharleneschuster@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "EoPCFNwe5jqHdGXu"
+        },
+        {
+            "nome": "Cypress Admin 1759234845002",
+            "email": "cypress_admin_1759234845002@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EyCJylQi86aYTXmo"
+        },
+        {
+            "nome": "Naomi Runolfsdottir",
+            "email": "Kendra_Aufderhar@hotmail.com",
+            "password": "p9JogGI9PZn08qg",
+            "administrador": "false",
+            "_id": "Hs40Ubz7ChKj6x0r"
+        },
+        {
+            "nome": "Savanah_Ritchie",
+            "email": "Felix81@yahoo.com",
+            "password": "641632396",
+            "administrador": "true",
+            "_id": "JedmsaVT6AQQqpFu"
+        },
+        {
+            "nome": "Cypress Admin 1759234844449",
+            "email": "cypress_admin_1759234844449@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JwYRhsozry6ELFMW"
+        },
+        {
+            "nome": "Timmy Senger",
+            "email": "timmysenger@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "MgC1m3pSRo66CLxt"
+        },
+        {
+            "nome": "Reginald Thiel PhD",
+            "email": "Matt8@gmail.com",
+            "password": "2yhCWfYBYFQoQlN",
+            "administrador": "false",
+            "_id": "NO6x8gu0xOruzNwI"
+        },
+        {
+            "nome": "Ms. Ramona Quigley",
+            "email": "Judah73@hotmail.com",
+            "password": "MTBXe2QuOUdq4kA",
+            "administrador": "false",
+            "_id": "OJL2RJVDtS25XIji"
+        },
+        {
+            "nome": "Emma Dicki",
+            "email": "London_Veum15@gmail.com",
+            "password": "2sVjTwq7sOl7hFn",
+            "administrador": "true",
+            "_id": "OZLHagkWygcMtc4X"
+        },
+        {
+            "nome": "Cypress Admin 1759234847946",
+            "email": "cypress_admin_1759234847946@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Q9b0A2Qf63FyANLr"
+        },
+        {
+            "nome": "Ada Hintz",
+            "email": "Brayan.Kilback@yahoo.com",
+            "password": "B7gIu8IkBUqCAwC",
+            "administrador": "false",
+            "_id": "QoWLezulVPLvYrfa"
+        },
+        {
+            "nome": "Benton64",
+            "email": "Donnell.Glover@hotmail.com",
+            "password": "689386226",
+            "administrador": "true",
+            "_id": "RdrviodpheQ1aswC"
+        },
+        {
+            "nome": "Jeremy_Cartwright",
+            "email": "Taurean.Kuvalis@yahoo.com",
+            "password": "674745066",
+            "administrador": "true",
+            "_id": "Rsd3lUbv5c2i6WVI"
+        },
+        {
+            "nome": "Jana Jacobs",
+            "email": "Kianna_Towne32@yahoo.com",
+            "password": "ooP6tQxUTLneqQw",
+            "administrador": "false",
+            "_id": "SJCYAhNNbOtdFFTk"
+        },
+        {
+            "nome": "Kent Leuschke",
+            "email": "kentleuschke@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Tb95Vr5g1ixHXXAm"
+        },
+        {
+            "nome": "Nadine Bechtelar",
+            "email": "nadinebechtelar@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "UQIrDtICtSbr1fgJ"
+        },
+        {
+            "nome": "Cypress Admin 1759234873312",
+            "email": "cypress_admin_1759234873312@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "WDcitk5bfbLvT8rb"
+        },
+        {
+            "nome": "Cypress Admin 1759234844740",
+            "email": "cypress_admin_1759234844740@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "XqOpZRvBqscp9bpn"
+        },
+        {
+            "nome": "Reginald Dickinson DDS",
+            "email": "Amelie8@hotmail.com",
+            "password": "B6WNS3x7K2jpQ3g",
+            "administrador": "true",
+            "_id": "YPlxbV1Y7Od9TtpN"
+        },
+        {
+            "nome": "Carmelita",
+            "email": "leroy.kris@gmail.com",
+            "password": "my0who95",
+            "administrador": "true",
+            "_id": "YRV2uN5wPnXyeHs9"
+        },
+        {
+            "nome": "Miss David Adams",
+            "email": "missdavidadams@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "ZhWAo0Sb7CxQPvOz"
+        },
+        {
+            "nome": "Cypress Admin 1759234840876",
+            "email": "cypress_admin_1759234840876@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "a6cfExfMkNkZdIjg"
+        },
+        {
+            "nome": "Mr. Alton Bergstrom",
+            "email": "Federico10@yahoo.com",
+            "password": "qGButrQ8PyN13b5",
+            "administrador": "true",
+            "_id": "dH7aWDMYksNM5bzS"
+        },
+        {
+            "nome": "Cypress Admin 1759234866210",
+            "email": "cypress_admin_1759234866210@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "h6VQIsVw3jp3sZ3G"
+        },
+        {
+            "nome": "Cypress Admin 1759234845275",
+            "email": "cypress_admin_1759234845275@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "hV7fOELaTLHJKsfp"
+        },
+        {
+            "nome": "Elaine Lynch",
+            "email": "Brayan_DuBuque56@hotmail.com",
+            "password": "71CcuxY0EwkDB6D",
+            "administrador": "false",
+            "_id": "iTsYAuUiYV1X3x4w"
+        },
+        {
+            "nome": "Cypress Admin 1759234848506",
+            "email": "cypress_admin_1759234848506@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ijJx69tlWwAq5FeA"
+        },
+        {
+            "nome": "Robyn Borer-Bode",
+            "email": "Pablo83@yahoo.com",
+            "password": "RFNh94OY16RSpm6",
+            "administrador": "true",
+            "_id": "kcWenw0UiCYreGtd"
+        },
+        {
+            "nome": "Beatrice Hills",
+            "email": "Cynthia_Jacobs33@hotmail.com",
+            "password": "EeZzgmKYdDSNSaP",
+            "administrador": "true",
+            "_id": "nunuXOCuwJqnwfkK"
+        },
+        {
+            "nome": "Cypress Admin 1759234848243",
+            "email": "cypress_admin_1759234848243@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uMEscgDkXgBeV31x"
+        },
+        {
+            "nome": "Cypress Admin 1759234869251",
+            "email": "cypress_admin_1759234869251@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "wHDch9KRoHOrQ83N"
+        },
+        {
+            "nome": "Cypress Admin 1759234841678",
+            "email": "cypress_admin_1759234841678@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "y6gcvyrG5NuyrUg0"
+        },
+        {
+            "nome": "Tammy Rau",
+            "email": "Clifford_Blick92@yahoo.com",
+            "password": "ZLZJudOYH0mPJHH",
+            "administrador": "false",
+            "_id": "zOi8vmDLyHlVjNKJ"
+        }
+    ]
+}
