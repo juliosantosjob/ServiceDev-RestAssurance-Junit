@@ -1,0 +1,655 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=a2dae19cc5ccbc69cc6fb595f64e1f44
+date=Fri, 24 Oct 2025 12:21:57 GMT
+server=Google Frontend
+Content-Length=20886
+Body: {
+    "quantidade": 91,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Admin QA 1761293528",
+            "email": "admin.qa.1761293528@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "14iIIjtPNboyke4L"
+        },
+        {
+            "nome": "Outro Usuário",
+            "email": "duplicate_1761297448208@example.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "1Y803m9chIvdbily"
+        },
+        {
+            "nome": "Riozera",
+            "email": "riotest@serverest.com",
+            "password": "rio123",
+            "administrador": "true",
+            "_id": "20peBOHWzOCCP2Kx"
+        },
+        {
+            "nome": "Jessyca",
+            "email": "a@abc.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "25IExcXXEADUGwex"
+        },
+        {
+            "nome": "Admin QA 1761298931",
+            "email": "admin.qa.1761298931@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2WoaYwSfBDvB28KP"
+        },
+        {
+            "nome": "Admin QA 1761299634",
+            "email": "admin.qa.1761299634@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3GxMiA59q2mbDbfl"
+        },
+        {
+            "nome": "Melba Wyman",
+            "email": "melbawyman@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "4cGx2IIKVUcVhAof"
+        },
+        {
+            "nome": "Admin QA 1761301225",
+            "email": "admin.qa.1761301225@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "6Wgg2aNeXof6TTSJ"
+        },
+        {
+            "nome": "Cypress Admin 1761308476356",
+            "email": "cypress_admin_1761308476356@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "6ZSSY0ctpAnZwrSn"
+        },
+        {
+            "nome": "Admin QA 1761294240",
+            "email": "admin.qa.1761294240@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7ZkzjDXUCz1tLl7J"
+        },
+        {
+            "nome": "Admin QA 1761299185",
+            "email": "admin.qa.1761299185@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7epfFGEFmYFmsOg6"
+        },
+        {
+            "nome": "CRUD Test 1761297448664",
+            "email": "crud_1761297448664@example.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "8in1OIWrsBecQytq"
+        },
+        {
+            "nome": "Admin QA 1761302080",
+            "email": "admin.qa.1761302080@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "8onp6MWZs6EtmrpJ"
+        },
+        {
+            "nome": "Jéssyca",
+            "email": "a@ab.com.br",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "9MWqQZmtJKthNTZz"
+        },
+        {
+            "nome": "Admin QA 1761292785",
+            "email": "admin.qa.1761292785@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AIWojdqbOkxffWvs"
+        },
+        {
+            "nome": "Cypress Admin 1761308498536",
+            "email": "cypress_admin_1761308498536@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AIgPyzeHB5CkNUo4"
+        },
+        {
+            "nome": "Admin QA 1761293523",
+            "email": "admin.qa.1761293523@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AftGvTXkeSzSbR68"
+        },
+        {
+            "nome": "Admin QA 1761294390",
+            "email": "admin.qa.1761294390@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BKe0gwlketlLnDTa"
+        },
+        {
+            "nome": "Conrad Crona",
+            "email": "conradcrona@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Cw13UDcwrvxTNbv4"
+        },
+        {
+            "nome": "Admin QA 1761299632",
+            "email": "admin.qa.1761299632@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DTC1qqoKGW36Lbrk"
+        },
+        {
+            "nome": "Admin QA 1761301221",
+            "email": "admin.qa.1761301221@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DnM0cfVa9J25ukK1"
+        },
+        {
+            "nome": "Admin QA 1761301342",
+            "email": "admin.qa.1761301342@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EM2TwSCaGFMQzucm"
+        },
+        {
+            "nome": "Admin QA 1761302287",
+            "email": "admin.qa.1761302287@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EYlRJX4i69wf9xPU"
+        },
+        {
+            "nome": "Admin QA 1761295079",
+            "email": "admin.qa.1761295079@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FpgSIxkI3GDlXF9u"
+        },
+        {
+            "nome": "Cypress User 1761308483472",
+            "email": "Cypress_1761308483472@Cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GQEJnepSOMcgRSkt"
+        },
+        {
+            "nome": "Cypress Admin 1761308469910",
+            "email": "cypress_admin_1761308469910@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GqsEjAUAu4eNX0XL"
+        },
+        {
+            "nome": "Cypress Admin 1761308506149",
+            "email": "cypress_admin_1761308506149@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "H7piv5izcSBbitil"
+        },
+        {
+            "nome": "Admin QA 1761295109",
+            "email": "admin.qa.1761295109@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "HOXLLuWvyYSIP0j0"
+        },
+        {
+            "nome": "Admin QA 1761301222",
+            "email": "admin.qa.1761301222@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ILk1ZX5mYRNFG9c8"
+        },
+        {
+            "nome": "Admin QA 1761302068",
+            "email": "admin.qa.1761302068@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IYBSyinQgrfeiJjI"
+        },
+        {
+            "nome": "Cypress Admin 1761308476616",
+            "email": "cypress_admin_1761308476616@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JHWPQdiEmILK7yRZ"
+        },
+        {
+            "nome": "Cypress Admin 1761308473586",
+            "email": "cypress_admin_1761308473586@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JOlVx4J2PvZxjYyH"
+        },
+        {
+            "nome": "Admin QA 1761301168",
+            "email": "admin.qa.1761301168@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KVPX3WRWoUB490uy"
+        },
+        {
+            "nome": "Admin QA 1761293534",
+            "email": "admin.qa.1761293534@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LbcRCswROuwl8BUx"
+        },
+        {
+            "nome": "Jessyca",
+            "email": "a@a.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "MBvG0Nrhl4Bo9czW"
+        },
+        {
+            "nome": "Abbey",
+            "email": "constance.veum@hotmail.com",
+            "password": "9kq1ipt2u",
+            "administrador": "true",
+            "_id": "MMy9OLU0V45TdGT6"
+        },
+        {
+            "nome": "Marcelo QA Updated 1761301223",
+            "email": "marcelo.qa.updated.1761301223@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "McoDV9j8Z75SQssz"
+        },
+        {
+            "nome": "Admin QA 1761301336",
+            "email": "admin.qa.1761301336@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "NK1pJfhDbpxYvCBW"
+        },
+        {
+            "nome": "Rosa Schowalter",
+            "email": "rosaschowalter@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "NKnc5stt5vJTtIWL"
+        },
+        {
+            "nome": "Cypress Admin 1761308495006",
+            "email": "cypress_admin_1761308495006@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "NNZ4Ow4dB7VSepmj"
+        },
+        {
+            "nome": "Admin QA 1761293276",
+            "email": "admin.qa.1761293276@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "NoKEsZASBgt2WYWE"
+        },
+        {
+            "nome": "Admin QA 1761294384",
+            "email": "admin.qa.1761294384@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Q1GSVijh9493sTy1"
+        },
+        {
+            "nome": "Cypress Admin 1761308472905",
+            "email": "cypress_admin_1761308472905@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "S8LkcHJDeqUPMmj5"
+        },
+        {
+            "nome": "Admin QA 1761299186",
+            "email": "admin.qa.1761299186@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "SJBUzZSOAWnrXW8D"
+        },
+        {
+            "nome": "Admin QA 1761301170",
+            "email": "admin.qa.1761301170@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TRTiRcXjf2NzVwoE"
+        },
+        {
+            "nome": "Admin QA 1761298366",
+            "email": "admin.qa.1761298366@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UTb7gszc1lajcwLm"
+        },
+        {
+            "nome": "Cypress Admin 1761308502822",
+            "email": "cypress_admin_1761308502822@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "V72FK9X2cxDyr5Rh"
+        },
+        {
+            "nome": "Admin QA 1761298720",
+            "email": "admin.qa.1761298720@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VnBEXIkvvVI2DJl7"
+        },
+        {
+            "nome": "Admin QA 1761298373",
+            "email": "admin.qa.1761298373@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VubTqWeY8V8GQ07m"
+        },
+        {
+            "nome": "Cypress Admin 1761308473146",
+            "email": "cypress_admin_1761308473146@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X5DgbvgtLbmWAb1O"
+        },
+        {
+            "nome": "Cypress Admin 1761308476865",
+            "email": "cypress_admin_1761308476865@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Y3VxoWdkOfHJCbrB"
+        },
+        {
+            "nome": "Admin QA 1761299972",
+            "email": "admin.qa.1761299972@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ZPn8HWTyJKWRPeMk"
+        },
+        {
+            "nome": "Admin QA 1761292236",
+            "email": "admin.qa.1761292236@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bdWBKuDMhfywUciT"
+        },
+        {
+            "nome": "Isabel Jacobi",
+            "email": "isabeljacobi@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "cgQjD9GzDgOhFsEK"
+        },
+        {
+            "nome": "Admin QA 1761297985",
+            "email": "admin.qa.1761297985@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "coqSpSBlfOgivNEV"
+        },
+        {
+            "nome": "Admin QA 1761293834",
+            "email": "admin.qa.1761293834@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "cxssK8FwcxNkaHXd"
+        },
+        {
+            "nome": "Admin QA 1761298723",
+            "email": "admin.qa.1761298723@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "d6Iaqj8W36y411DH"
+        },
+        {
+            "nome": "Cypress Admin 1761308477081",
+            "email": "cypress_admin_1761308477081@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dbqfrqkmSTTPCi1r"
+        },
+        {
+            "nome": "Admin 1761297447325",
+            "email": "admin_1761297447325@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "e1moSUz5XOIDVpry"
+        },
+        {
+            "nome": "Admin QA 1761292242",
+            "email": "admin.qa.1761292242@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "eCrPfaZRjASK3e1f"
+        },
+        {
+            "nome": "Admin QA 1761294246",
+            "email": "admin.qa.1761294246@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "eDi8Typ2Bs2mLZ3j"
+        },
+        {
+            "nome": "Marcelo QA Updated 1761292246",
+            "email": "marcelo.qa.updated.1761292246@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ebIyjypjNdltQ0pv"
+        },
+        {
+            "nome": "Admin QA 1761294266",
+            "email": "admin.qa.1761294266@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fyxzkTErBSb90vCB"
+        },
+        {
+            "nome": "Admin QA 1761292247",
+            "email": "admin.qa.1761292247@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iaL3XfMJIqib4e9h"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "test_1761297446717@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "is7YVF71jRM1za5E"
+        },
+        {
+            "nome": "Novo Usuário",
+            "email": "new_user_1761297448324@example.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "koD2GelrhDo7TDKf"
+        },
+        {
+            "nome": "Admin QA 1761294245",
+            "email": "admin.qa.1761294245@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "l5zSs6nJDxNq2pys"
+        },
+        {
+            "nome": "Admin QA 1761297423",
+            "email": "admin.qa.1761297423@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "m0nZEJTHzU9Ab1X0"
+        },
+        {
+            "nome": "Cypress Admin 1761308469455",
+            "email": "cypress_admin_1761308469455@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mETA1Z46teG4aoQS"
+        },
+        {
+            "nome": "Admin QA 1761292237",
+            "email": "admin.qa.1761292237@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mxEZzGQb3FYl6eWX"
+        },
+        {
+            "nome": "Admin QA 1761298937",
+            "email": "admin.qa.1761298937@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "nLDvSOHsPvWiQCKT"
+        },
+        {
+            "nome": "Admin QA 1761292777",
+            "email": "admin.qa.1761292777@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "olCCLPVyuTwD77KA"
+        },
+        {
+            "nome": "Cristina Conroy",
+            "email": "cristinaconroy@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "p27nqWy17vNXp3NR"
+        },
+        {
+            "nome": "Wava",
+            "email": "theron.mohr@hotmail.com",
+            "password": "0opumlwbpya",
+            "administrador": "true",
+            "_id": "p3SZ5LuAsr3PzvLT"
+        },
+        {
+            "nome": "Admin QA 1761299968",
+            "email": "admin.qa.1761299968@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "prz0wqLUXzM4h3ZT"
+        },
+        {
+            "nome": "Dr. Grace Ziemann",
+            "email": "dr.graceziemann@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "q1ehObFMsCvGJIMr"
+        },
+        {
+            "nome": "Ms. Aaron Armstrong",
+            "email": "tedbailey@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "r1qWkeU1x1Cwe82q"
+        },
+        {
+            "nome": "Admin QA 1761301223",
+            "email": "admin.qa.1761301223@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rBDpCrvN6Ok5kaHa"
+        },
+        {
+            "nome": "Admin QA 1761292857",
+            "email": "admin.qa.1761292857@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rMOv5Wvk4rDpydho"
+        },
+        {
+            "nome": "Cypress User",
+            "email": "Cypress_1761308504277@Cypress.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "sFvmFPji9yHSPyOQ"
+        },
+        {
+            "nome": "Admin QA 1761294391",
+            "email": "admin.qa.1761294391@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ts9dQxVRCGCBFCgZ"
+        },
+        {
+            "nome": "Admin QA 1761294387",
+            "email": "admin.qa.1761294387@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "u9umC6OHJBt4QHFg"
+        },
+        {
+            "nome": "Duplicado QA",
+            "email": "admin.qa.1761289133@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uRAVnake8hCVsW2l"
+        },
+        {
+            "nome": "Admin QA 1761293635",
+            "email": "admin.qa.1761293635@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ugiX2DxROeaJPzKS"
+        },
+        {
+            "nome": "Admin QA 1761297987",
+            "email": "admin.qa.1761297987@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vLPGMaAPkpoLijKO"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "vR4aJOSykD91ogzA"
+        },
+        {
+            "nome": "Cypress Admin 1761308470144",
+            "email": "cypress_admin_1761308470144@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vyOaFawfuad5kBQk"
+        },
+        {
+            "nome": "Duplicado QA",
+            "email": "admin.qa.1761289133@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xL3MEfMp38dqyeZS"
+        },
+        {
+            "nome": "Admin QA 1761297425",
+            "email": "admin.qa.1761297425@exemplo.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xQipMbjKduItWJpx"
+        },
+        {
+            "nome": "Cypress Admin 1761308473363",
+            "email": "cypress_admin_1761308473363@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "zoc7LPYTliCD5Gsv"
+        }
+    ]
+}
