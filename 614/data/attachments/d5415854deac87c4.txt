@@ -1,0 +1,158 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=c2e6efa1dcbf7e89d9b099e48376248a
+date=Thu, 06 Nov 2025 12:22:07 GMT
+server=Google Frontend
+Content-Length=4455
+Body: {
+    "quantidade": 20,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Jody Smitham",
+            "email": "billandersoni@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "2ROEpUy3yo8clKUK"
+        },
+        {
+            "nome": "Rosa Reichert",
+            "email": "rosareichert@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "93Tt2mN9Cp7QhpUg"
+        },
+        {
+            "nome": "Rudolph Grady",
+            "email": "rudolphgrady_Bartoletti@serverest.dev",
+            "password": "oge7qD7CivDj",
+            "administrador": "false",
+            "_id": "AYgMiTfiFADJmXkP"
+        },
+        {
+            "nome": "bernardoManeiras1",
+            "email": "beltrano@qa12231.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "IbcklMStNbeNwyD9"
+        },
+        {
+            "nome": "bernardoM",
+            "email": "beltrano@qa12.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "IeRKaXETPv6VpAyy"
+        },
+        {
+            "nome": "bernardoM",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Io2InkYpFaihwGUw"
+        },
+        {
+            "nome": "bernardoManeiras",
+            "email": "beltrano@qa1223.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "L1gYP76r9C917uoU"
+        },
+        {
+            "nome": "Casey Bartell",
+            "email": "Jean.Swift96@gmail.com",
+            "password": "DXqQlZdpj0LCX3s",
+            "administrador": "false",
+            "_id": "aEL5N2OhZ4hkgMPV"
+        },
+        {
+            "nome": "Beth Champlin",
+            "email": "bethchamplin_Renner@serverest.dev",
+            "password": "EKZ_w3bCMHcL",
+            "administrador": "true",
+            "_id": "bLWQEcfhtO6cdgvv"
+        },
+        {
+            "nome": "Troy Pfannerstill",
+            "email": "troypfannerstill.Osinski80@serverest.dev",
+            "password": "uDHeqp1bQUaQ",
+            "administrador": "false",
+            "_id": "cRbIciaRMviLl07w"
+        },
+        {
+            "nome": "Helga",
+            "email": "wilber.bechtelar@hotmail.com",
+            "password": "ietl4n7b",
+            "administrador": "true",
+            "_id": "cUbLeu5eXBDPbeR9"
+        },
+        {
+            "nome": "Bert Koch",
+            "email": "Maegan_Tillman67@gmail.com",
+            "password": "S8_DIJoJW5JPtAq",
+            "administrador": "false",
+            "_id": "clNTXeJF0SqFLtyi"
+        },
+        {
+            "nome": "Jack Schmidt",
+            "email": "jackschmidt@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "clwB8pGGtwtBnJxF"
+        },
+        {
+            "nome": "Tina Runolfsson",
+            "email": "tinarunolfsson@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "fO50O0FftjUgznHd"
+        },
+        {
+            "nome": "Shaina",
+            "email": "coletta.willms@hotmail.com",
+            "password": "vsgr632yvnrrrvi",
+            "administrador": "true",
+            "_id": "hY1mnWZoTtIYv6LV"
+        },
+        {
+            "nome": "Glenda Christiansen",
+            "email": "glendachristiansen.Willms23@serverest.dev",
+            "password": "2AH8Arv5ZXQK",
+            "administrador": "true",
+            "_id": "oPfPw5NsOkdmLtvH"
+        },
+        {
+            "nome": "Mr. Tara Pollich",
+            "email": "mr.tarapollich@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "rhH2FJK8LFQtoCE7"
+        },
+        {
+            "nome": "Angelina Hegmann",
+            "email": "angelinahegmann@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "wHsV0blBPXSi8Jbf"
+        },
+        {
+            "nome": "Maxine Pagac",
+            "email": "maxinepagac@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "zDNZTvUzScTmp6ra"
+        }
+    ]
+}
