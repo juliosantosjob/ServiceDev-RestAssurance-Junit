@@ -6,9 +6,6 @@ import automation.dev.serverest.api.models.NewUsersModel;
 import com.github.javafaker.Faker;
 import io.restassured.response.Response;
 
-import static automation.dev.serverest.api.services.DeleteUsersService.deleteUser;
-import static automation.dev.serverest.api.services.GetUsersService.getUser;
-import static automation.dev.serverest.api.services.RegisterUsersService.registerUser;
 import static org.apache.http.HttpStatus.SC_CREATED;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.Matchers.is;
@@ -55,7 +52,15 @@ public class Helpers extends BaseTest {
                 .response();
     }
 
-    public static void deleteUserById(String userId) {
+    public static String getUserId(String userID) {
+        return getUserById(userID)
+                .then()
+                .extract()
+                .path("_id")
+                .toString();
+    }
+
+    public static void deletUser(String userId) {
         if (userId != null) {
             deleteUser(userId)
                     .then()

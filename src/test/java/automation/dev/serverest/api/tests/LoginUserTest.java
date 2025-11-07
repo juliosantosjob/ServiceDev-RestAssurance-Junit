@@ -3,7 +3,6 @@ package automation.dev.serverest.api.tests;
 import automation.dev.serverest.api.base.BaseTest;
 import automation.dev.serverest.api.models.LoginModel;
 import automation.dev.serverest.api.models.NewUsersModel;
-import io.restassured.response.Response;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.DisplayName;
@@ -15,12 +14,8 @@ import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 
-import static automation.dev.serverest.api.services.LoginUserService.loginUser;
-import static automation.dev.serverest.api.utils.Helpers.getRandomUser;
-import static automation.dev.serverest.api.utils.Helpers.createAndGetRandomUserId;
-import static automation.dev.serverest.api.utils.Helpers.deleteUserById;
-import static automation.dev.serverest.api.utils.Helpers.getUserCredentials;
-import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
+import static automation.dev.serverest.api.utils.Helpers.*;
+import static automation.dev.serverest.api.utils.Helpers.getUserId;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 import static org.apache.http.HttpStatus.SC_OK;
@@ -41,7 +36,6 @@ import static org.hamcrest.Matchers.startsWith;
 public class LoginUserTest extends BaseTest {
     private NewUsersModel dynamicUser_;
     private LoginModel credentials;
-    private Response response;
     private String id_;
 
     @BeforeEach
@@ -53,8 +47,7 @@ public class LoginUserTest extends BaseTest {
 
     @AfterEach
     public void endsetup() {
-        deleteUserById(id_);
-        attachmentsAllure(response);
+        deletUser(getUserId(id_));
     }
 
     @Test

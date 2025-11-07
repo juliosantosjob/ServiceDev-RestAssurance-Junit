@@ -3,7 +3,6 @@ package automation.dev.serverest.api.tests;
 import automation.dev.serverest.api.base.BaseTest;
 import automation.dev.serverest.api.models.NewUsersModel;
 
-import io.restassured.response.Response;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.DisplayName;
@@ -14,12 +13,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.BeforeEach;
 
-import static automation.dev.serverest.api.services.RegisterUsersService.registerUser;
-import static automation.dev.serverest.api.utils.Helpers.getRandomUser;
-import static automation.dev.serverest.api.utils.Helpers.createAndGetRandomUserId;
-import static automation.dev.serverest.api.utils.Helpers.deleteUserById;
-import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
-
+import static automation.dev.serverest.api.utils.Helpers.*;
+import static automation.dev.serverest.api.utils.Helpers.getUserId;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 import static org.apache.http.HttpStatus.SC_CREATED;
@@ -36,7 +31,6 @@ import static org.hamcrest.Matchers.notNullValue;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class RegisterTest extends BaseTest {
     private NewUsersModel dynamicUser_;
-    private Response response;
     private String id_;
 
     @BeforeEach
@@ -47,8 +41,7 @@ public class RegisterTest extends BaseTest {
 
     @AfterEach
     public void endsetup() {
-        deleteUserById(id_);
-        attachmentsAllure(response);
+        deletUser(getUserId(id_));
     }
 
     @Test
@@ -66,8 +59,7 @@ public class RegisterTest extends BaseTest {
 
 
         // To delete user after test to not dirty the database
-        String idUser = response.jsonPath().getString("_id");
-        deleteUserById(idUser);
+        deletUser(getUserId(id_));
     }
 
     @Test
@@ -134,6 +126,6 @@ public class RegisterTest extends BaseTest {
                 .body(matchesJsonSchemaInClasspath("contracts/registerSuccessSchema.json"));
 
         String idUser = response.jsonPath().getString("id");
-        deleteUserById(idUser);
+        deletUser(getUserId(id_));
     }
 }

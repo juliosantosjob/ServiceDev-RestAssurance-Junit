@@ -2,7 +2,7 @@ package automation.dev.serverest.api.tests;
 
 import automation.dev.serverest.api.base.BaseTest;
 import automation.dev.serverest.api.models.NewUsersModel;
-import io.restassured.response.Response;
+
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.DisplayName;
@@ -13,12 +13,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.BeforeEach;
 
-import static automation.dev.serverest.api.services.EditUserService.editUser;
+import static automation.dev.serverest.api.utils.Helpers.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
-import static automation.dev.serverest.api.utils.Helpers.getRandomUser;
-import static automation.dev.serverest.api.utils.Helpers.createAndGetRandomUserId;
-import static automation.dev.serverest.api.utils.Helpers.deleteUserById;
-import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
 
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
@@ -33,7 +29,6 @@ import static org.hamcrest.Matchers.equalTo;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class EditUserTest extends BaseTest {
     private NewUsersModel dynamicUser_;
-    private Response response;
     private String id_;
 
     @BeforeEach
@@ -44,8 +39,7 @@ public class EditUserTest extends BaseTest {
 
     @AfterEach
     public void endSetup() {
-        deleteUserById(id_);
-        attachmentsAllure(response);
+        deletUser(getUserId(id_));
     }
 
     @Test
@@ -64,7 +58,7 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserInvalidData")
     @DisplayName("Cenario 02: Deve falhar ao realizar edição com todos os dados em branco")
     public void editUserWithInvalidData() {
-        dynamicUser_ = new NewUsersModel("", "", "", "");
+        NewUsersModel dynamicUser_ = new NewUsersModel("", "", "", "");
         response = editUser(dynamicUser_, id_);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -76,7 +70,7 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserNonExistent")
     @DisplayName("Cenario 03: Deve criar um novo usuário ao tentar editar um usuário inexistente")
     public void editNonExistentUser() {
-        dynamicUser_ = getRandomUser();
+        NewUsersModel dynamicUser_ = getRandomUser();
         response = editUser(dynamicUser_, "non_existent_id");
         response.then()
                 .statusCode(SC_CREATED)
