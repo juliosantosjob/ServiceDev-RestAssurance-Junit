@@ -2,7 +2,6 @@ package automation.dev.serverest.api.tests;
 
 import automation.dev.serverest.api.base.BaseTest;
 import automation.dev.serverest.api.models.NewUsersModel;
-
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.DisplayName;
@@ -15,11 +14,9 @@ import org.junit.jupiter.api.BeforeEach;
 
 import static automation.dev.serverest.api.utils.Helpers.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
-
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
 import static org.apache.http.HttpStatus.SC_CREATED;
-
 import static org.hamcrest.Matchers.equalTo;
 
 @Tag("regression")
@@ -28,18 +25,20 @@ import static org.hamcrest.Matchers.equalTo;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class EditUserTest extends BaseTest {
+
     private NewUsersModel dynamicUser_;
     private String id_;
 
     @BeforeEach
     public void initSetup() {
         dynamicUser_ = getRandomUser();
-        id_ = createAndGetRandomUserId(dynamicUser_);
+        registerUser(dynamicUser_);
+        id_ = getUserId(dynamicUser_);
     }
 
     @AfterEach
     public void endSetup() {
-        deletUser(getUserId(id_));
+        deletUser(id_);
     }
 
     @Test
@@ -58,7 +57,13 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserInvalidData")
     @DisplayName("Cenario 02: Deve falhar ao realizar edição com todos os dados em branco")
     public void editUserWithInvalidData() {
-        NewUsersModel dynamicUser_ = new NewUsersModel("", "", "", "");
+        NewUsersModel dynamicUser_ = getRandomUser();
+
+        dynamicUser_.setNome("");
+        dynamicUser_.setEmail("");
+        dynamicUser_.setPassword("");
+        dynamicUser_.setAdministrador("");
+
         response = editUser(dynamicUser_, id_);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -71,10 +76,12 @@ public class EditUserTest extends BaseTest {
     @DisplayName("Cenario 03: Deve criar um novo usuário ao tentar editar um usuário inexistente")
     public void editNonExistentUser() {
         NewUsersModel dynamicUser_ = getRandomUser();
+
         response = editUser(dynamicUser_, "non_existent_id");
         response.then()
                 .statusCode(SC_CREATED)
                 .body("message", equalTo("Cadastro realizado com sucesso"));
+        deletUser(getUserId(dynamicUser_));
     }
 
     @Test
@@ -82,7 +89,12 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserNullFields")
     @DisplayName("Cenario 04: Deve falhar ao realizar edição com campos nulos")
     public void editUserWithNullFields() {
-        dynamicUser_ = new NewUsersModel(null, null, null, null);
+        NewUsersModel dynamicUser_ = getRandomUser();
+        dynamicUser_.setNome(null);
+        dynamicUser_.setEmail(null);
+        dynamicUser_.setPassword(null);
+        dynamicUser_.setAdministrador(null);
+
         response = editUser(dynamicUser_, id_);
         response.then()
                 .statusCode(SC_BAD_REQUEST)

@@ -15,7 +15,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 
 import static automation.dev.serverest.api.utils.Helpers.*;
-import static automation.dev.serverest.api.utils.Helpers.getUserId;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 import static org.apache.http.HttpStatus.SC_OK;
@@ -35,19 +34,17 @@ import static org.hamcrest.Matchers.startsWith;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class LoginUserTest extends BaseTest {
     private NewUsersModel dynamicUser_;
-    private LoginModel credentials;
-    private String id_;
+    String id_;
 
     @BeforeEach
     public void initsetup() {
         dynamicUser_ = getRandomUser();
-        credentials = getUserCredentials(dynamicUser_);
-        id_ = createAndGetRandomUserId(dynamicUser_);
+        registerUser(dynamicUser_);
     }
 
     @AfterEach
     public void endsetup() {
-        deletUser(getUserId(id_));
+        deletUser(id_);
     }
 
     @Test
@@ -55,6 +52,11 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginSuccess")
     @DisplayName("Cenario 01: Deve realizar login com sucesso")
     public void loginSuccessful() {
+        LoginModel credentials = new LoginModel(
+                dynamicUser_.getEmail(),
+                dynamicUser_.getPassword()
+        );
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_OK)
@@ -69,7 +71,11 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginInvalidEmail")
     @DisplayName("Cenario 02: Não deve realizar login com email invalido")
     public void loginWithInvalidEmail() {
-        credentials.setEmail("invalid_email");
+        LoginModel credentials = new LoginModel(
+                "Invalid_email",
+                dynamicUser_.getPassword()
+        );
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -82,7 +88,11 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyEmail")
     @DisplayName("Cenario 03: Não deve realizar login com email vazio")
     public void loginWithEmptyEmail() {
-        credentials.setEmail("");
+        LoginModel credentials = new LoginModel(
+                "",
+                dynamicUser_.getPassword()
+        );
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -95,7 +105,11 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginInvalidPassword")
     @DisplayName("Cenario 04: Não deve realizar login com senha inválida")
     public void loginWithInvalidPassword() {
-        credentials.setPassword("invalid_password");
+        LoginModel credentials = new LoginModel(
+                dynamicUser_.getEmail(),
+                "invalid_password"
+        );
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_UNAUTHORIZED)
@@ -107,7 +121,11 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyPassword")
     @DisplayName("Cenario 05: Não deve realizar login com senha vazia")
     public void loginWithEmptyPassword() {
-        credentials.setPassword("");
+        LoginModel credentials = new LoginModel(
+                dynamicUser_.getEmail(),
+                ""
+        );
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -120,8 +138,8 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyCredentials")
     @DisplayName("Cenario 06: Não deve realizar login com email e senha vazios")
     public void loginWithEmptyCredentials() {
-        credentials.setEmail("");
-        credentials.setPassword("");
+        LoginModel credentials = new LoginModel("", "");
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -135,8 +153,8 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginSpacesInCredentials")
     @DisplayName("Cenario 07: Não deve realizar login com email e senha com espaços em branco")
     public void loginWithSpacesInCredentials() {
-        credentials.setEmail(" name@example.com ");
-        credentials.setPassword(" senha123 ");
+        LoginModel credentials = new LoginModel(" name@example.com ", " senha123 ");
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -149,7 +167,8 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginNullEmail")
     @DisplayName("Cenario 08: Não deve realizar login com email nulo")
     public void loginWithNullEmail() {
-        credentials.setEmail(null);
+        LoginModel credentials = new LoginModel(null, dynamicUser_.getPassword());
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -162,7 +181,8 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginNullPassword")
     @DisplayName("Cenario 09: Não deve realizar login com senha nula")
     public void loginWithNullPassword() {
-        credentials.setPassword(null);
+        LoginModel credentials = new LoginModel(dynamicUser_.getEmail(), null);
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
@@ -175,6 +195,11 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginSuccessContractValidation")
     @DisplayName("Cenario 10: Deve validar o contrato de resposta ao realizar login com sucesso")
     public void validateLoginSuccessContract() {
+        LoginModel credentials = new LoginModel(
+                dynamicUser_.getEmail(),
+                dynamicUser_.getPassword()
+        );
+
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_OK)

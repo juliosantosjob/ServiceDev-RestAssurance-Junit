@@ -13,8 +13,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import static automation.dev.serverest.api.utils.Helpers.getUserList;
-
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.apache.http.HttpStatus.SC_OK;
 
@@ -29,7 +27,7 @@ public class GetUserTest extends BaseTest {
     @Tag("getUser")
     @DisplayName("Cenario 01: Deve obter um usuario na lista")
     public void getAUserInTheList() {
-        response = getUserList();
+        response = getListUsers();
         List<Map<String, Object>> usuarios = response.jsonPath().getList("usuarios");
 
         int randomIndex = new Random().nextInt(usuarios.size());
@@ -46,7 +44,7 @@ public class GetUserTest extends BaseTest {
     @Tag("getUserContractValidation")
     @DisplayName("Cenario 02: Deve validar o contrato de resposta ao obter um usuário na lista")
     public void validateGetUserContract() {
-        response = getUserList();
+        response = getListUsers();
         response.then()
                 .statusCode(SC_OK)
                 .body(matchesJsonSchemaInClasspath("contracts/getUserSchema.json"));

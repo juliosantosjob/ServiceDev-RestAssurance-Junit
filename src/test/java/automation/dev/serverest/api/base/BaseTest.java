@@ -42,34 +42,42 @@ public class BaseTest implements Constants, Routes {
         attachmentsAllure(response);
     }
 
+
     /**
      * Mwtodo para obter todos os usuários
      *
      * @return Response da chamada
      */
 
-    public static Response getUser() {
+    public static Response getListUsers() {
         try {
             return RestAssured
-                    .given().get(USERS);
+                    .given()
+                    .get(USERS);
         } catch (Exception e) {
             throw new RuntimeException("Failed to get users: " + e.getMessage());
         }
     }
 
     /**
-     * Mwtodo para obter um usuário por ID
+     * Mwtodo para obter um usuário por email e senha
      *
-     * @param idUser Id do usuário a ser obtido
+     * @param user Objeto contendo email e senha do usuário
      * @return Response da chamada
      */
 
-    public static Response getUserById(String idUser) {
+    public static Response getUser(NewUsersModel user) {
         try {
             return RestAssured
-                    .given().get(USERS.concat(idUser));
+                    .given()
+                    .queryParam("nome", user.getNome())
+                    .queryParam("email", user.getEmail())
+                    .queryParam("password", user.getPassword())
+                    .queryParam("administrador", user.getAdministrador())
+                    .when()
+                    .get(USERS);
         } catch (Exception e) {
-            throw new RuntimeException("Failed to get user by ID: " + e.getMessage());
+            throw new RuntimeException("Failed to get users: " + e.getMessage(), e);
         }
     }
 
@@ -148,4 +156,5 @@ public class BaseTest implements Constants, Routes {
             throw new RuntimeException("Failed to delete user" + e.getMessage());
         }
     }
+
 }
