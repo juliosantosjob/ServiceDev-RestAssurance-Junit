@@ -2,7 +2,6 @@ package automation.dev.serverest.api.base;
 
 import automation.dev.serverest.api.models.LoginModel;
 import automation.dev.serverest.api.models.NewUsersModel;
-import automation.dev.serverest.api.utils.Routes;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -12,23 +11,26 @@ import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.mozilla.javascript.tools.shell.Environment;
 
+import static automation.dev.serverest.api.utils.Config.getSecret;
 import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
 
-public class BaseTest implements Constants, Routes {
+public class BaseTest extends Environment implements Constants {
+    protected String BASE_URL = System.getenv("HOM_URL") == null ? getSecret("HOM_URL") : System.getenv("HOM_URL");
     protected Response response;
 
     @BeforeEach
     public void setupRestAssured() {
         ResponseSpecBuilder responseSpec = new ResponseSpecBuilder();
 
-        if (APP_BASE_URL == null) {
+        if (BASE_URL == null) {
             System.err.println("*** Please, create the .config.properties file " +
                     "and set \"app.base.url.hom\" environment variable ***");
         }
 
         responseSpec.expectResponseTime(Matchers.lessThan(MAX_TIMEOUT));
-        RestAssured.baseURI = APP_BASE_URL;
+        RestAssured.baseURI = BASE_URL;
         RestAssured.responseSpecification = responseSpec.build();
         RestAssured.requestSpecification = new RequestSpecBuilder()
                 .addHeader("Content-Type", CONTENT_TYPE).build();
@@ -41,7 +43,6 @@ public class BaseTest implements Constants, Routes {
     public void endSetup() {
         attachmentsAllure(response);
     }
-
 
     /**
      * Mwtodo para obter todos os usuários

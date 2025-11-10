@@ -20,7 +20,7 @@ public class Config {
         return properties;
     }
 
-    public static String getEnv(String key) {
+    public static String getSecret(String key) {
         return loadProp().getProperty(key);
     }
 }
