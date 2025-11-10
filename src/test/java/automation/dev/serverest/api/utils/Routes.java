@@ -1,6 +1,6 @@
-package automation.dev.serverest.api.setupenv;
+package automation.dev.serverest.api.utils;
 
-import static automation.dev.serverest.api.setupenv.Environment.getBaseUrl;
+import static automation.dev.serverest.api.utils.Environment.getBaseUrl;
 
 public interface Routes {
     String APP_BASE_URL = getBaseUrl();

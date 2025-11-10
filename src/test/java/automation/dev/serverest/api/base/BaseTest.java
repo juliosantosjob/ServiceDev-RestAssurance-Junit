@@ -2,7 +2,7 @@ package automation.dev.serverest.api.base;
 
 import automation.dev.serverest.api.models.LoginModel;
 import automation.dev.serverest.api.models.NewUsersModel;
-import automation.dev.serverest.api.setupenv.Routes;
+import automation.dev.serverest.api.utils.Routes;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;

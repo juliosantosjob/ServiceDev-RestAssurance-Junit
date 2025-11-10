@@ -9,7 +9,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.TestMethodOrder;
 
 import static automation.dev.serverest.api.utils.Helpers.*;
@@ -28,22 +27,35 @@ import static org.hamcrest.Matchers.notNullValue;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class RegisterTest extends BaseTest {
-    private String id_;
 
-    @AfterEach
-    public void endsetup() {
+    @Test
+    @Order(1)
+    @Tag("registerSuccess")
+    @DisplayName("Deve realizar cadastro com sucesso")
+    public void registrationSuccessful() {
+        NewUsersModel newUser = getRandomUser();
+
+        response = registerUser(newUser);
+        response.then()
+                .statusCode(SC_CREATED)
+                .body(is(notNullValue()))
+                .body("_id", is(notNullValue()))
+                .body("message", equalTo("Cadastro realizado com sucesso"))
+                .body(matchesJsonSchemaInClasspath("contracts/registerSuccessSchema.json"));
+
+        String id_ = getUserId(newUser);
         deletUser(id_);
     }
 
     @Test
-    @Order(1)
+    @Order(2)
     @Tag("registerFailure")
     @DisplayName("Deve falhar ao realizar cadastro com e-mail inválido")
     public void registrationWithInvalidEmail() {
-        NewUsersModel user = getRandomUser();
-        user.setEmail("invalid_email");
+        NewUsersModel newUser = getRandomUser();
+        newUser.setEmail("invalid_email.com");
 
-        response = registerUser(user);
+        response = registerUser(newUser);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
                 .body(is(notNullValue()))
@@ -51,14 +63,14 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test
-    @Order(2)
+    @Order(3)
     @Tag("registerFailure")
     @DisplayName("Deve falhar ao realizar cadastro com nome em branco")
     public void registrationWithEmptyName() {
-        NewUsersModel user = getRandomUser();
-        user.setNome("");
+        NewUsersModel newUser = getRandomUser();
+        newUser.setNome("");
 
-        response = registerUser(user);
+        response = registerUser(newUser);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
                 .body(is(notNullValue()))
@@ -66,14 +78,14 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test
-    @Order(3)
+    @Order(4)
     @Tag("registerFailure")
     @DisplayName("Deve falhar ao realizar cadastro com email em branco")
     public void registrationWithEmptyEmail() {
-        NewUsersModel user = getRandomUser();
-        user.setEmail("");
+        NewUsersModel newUser = getRandomUser();
+        newUser.setEmail("");
 
-        response = registerUser(user);
+        response = registerUser(newUser);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
                 .body(is(notNullValue()))
@@ -81,49 +93,18 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test
-    @Order(4)
+    @Order(5)
     @Tag("registerFailure")
     @DisplayName("Deve falhar ao realizar cadastro com senha em branco")
     public void registrationWithEmptyPassword() {
-        NewUsersModel user = getRandomUser();
-        user.setPassword("");
+        NewUsersModel newUser = getRandomUser();
+        newUser.setPassword("");
 
-        response = registerUser(user);
+        response = registerUser(newUser);
         response.then()
                 .statusCode(SC_BAD_REQUEST)
                 .body(is(notNullValue()))
                 .body("password", equalTo("password não pode ficar em branco"));
     }
 
-    @Test
-    @Order(5)
-    @Tag("registerSuccess")
-    @DisplayName("Deve realizar cadastro com sucesso")
-    public void registrationSuccessful() {
-        NewUsersModel user = getRandomUser();
-
-        response = registerUser(user);
-        response.then()
-                .statusCode(SC_CREATED)
-                .body(is(notNullValue()))
-                .body("_id", is(notNullValue()))
-                .body("message", equalTo("Cadastro realizado com sucesso"));
-
-        id_ = getUserId(user);
-    }
-
-    @Test
-    @Order(6)
-    @Tag("registerSuccessContractValidation")
-    @DisplayName("Deve validar o contrato de resposta ao realizar cadastro com sucesso")
-    public void validateRegistrationSuccessContract() {
-        NewUsersModel user = getRandomUser();
-
-        response = registerUser(user);
-        response.then()
-                .statusCode(SC_CREATED)
-                .body(matchesJsonSchemaInClasspath("contracts/registerSuccessSchema.json"));
-
-        id_ = getUserId(user);
-    }
 }

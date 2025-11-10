@@ -8,15 +8,13 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterEach;
 
 import static automation.dev.serverest.api.utils.Helpers.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
-import static org.apache.http.HttpStatus.SC_OK;
-import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
-import static org.apache.http.HttpStatus.SC_CREATED;
+import static org.apache.http.HttpStatus.*;
 import static org.hamcrest.Matchers.equalTo;
 
 @Tag("regression")
@@ -26,19 +24,21 @@ import static org.hamcrest.Matchers.equalTo;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class EditUserTest extends BaseTest {
 
-    private NewUsersModel dynamicUser_;
     private String id_;
+    private NewUsersModel dynamicUser_;
 
     @BeforeEach
-    public void initSetup() {
+    public void setup() {
         dynamicUser_ = getRandomUser();
         registerUser(dynamicUser_);
         id_ = getUserId(dynamicUser_);
     }
 
     @AfterEach
-    public void endSetup() {
+    public void cleanUp() {
         deletUser(id_);
+        id_ = null;
+        dynamicUser_ = null;
     }
 
     @Test
@@ -57,8 +57,6 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserInvalidData")
     @DisplayName("Cenario 02: Deve falhar ao realizar edição com todos os dados em branco")
     public void editUserWithInvalidData() {
-        NewUsersModel dynamicUser_ = getRandomUser();
-
         dynamicUser_.setNome("");
         dynamicUser_.setEmail("");
         dynamicUser_.setPassword("");
@@ -75,13 +73,15 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserNonExistent")
     @DisplayName("Cenario 03: Deve criar um novo usuário ao tentar editar um usuário inexistente")
     public void editNonExistentUser() {
-        NewUsersModel dynamicUser_ = getRandomUser();
+        NewUsersModel newUser = getRandomUser();
 
-        response = editUser(dynamicUser_, "non_existent_id");
+        response = editUser(newUser, "non_existent_id");
         response.then()
                 .statusCode(SC_CREATED)
                 .body("message", equalTo("Cadastro realizado com sucesso"));
-        deletUser(getUserId(dynamicUser_));
+
+        id_ = getUserId(newUser);
+        deletUser(id_);
     }
 
     @Test
@@ -89,7 +89,6 @@ public class EditUserTest extends BaseTest {
     @Tag("editUserNullFields")
     @DisplayName("Cenario 04: Deve falhar ao realizar edição com campos nulos")
     public void editUserWithNullFields() {
-        NewUsersModel dynamicUser_ = getRandomUser();
         dynamicUser_.setNome(null);
         dynamicUser_.setEmail(null);
         dynamicUser_.setPassword(null);
