@@ -26,9 +26,10 @@ jobs:
       - name: Run API Tests
         if: always()
         env:
-          DEV_URL: ${{ secrets.DEV_URL }}
-          HOM_URL: ${{ secrets.HOM_URL }}
-        run: mvn clean test
+          BASE_URL: ${{ secrets.BASE_URL }}
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+        run: mvn clean install
 
       - name: Get Allure History
         uses: actions/checkout@v2

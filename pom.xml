@@ -78,14 +78,19 @@
             <version>${jackson.version}</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>${surefire.plugin.version}</version>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <includes>
+                        <include>**/automation/dev/serverest/api/runners/TestRunner.java</include>
+                    </includes>
+                </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>

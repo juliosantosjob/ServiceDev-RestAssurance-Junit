@@ -17,7 +17,9 @@ import static automation.dev.serverest.api.utils.Config.getSecret;
 import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
 
 public class BaseTest extends Environment implements Constants {
-    protected String BASE_URL = System.getenv("HOM_URL") == null ? getSecret("HOM_URL") : System.getenv("HOM_URL");
+    protected String BASE_URL = System.getenv("BASE_URL") == null ? getSecret("BASE_URL") : System.getenv("BASE_URL");
+    protected String email = System.getenv("USER_EMAIL") == null ? getSecret("USER_EMAIL") : System.getenv("USER_EMAIL");
+    protected String password = System.getenv("USER_PASSWORD") == null ? getSecret("USER_PASSWORD") : System.getenv("USER_PASSWORD");
     protected Response response;
 
     @BeforeEach

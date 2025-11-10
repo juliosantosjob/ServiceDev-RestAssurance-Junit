@@ -2,19 +2,15 @@ package automation.dev.serverest.api.tests;
 
 import automation.dev.serverest.api.base.BaseTest;
 import automation.dev.serverest.api.models.LoginModel;
-import automation.dev.serverest.api.models.NewUsersModel;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.TestMethodOrder;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 
-import static automation.dev.serverest.api.utils.Helpers.*;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 import static org.apache.http.HttpStatus.SC_OK;
@@ -33,29 +29,13 @@ import static org.hamcrest.Matchers.startsWith;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class LoginUserTest extends BaseTest {
-    private NewUsersModel dynamicUser_;
-    String id_;
-
-    @BeforeEach
-    public void initsetup() {
-        dynamicUser_ = getRandomUser();
-        registerUser(dynamicUser_);
-    }
-
-    @AfterEach
-    public void endsetup() {
-        deletUser(id_);
-    }
 
     @Test
     @Order(1)
     @Tag("loginSuccess")
     @DisplayName("Cenario 01: Deve realizar login com sucesso")
     public void loginSuccessful() {
-        LoginModel credentials = new LoginModel(
-                dynamicUser_.getEmail(),
-                dynamicUser_.getPassword()
-        );
+        LoginModel credentials = new LoginModel(email, password);
 
         response = loginUser(credentials);
         response.then()
@@ -71,10 +51,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginInvalidEmail")
     @DisplayName("Cenario 02: Não deve realizar login com email invalido")
     public void loginWithInvalidEmail() {
-        LoginModel credentials = new LoginModel(
-                "Invalid_email",
-                dynamicUser_.getPassword()
-        );
+        LoginModel credentials = new LoginModel("Invalid_email", password);
 
         response = loginUser(credentials);
         response.then()
@@ -88,10 +65,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyEmail")
     @DisplayName("Cenario 03: Não deve realizar login com email vazio")
     public void loginWithEmptyEmail() {
-        LoginModel credentials = new LoginModel(
-                "",
-                dynamicUser_.getPassword()
-        );
+        LoginModel credentials = new LoginModel("", password);
 
         response = loginUser(credentials);
         response.then()
@@ -105,10 +79,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginInvalidPassword")
     @DisplayName("Cenario 04: Não deve realizar login com senha inválida")
     public void loginWithInvalidPassword() {
-        LoginModel credentials = new LoginModel(
-                dynamicUser_.getEmail(),
-                "invalid_password"
-        );
+        LoginModel credentials = new LoginModel(email, "invalid_password");
 
         response = loginUser(credentials);
         response.then()
@@ -121,10 +92,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyPassword")
     @DisplayName("Cenario 05: Não deve realizar login com senha vazia")
     public void loginWithEmptyPassword() {
-        LoginModel credentials = new LoginModel(
-                dynamicUser_.getEmail(),
-                ""
-        );
+        LoginModel credentials = new LoginModel(password, "");
 
         response = loginUser(credentials);
         response.then()
@@ -167,7 +135,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginNullEmail")
     @DisplayName("Cenario 08: Não deve realizar login com email nulo")
     public void loginWithNullEmail() {
-        LoginModel credentials = new LoginModel(null, dynamicUser_.getPassword());
+        LoginModel credentials = new LoginModel(null, password);
 
         response = loginUser(credentials);
         response.then()
@@ -181,7 +149,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginNullPassword")
     @DisplayName("Cenario 09: Não deve realizar login com senha nula")
     public void loginWithNullPassword() {
-        LoginModel credentials = new LoginModel(dynamicUser_.getEmail(), null);
+        LoginModel credentials = new LoginModel(email, null);
 
         response = loginUser(credentials);
         response.then()
@@ -195,14 +163,12 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginSuccessContractValidation")
     @DisplayName("Cenario 10: Deve validar o contrato de resposta ao realizar login com sucesso")
     public void validateLoginSuccessContract() {
-        LoginModel credentials = new LoginModel(
-                dynamicUser_.getEmail(),
-                dynamicUser_.getPassword()
-        );
+        LoginModel credentials = new LoginModel(email, password);
 
         response = loginUser(credentials);
         response.then()
                 .statusCode(SC_OK)
                 .body(matchesJsonSchemaInClasspath("contracts/loginSuccessSchema.json"));
     }
+
 }
