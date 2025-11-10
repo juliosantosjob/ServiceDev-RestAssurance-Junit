@@ -11,7 +11,7 @@ target/
 allure-results
 allure-report
 reports
-src/test/resources/config.properties
+src/main/resources/config.properties
 *~
 
 ### Eclipse ###
@@ -38,3 +38,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Logs ###
+logs/
+*.log

@@ -15,6 +15,7 @@ import java.util.Random;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.apache.http.HttpStatus.SC_OK;
+import static org.hamcrest.Matchers.notNullValue;
 
 @Tag("regression")
 @Tag("getUserRegression")
@@ -25,19 +26,21 @@ public class GetUserTest extends BaseTest {
     @Test
     @Order(1)
     @Tag("getUser")
-    @DisplayName("Cenario 01: Deve obter um usuario na lista")
+    @DisplayName("Cenário 01: Deve obter um usuário na lista")
     public void getAUserInTheList() {
         response = getListUsers();
+
         List<Map<String, Object>> usuarios = response.jsonPath().getList("usuarios");
-
         int randomIndex = new Random().nextInt(usuarios.size());
-        Map<String, Object> selectedUser = usuarios.get(randomIndex);
 
-        Assertions.assertNotNull(selectedUser.get("nome"));
-        Assertions.assertNotNull(selectedUser.get("email"));
-        Assertions.assertNotNull(selectedUser.get("password"));
-        Assertions.assertNotNull(selectedUser.get("administrador"));
+        response.then()
+                .statusCode(200)
+                .body("usuarios[" + randomIndex + "].nome", notNullValue())
+                .body("usuarios[" + randomIndex + "].email", notNullValue())
+                .body("usuarios[" + randomIndex + "].password", notNullValue())
+                .body("usuarios[" + randomIndex + "].administrador", notNullValue());
     }
+
 
     @Test
     @Order(2)

@@ -22,9 +22,20 @@
         <surefire.plugin.version>3.0.0-M7</surefire.plugin.version>
         <aspectj.version>1.9.21</aspectj.version>
         <clean.allure.version>3.1.0</clean.allure.version>
+        <log4j.version>2.22.0</log4j.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>

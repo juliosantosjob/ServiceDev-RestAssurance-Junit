@@ -35,7 +35,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginSuccess")
     @DisplayName("Cenario 01: Deve realizar login com sucesso")
     public void loginSuccessful() {
-        LoginModel credentials = new LoginModel(email, password);
+        LoginModel credentials = new LoginModel(USER_EMAIL, USER_PASSWORD);
 
         response = loginUser(credentials);
         response.then()
@@ -51,7 +51,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginInvalidEmail")
     @DisplayName("Cenario 02: Não deve realizar login com email invalido")
     public void loginWithInvalidEmail() {
-        LoginModel credentials = new LoginModel("Invalid_email", password);
+        LoginModel credentials = new LoginModel("Invalid_email", USER_PASSWORD);
 
         response = loginUser(credentials);
         response.then()
@@ -65,7 +65,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyEmail")
     @DisplayName("Cenario 03: Não deve realizar login com email vazio")
     public void loginWithEmptyEmail() {
-        LoginModel credentials = new LoginModel("", password);
+        LoginModel credentials = new LoginModel("", USER_PASSWORD);
 
         response = loginUser(credentials);
         response.then()
@@ -79,7 +79,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginInvalidPassword")
     @DisplayName("Cenario 04: Não deve realizar login com senha inválida")
     public void loginWithInvalidPassword() {
-        LoginModel credentials = new LoginModel(email, "invalid_password");
+        LoginModel credentials = new LoginModel(USER_EMAIL, "invalid_password");
 
         response = loginUser(credentials);
         response.then()
@@ -92,7 +92,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginEmptyPassword")
     @DisplayName("Cenario 05: Não deve realizar login com senha vazia")
     public void loginWithEmptyPassword() {
-        LoginModel credentials = new LoginModel(password, "");
+        LoginModel credentials = new LoginModel(USER_EMAIL, "");
 
         response = loginUser(credentials);
         response.then()
@@ -135,7 +135,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginNullEmail")
     @DisplayName("Cenario 08: Não deve realizar login com email nulo")
     public void loginWithNullEmail() {
-        LoginModel credentials = new LoginModel(null, password);
+        LoginModel credentials = new LoginModel(null, USER_PASSWORD);
 
         response = loginUser(credentials);
         response.then()
@@ -149,7 +149,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginNullPassword")
     @DisplayName("Cenario 09: Não deve realizar login com senha nula")
     public void loginWithNullPassword() {
-        LoginModel credentials = new LoginModel(email, null);
+        LoginModel credentials = new LoginModel(USER_EMAIL, null);
 
         response = loginUser(credentials);
         response.then()
@@ -163,7 +163,7 @@ public class LoginUserTest extends BaseTest {
     @Tag("loginSuccessContractValidation")
     @DisplayName("Cenario 10: Deve validar o contrato de resposta ao realizar login com sucesso")
     public void validateLoginSuccessContract() {
-        LoginModel credentials = new LoginModel(email, password);
+        LoginModel credentials = new LoginModel(USER_EMAIL, USER_PASSWORD);
 
         response = loginUser(credentials);
         response.then()
