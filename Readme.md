@@ -1,6 +1,7 @@
 # Testes da API ServeRest
 
-Este projeto contém testes automatizados para a API ServeRest usando Java e JUnit 5. Os testes cobrem cenários de registro de usuários, incluindo casos de sucesso e falha.
+
+Este projeto contém testes automatizados para a API [ServeRest](https://serverest.dev/), desenvolvidos em Java com JUnit 5. Os testes abrangem cenários de listagem, registro, login e edição de usuários, incluindo casos de sucesso e falha.
 
 ---
 
