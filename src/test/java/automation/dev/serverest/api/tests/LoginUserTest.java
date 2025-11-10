@@ -43,7 +43,8 @@ public class LoginUserTest extends BaseTest {
                 .body(is(notNullValue()))
                 .body("message", equalTo("Login realizado com sucesso"))
                 .body("authorization", notNullValue())
-                .body("authorization", startsWith("Bearer "));
+                .body("authorization", startsWith("Bearer "))
+                .body(matchesJsonSchemaInClasspath("contracts/loginSuccessSchema.json"));
     }
 
     @Test
@@ -156,19 +157,6 @@ public class LoginUserTest extends BaseTest {
                 .statusCode(SC_BAD_REQUEST)
                 .body(is(notNullValue()))
                 .body("password", equalTo("password deve ser uma string"));
-    }
-
-    @Test
-    @Order(10)
-    @Tag("loginSuccessContractValidation")
-    @DisplayName("Cenario 10: Deve validar o contrato de resposta ao realizar login com sucesso")
-    public void validateLoginSuccessContract() {
-        LoginModel credentials = new LoginModel(USER_EMAIL, USER_PASSWORD);
-
-        response = loginUser(credentials);
-        response.then()
-                .statusCode(SC_OK)
-                .body(matchesJsonSchemaInClasspath("contracts/loginSuccessSchema.json"));
     }
 
 }

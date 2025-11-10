@@ -33,22 +33,11 @@ public class GetUserTest extends BaseTest {
         int randNumb = new Random().nextInt(usuarios.size());
 
         response.then()
-                .statusCode(200)
+                .statusCode(SC_OK)
                 .body("usuarios[" + randNumb + "].nome", notNullValue())
                 .body("usuarios[" + randNumb + "].email", notNullValue())
                 .body("usuarios[" + randNumb + "].password", notNullValue())
-                .body("usuarios[" + randNumb + "].administrador", notNullValue());
-    }
-
-    @Test
-    @Order(2)
-    @Tag("getUserContractValidation")
-    @DisplayName("Cenario 02: Deve validar o contrato de resposta ao obter um usuário na lista")
-    public void validateGetUserContract() {
-        response = getListUsers();
-        response.then()
-                .statusCode(SC_OK)
+                .body("usuarios[" + randNumb + "].administrador", notNullValue())
                 .body(matchesJsonSchemaInClasspath("contracts/getUserSchema.json"));
     }
-
 }

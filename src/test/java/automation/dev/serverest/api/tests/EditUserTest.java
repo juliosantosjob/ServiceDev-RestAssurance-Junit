@@ -49,7 +49,8 @@ public class EditUserTest extends BaseTest {
         response = editUser(dynamicUser_, id_);
         response.then()
                 .statusCode(SC_OK)
-                .body("message", equalTo("Registro alterado com sucesso"));
+                .body("message", equalTo("Registro alterado com sucesso"))
+                .body(matchesJsonSchemaInClasspath("contracts/editUserSchema.json"));
     }
 
     @Test
@@ -101,16 +102,5 @@ public class EditUserTest extends BaseTest {
                 .body("email", equalTo("email deve ser uma string"))
                 .body("password", equalTo("password deve ser uma string"))
                 .body("administrador", equalTo("administrador deve ser 'true' ou 'false'"));
-    }
-
-    @Test
-    @Order(5)
-    @Tag("editUserContractValidation")
-    @DisplayName("Cenario 05: Deve validar o contrato de resposta ao editar usuário com sucesso")
-    public void validateEditUserContract() {
-        response = editUser(dynamicUser_, id_);
-        response.then()
-                .statusCode(SC_OK)
-                .body(matchesJsonSchemaInClasspath("contracts/editUserSchema.json"));
     }
 }

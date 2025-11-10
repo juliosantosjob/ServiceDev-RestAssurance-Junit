@@ -23,18 +23,15 @@ Este projeto contém testes automatizados para a API ServeRest usando Java e JUn
 - Não deve realizar login com email e senha com espaços em branco
 - Não deve realizar login com email nulo
 - Não deve realizar login com senha nula
-- Deve validar o contrato de resposta ao realizar login com sucesso
 
 ### Feature: Teste de Obtenção de Usuário
 - Deve obter um usuário na lista
-- Deve validar o contrato de resposta ao obter um usuário na lista
 
 ### Feature: Testes de Edição de Usuário
 - Deve realizar edição com sucesso
 - Deve falhar ao realizar edição com todos os dados em branco
 - Deve criar um novo usuário ao tentar editar um usuário inexistente
 - Deve falhar ao realizar edição com campos nulos
-- Deve validar o contrato de resposta ao editar usuário com sucesso
 
 ---
 

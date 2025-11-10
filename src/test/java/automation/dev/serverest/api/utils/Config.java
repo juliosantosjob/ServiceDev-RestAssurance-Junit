@@ -1,10 +1,12 @@
 package automation.dev.serverest.api.utils;
 
+import automation.dev.serverest.api.base.BaseTest;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Config {
+public class Config extends BaseTest {
     private static String PATH_PROP = "/src/test/resources/config.properties";
     private static String PATH_FULL = System.getProperty("user.dir") + PATH_PROP;
     private static Properties properties = new Properties();
@@ -13,9 +15,9 @@ public class Config {
         try {
             properties.load(new FileInputStream(PATH_FULL));
         } catch (IOException ex) {
-            throw new RuntimeException("Arquivo 'config.properties' não encontrado em src/test/resources/. " +
-                    "Por favor, crie o arquivo baseado em 'config.properties.example' antes de rodar o projeto.", ex);
-
+            logger.error("Arquivo 'config.properties' não encontrado em src/test/resources/. " +
+                    "Por favor, crie o arquivo baseado em 'config.properties.example' antes de rodar o projeto.");;
+            throw new RuntimeException("Arquivo 'config.properties' não encontrado", ex);
         }
         return properties;
     }
