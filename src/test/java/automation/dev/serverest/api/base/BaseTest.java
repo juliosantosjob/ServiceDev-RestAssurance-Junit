@@ -116,7 +116,7 @@ public class BaseTest implements Constants, Routes {
                     .when()
                     .put(USERS.concat(idUser));
         } catch (Exception e) {
-            throw new RuntimeException("Failed to register user" + e.getMessage());
+            throw new RuntimeException("Failed to edit user" + e.getMessage());
         }
     }
 
