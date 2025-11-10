@@ -7,7 +7,6 @@ import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Assertions;
 
 import java.util.List;
 import java.util.Map;
@@ -26,21 +25,20 @@ public class GetUserTest extends BaseTest {
     @Test
     @Order(1)
     @Tag("getUser")
-    @DisplayName("Cenário 01: Deve obter um usuário na lista")
-    public void getAUserInTheList() {
+    @DisplayName("Cenário 01: Deve obter um usuário aleatório na lista e validar os dados")
+    public void getRandomUserAndValidateFields() {
         response = getListUsers();
 
         List<Map<String, Object>> usuarios = response.jsonPath().getList("usuarios");
-        int randomIndex = new Random().nextInt(usuarios.size());
+        int randNumb = new Random().nextInt(usuarios.size());
 
         response.then()
                 .statusCode(200)
-                .body("usuarios[" + randomIndex + "].nome", notNullValue())
-                .body("usuarios[" + randomIndex + "].email", notNullValue())
-                .body("usuarios[" + randomIndex + "].password", notNullValue())
-                .body("usuarios[" + randomIndex + "].administrador", notNullValue());
+                .body("usuarios[" + randNumb + "].nome", notNullValue())
+                .body("usuarios[" + randNumb + "].email", notNullValue())
+                .body("usuarios[" + randNumb + "].password", notNullValue())
+                .body("usuarios[" + randNumb + "].administrador", notNullValue());
     }
-
 
     @Test
     @Order(2)
