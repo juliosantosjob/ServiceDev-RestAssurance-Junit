@@ -20,14 +20,9 @@ import static automation.dev.serverest.api.utils.Config.getSecret;
 import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
 
 public class BaseTest implements Constants {
-
     protected String BASE_URL = System.getenv("BASE_URL") == null ? getSecret("BASE_URL") : System.getenv("BASE_URL");
-    protected String USER_EMAIL = System.getenv("USER_EMAIL") == null ? getSecret("USER_EMAIL") : System.getenv("USER_EMAIL");
-    protected String USER_PASSWORD = System.getenv("USER_PASSWORD") == null ? getSecret("USER_PASSWORD") : System.getenv("USER_PASSWORD");
-
     protected static final Logger logger = LogManager.getLogger();
     protected Response response;
-
 
     @BeforeEach
     public void setUp(TestInfo testInfo) {

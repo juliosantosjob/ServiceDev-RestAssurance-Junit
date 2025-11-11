@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class Config extends BaseTest {
-    private static String PATH_PROP = "/src/test/resources/config.properties";
-    private static String PATH_FULL = System.getProperty("user.dir") + PATH_PROP;
-    private static Properties properties = new Properties();
+    private static final String PATH_PROP = "/src/test/resources/config.properties";
+    private static final String PATH_FULL = System.getProperty("user.dir") + PATH_PROP;
+    private static final Properties properties = new Properties();
 
     private static Properties loadProp() {
         try {

@@ -88,10 +88,6 @@ Basta criar o arquivo `config.properties` no mesmo diretório `src/test/resource
 ```properties
 # Ambiente de Homologação
 BASE_URL=url_servicedev_aqui
-
-# Credenciais de Usuário
-USER_EMAIL=email_valido_aqui
-USER_PASSWORD=password_valida_aqui
 ```
 
 Eu criei esta implementação para garantir que dados sensíveis não sejam expostos no repositório, mantendo a segurança das credenciais.
