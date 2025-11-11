@@ -11,7 +11,7 @@ import org.junit.platform.suite.api.SelectPackages;
 import org.junit.platform.suite.api.Suite;
 
 @Suite
-@IncludeTags("regression")
+@IncludeTags("regressao") 
 @DisplayName("Automação de Serviços - DevServe")
 @SelectPackages("src.test.java.automation.dev.serverest.api.tests")
 @SelectClasses({
