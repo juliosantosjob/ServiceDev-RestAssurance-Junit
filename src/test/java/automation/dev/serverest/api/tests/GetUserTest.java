@@ -16,15 +16,15 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.Matchers.notNullValue;
 
-@Tag("regression")
-@Tag("getUserRegression")
+@Tag("regressao")
+@Tag("obter_usuario")
 @DisplayName("Feature: Teste de Obtenção de Usuário")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class GetUserTest extends BaseTest {
 
     @Test
     @Order(1)
-    @Tag("getUser")
+    @Tag("obter_usuario_aleatorio")
     @DisplayName("Cenário 01: Deve obter um usuário aleatório na lista e validar os dados")
     public void getRandomUserAndValidateFields() {
         response = getListUsers();
@@ -40,4 +40,5 @@ public class GetUserTest extends BaseTest {
                 .body("usuarios[" + randNumb + "].administrador", notNullValue())
                 .body(matchesJsonSchemaInClasspath("contracts/getUserSchema.json"));
     }
+    
 }

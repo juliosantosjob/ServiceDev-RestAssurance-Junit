@@ -22,6 +22,7 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
 @Tag("regressao")
+@Tag("cadastro_usuario")
 @DisplayName("Feature: Teste de Cadastro de Usuário")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -29,8 +30,8 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Order(1)
-    @Tag("cadastro_cad_sucesso")
-    @DisplayName("Deve realizar cadastro com sucesso")
+    @Tag("cadastro_sucesso")
+    @DisplayName("Cenário 01: Deve realizar cadastro com sucesso")
     public void registrationSuccessful() {
         NewUsersModel newUser = getRandomUser();
 
@@ -49,7 +50,7 @@ public class RegisterTest extends BaseTest {
     @Test
     @Order(2)
     @Tag("cadastro_email_invalido")
-    @DisplayName("Deve falhar ao realizar cadastro com e-mail inválido")
+    @DisplayName("Cenário 02: Deve falhar ao realizar cadastro com e-mail inválido")
     public void registrationWithInvalidEmail() {
         NewUsersModel newUser = getRandomUser();
         newUser.setEmail("invalid_email.com");
@@ -64,7 +65,7 @@ public class RegisterTest extends BaseTest {
     @Test
     @Order(3)
     @Tag("cadastro_nome_vazio")
-    @DisplayName("Deve falhar ao realizar cadastro com nome em branco")
+    @DisplayName("Cenário 03: Deve falhar ao realizar cadastro com nome em branco")
     public void registrationWithEmptyName() {
         NewUsersModel newUser = getRandomUser();
         newUser.setNome("");
@@ -79,7 +80,7 @@ public class RegisterTest extends BaseTest {
     @Test
     @Order(4)
     @Tag("cadastro_email_vazio")
-    @DisplayName("Deve falhar ao realizar cadastro com email em branco")
+    @DisplayName("Cenário 04: Deve falhar ao realizar cadastro com email em branco")
     public void registrationWithEmptyEmail() {
         NewUsersModel newUser = getRandomUser();
         newUser.setEmail("");
@@ -94,7 +95,7 @@ public class RegisterTest extends BaseTest {
     @Test
     @Order(5)
     @Tag("cadastro_senha_vazia")
-    @DisplayName("Deve falhar ao realizar cadastro com senha em branco")
+    @DisplayName("Cenário 05: Deve falhar ao realizar cadastro com senha em branco")
     public void registrationWithEmptyPassword() {
         NewUsersModel newUser = getRandomUser();
         newUser.setPassword("");
@@ -109,7 +110,7 @@ public class RegisterTest extends BaseTest {
     @Test
     @Order(6)
     @Tag("cadastro_email_duplicado")
-    @DisplayName("Deve falhar ao realizar cadastro com e-mail duplicado")
+    @DisplayName("Cenário 06: Deve falhar ao realizar cadastro com e-mail duplicado")
     public void registrationWithDuplicateEmail() {
         NewUsersModel newUser = getRandomUser();
         NewUsersModel duplicateUser = new NewUsersModel();
@@ -134,7 +135,7 @@ public class RegisterTest extends BaseTest {
     @Test
     @Order(7)
     @Tag("cadastro_admin_invalido")
-    @DisplayName("Deve falhar ao realizar cadastro com administrador inválido")
+    @DisplayName("Cenário 07: Deve falhar ao realizar cadastro com administrador inválido")
     public void registrationWithInvalidAdministrador() {
         NewUsersModel newUser = getRandomUser();
         newUser.setAdministrador(null);
@@ -148,8 +149,8 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Order(8)
-    @Tag("cadastro_campos_obrig")
-    @DisplayName("Deve falhar ao realizar cadastro sem preencher campos obrigatórios")
+    @Tag("cadastro_campos_obrigatorios")
+    @DisplayName("Cenário 08: Deve falhar ao realizar cadastro sem preencher campos obrigatórios")
     public void registrationWithMissingFields() {
         NewUsersModel newUser = new NewUsersModel();
         newUser.setNome("");

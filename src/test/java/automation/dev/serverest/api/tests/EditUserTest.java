@@ -17,8 +17,8 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.apache.http.HttpStatus.*;
 import static org.hamcrest.Matchers.equalTo;
 
-@Tag("regression")
-@Tag("editUserRegression")
+@Tag("regressao")
+@Tag("edicao_usuario_regressao")
 @DisplayName("Feature: Testes de Edição de Usuário")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -43,7 +43,7 @@ public class EditUserTest extends BaseTest {
 
     @Test
     @Order(1)
-    @Tag("editUserSuccess")
+    @Tag("editar_usuario_sucesso")
     @DisplayName("Cenario 01: Deve realizar edição com sucesso")
     public void editUserSuccessful() {
         response = editUser(dynamicUser_, id_);
@@ -55,7 +55,7 @@ public class EditUserTest extends BaseTest {
 
     @Test
     @Order(2)
-    @Tag("editUserInvalidData")
+    @Tag("editar_usuario_dados_invalidos")
     @DisplayName("Cenario 02: Deve falhar ao realizar edição com todos os dados em branco")
     public void editUserWithInvalidData() {
         dynamicUser_.setNome("");
@@ -71,7 +71,7 @@ public class EditUserTest extends BaseTest {
 
     @Test
     @Order(3)
-    @Tag("editUserNonExistent")
+    @Tag("editar_usuario_inexistente")
     @DisplayName("Cenario 03: Deve criar um novo usuário ao tentar editar um usuário inexistente")
     public void editNonExistentUser() {
         NewUsersModel newUser = getRandomUser();
@@ -87,7 +87,7 @@ public class EditUserTest extends BaseTest {
 
     @Test
     @Order(4)
-    @Tag("editUserNullFields")
+    @Tag("editar_usuario_campos_nulos")
     @DisplayName("Cenario 04: Deve falhar ao realizar edição com campos nulos")
     public void editUserWithNullFields() {
         dynamicUser_.setNome(null);
@@ -103,4 +103,5 @@ public class EditUserTest extends BaseTest {
                 .body("password", equalTo("password deve ser uma string"))
                 .body("administrador", equalTo("administrador deve ser 'true' ou 'false'"));
     }
+    
 }

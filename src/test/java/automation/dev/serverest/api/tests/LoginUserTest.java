@@ -2,7 +2,6 @@ package automation.dev.serverest.api.tests;
 
 import automation.dev.serverest.api.base.BaseTest;
 import automation.dev.serverest.api.models.LoginModel;
-
 import automation.dev.serverest.api.models.NewUsersModel;
 import org.junit.jupiter.api.*;
 
@@ -18,8 +17,8 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 import static org.hamcrest.Matchers.startsWith;
 
-@Tag("regression")
-@Tag("loginUserRegression")
+@Tag("regressao")
+@Tag("login_usuario")
 @DisplayName("Feature: Teste de Login de Usuário")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -44,7 +43,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(1)
-    @Tag("loginSuccess")
+    @Tag("login_sucesso")
     @DisplayName("Cenario 01: Deve realizar login com sucesso")
     public void loginSuccessful() {
         LoginModel credentials = new LoginModel(dynamicUser_.getEmail(), dynamicUser_.getPassword());
@@ -61,7 +60,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(2)
-    @Tag("loginInvalidEmail")
+    @Tag("login_email_invalido")
     @DisplayName("Cenario 02: Não deve realizar login com email invalido")
     public void loginWithInvalidEmail() {
         LoginModel credentials = new LoginModel("Invalid_email", dynamicUser_.getPassword());
@@ -75,7 +74,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(3)
-    @Tag("loginEmptyEmail")
+    @Tag("login_email_vazio")
     @DisplayName("Cenario 03: Não deve realizar login com email vazio")
     public void loginWithEmptyEmail() {
         LoginModel credentials = new LoginModel("", dynamicUser_.getPassword());
@@ -89,7 +88,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(4)
-    @Tag("loginInvalidPassword")
+    @Tag("login_senha_invalida")
     @DisplayName("Cenario 04: Não deve realizar login com senha inválida")
     public void loginWithInvalidPassword() {
         LoginModel credentials = new LoginModel(dynamicUser_.getEmail(), "invalid_password");
@@ -102,7 +101,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(5)
-    @Tag("loginEmptyPassword")
+    @Tag("login_senha_vazia")
     @DisplayName("Cenario 05: Não deve realizar login com senha vazia")
     public void loginWithEmptyPassword() {
         LoginModel credentials = new LoginModel(dynamicUser_.getEmail(), "");
@@ -116,7 +115,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(6)
-    @Tag("loginEmptyCredentials")
+    @Tag("login_credenciais_vazias")
     @DisplayName("Cenario 06: Não deve realizar login com email e senha vazios")
     public void loginWithEmptyCredentials() {
         LoginModel credentials = new LoginModel("", "");
@@ -131,7 +130,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(7)
-    @Tag("loginSpacesInCredentials")
+    @Tag("login_espacos_credenciais")
     @DisplayName("Cenario 07: Não deve realizar login com email e senha com espaços em branco")
     public void loginWithSpacesInCredentials() {
         LoginModel credentials = new LoginModel(" name@example.com ", " senha123 ");
@@ -145,7 +144,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(8)
-    @Tag("loginNullEmail")
+    @Tag("login_email_nulo")
     @DisplayName("Cenario 08: Não deve realizar login com email nulo")
     public void loginWithNullEmail() {
         LoginModel credentials = new LoginModel(null, dynamicUser_.getPassword());
@@ -159,7 +158,7 @@ public class LoginUserTest extends BaseTest {
 
     @Test
     @Order(9)
-    @Tag("loginNullPassword")
+    @Tag("login_senha_nula")
     @DisplayName("Cenario 09: Não deve realizar login com senha nula")
     public void loginWithNullPassword() {
         LoginModel credentials = new LoginModel(dynamicUser_.getEmail(), null);
