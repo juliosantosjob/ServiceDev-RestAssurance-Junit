@@ -46,4 +46,5 @@ public class NewUsersModel {
     public void setAdministrador(String administrador) {
         this.administrador = administrador;
     }
+    
 }

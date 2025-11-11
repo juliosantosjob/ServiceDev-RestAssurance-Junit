@@ -36,7 +36,7 @@ public class EditUserTest extends BaseTest {
 
     @AfterEach
     public void cleanUp() {
-        deletUser(id_);
+        deleteUser(id_);
         id_ = null;
         dynamicUser_ = null;
     }
@@ -82,7 +82,7 @@ public class EditUserTest extends BaseTest {
                 .body("message", equalTo("Cadastro realizado com sucesso"));
 
         id_ = getUserId(newUser);
-        deletUser(id_);
+        deleteUser(id_);
     }
 
     @Test

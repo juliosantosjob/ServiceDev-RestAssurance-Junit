@@ -37,7 +37,7 @@ public class LoginUserTest extends BaseTest {
 
     @AfterEach
     public void cleanUp() {
-        deletUser(id_);
+        deleteUser(id_);
         id_ = null;
         dynamicUser_ = null;
     }

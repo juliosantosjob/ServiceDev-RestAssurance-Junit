@@ -21,8 +21,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
-@Tag("regression")
-@Tag("registerRegression")
+@Tag("regressao")
 @DisplayName("Feature: Teste de Cadastro de Usuário")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -30,7 +29,7 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Order(1)
-    @Tag("registerSuccess")
+    @Tag("cadastro_cad_sucesso")
     @DisplayName("Deve realizar cadastro com sucesso")
     public void registrationSuccessful() {
         NewUsersModel newUser = getRandomUser();
@@ -44,12 +43,12 @@ public class RegisterTest extends BaseTest {
                 .body(matchesJsonSchemaInClasspath("contracts/registerSuccessSchema.json"));
 
         String id_ = getUserId(newUser);
-        deletUser(id_);
+        deleteUser(id_);
     }
 
     @Test
     @Order(2)
-    @Tag("registerFailure")
+    @Tag("cadastro_email_invalido")
     @DisplayName("Deve falhar ao realizar cadastro com e-mail inválido")
     public void registrationWithInvalidEmail() {
         NewUsersModel newUser = getRandomUser();
@@ -64,7 +63,7 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Order(3)
-    @Tag("registerFailure")
+    @Tag("cadastro_nome_vazio")
     @DisplayName("Deve falhar ao realizar cadastro com nome em branco")
     public void registrationWithEmptyName() {
         NewUsersModel newUser = getRandomUser();
@@ -79,7 +78,7 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Order(4)
-    @Tag("registerFailure")
+    @Tag("cadastro_email_vazio")
     @DisplayName("Deve falhar ao realizar cadastro com email em branco")
     public void registrationWithEmptyEmail() {
         NewUsersModel newUser = getRandomUser();
@@ -94,7 +93,7 @@ public class RegisterTest extends BaseTest {
 
     @Test
     @Order(5)
-    @Tag("registerFailure")
+    @Tag("cadastro_senha_vazia")
     @DisplayName("Deve falhar ao realizar cadastro com senha em branco")
     public void registrationWithEmptyPassword() {
         NewUsersModel newUser = getRandomUser();
@@ -104,6 +103,65 @@ public class RegisterTest extends BaseTest {
         response.then()
                 .statusCode(SC_BAD_REQUEST)
                 .body(is(notNullValue()))
+                .body("password", equalTo("password não pode ficar em branco"));
+    }
+
+    @Test
+    @Order(6)
+    @Tag("cadastro_email_duplicado")
+    @DisplayName("Deve falhar ao realizar cadastro com e-mail duplicado")
+    public void registrationWithDuplicateEmail() {
+        NewUsersModel newUser = getRandomUser();
+        NewUsersModel duplicateUser = new NewUsersModel();
+
+        registerUser(newUser);
+
+        duplicateUser.setNome(newUser.getNome());
+        duplicateUser.setEmail(newUser.getEmail());
+        duplicateUser.setPassword(newUser.getPassword());
+        duplicateUser.setAdministrador(newUser.getAdministrador());
+
+        response = registerUser(duplicateUser);
+        response.then()
+                .statusCode(SC_BAD_REQUEST)
+                .body(is(notNullValue()))
+                .body("message", equalTo("Este email já está sendo usado"));
+
+        String id_ = getUserId(newUser);
+        deleteUser(id_);
+    }
+
+    @Test
+    @Order(7)
+    @Tag("cadastro_admin_invalido")
+    @DisplayName("Deve falhar ao realizar cadastro com administrador inválido")
+    public void registrationWithInvalidAdministrador() {
+        NewUsersModel newUser = getRandomUser();
+        newUser.setAdministrador(null);
+
+        response = registerUser(newUser);
+        response.then()
+                .statusCode(SC_BAD_REQUEST)
+                .body(is(notNullValue()))
+                .body("administrador", equalTo("administrador deve ser 'true' ou 'false'"));
+    }
+
+    @Test
+    @Order(8)
+    @Tag("cadastro_campos_obrig")
+    @DisplayName("Deve falhar ao realizar cadastro sem preencher campos obrigatórios")
+    public void registrationWithMissingFields() {
+        NewUsersModel newUser = new NewUsersModel();
+        newUser.setNome("");
+        newUser.setEmail("");
+        newUser.setPassword("");
+        newUser.setAdministrador("false");
+
+        response = registerUser(newUser);
+        response.then()
+                .statusCode(SC_BAD_REQUEST)
+                .body("nome", equalTo("nome não pode ficar em branco"))
+                .body("email", equalTo("email não pode ficar em branco"))
                 .body("password", equalTo("password não pode ficar em branco"));
     }
 

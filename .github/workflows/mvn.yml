@@ -20,13 +20,7 @@ jobs:
           java-version: "11"
           distribution: "adopt"
 
-      - name: Build Project
-        run: mvn clean install -DskipTests
-
-      - name: Run API Tests
-        if: always()
-        env:
-          BASE_URL: ${{ secrets.BASE_URL }}
+      - name: Build and Run Tests
         run: mvn clean install
 
       - name: Get Allure History

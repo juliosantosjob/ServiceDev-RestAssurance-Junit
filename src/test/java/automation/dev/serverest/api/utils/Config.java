@@ -15,9 +15,9 @@ public class Config extends BaseTest {
         try {
             properties.load(new FileInputStream(PATH_FULL));
         } catch (IOException ex) {
-            logger.error("Arquivo 'config.properties' não encontrado em src/test/resources/. " +
-                    "Por favor, crie o arquivo baseado em 'config.properties.example' antes de rodar o projeto.");;
-            throw new RuntimeException("Arquivo 'config.properties' não encontrado", ex);
+            logger.error("Arquivo \"config.properties\" não encontrado em src/test/resources/. " +
+                    "Por favor, crie o arquivo baseado em \"config.properties.example\" antes de rodar o projeto.");;
+            throw new RuntimeException("Arquivo \"config.properties\" não encontrado", ex);
         }
         return properties;
     }

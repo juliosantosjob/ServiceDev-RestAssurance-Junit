@@ -15,13 +15,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInfo;
 
-
 import static automation.dev.serverest.api.utils.Config.getSecret;
 import static automation.dev.serverest.api.utils.Reports.attachmentsAllure;
 
 public class BaseTest implements Constants {
-    protected String BASE_URL = System.getenv("BASE_URL") == null ? getSecret("BASE_URL") : System.getenv("BASE_URL");
     protected static final Logger logger = LogManager.getLogger();
+    protected String BASE_URL = getSecret("BASE_URL");
     protected Response response;
 
     @BeforeEach
@@ -37,6 +36,7 @@ public class BaseTest implements Constants {
 
         ResponseSpecBuilder responseSpec = new ResponseSpecBuilder();
         responseSpec.expectResponseTime(Matchers.lessThan(MAX_TIMEOUT));
+
         RestAssured.responseSpecification = responseSpec.build();
         RestAssured.baseURI = BASE_URL;
         RestAssured.requestSpecification = new RequestSpecBuilder()

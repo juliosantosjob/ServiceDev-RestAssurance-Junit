@@ -13,6 +13,9 @@ Este projeto contém testes automatizados para a API [ServeRest](https://servere
 - Deve falhar ao realizar cadastro com nome em branco
 - Deve falhar ao realizar cadastro com email em branco
 - Deve falhar ao realizar cadastro com senha em branco
+- Deve falhar ao realizar cadastro com e-mail duplicado
+- Deve falhar ao realizar cadastro com administrador inválido
+- Deve falhar ao realizar cadastro sem preencher campos obrigatórios
 
 ### Feature: Teste de Login de Usuário
 - Deve realizar login com sucesso
