@@ -1,0 +1,228 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=12b689ae643991efbb84d2fcc4481d60
+date=Wed, 12 Nov 2025 12:22:32 GMT
+server=Google Frontend
+Content-Length=6586
+Body: {
+    "quantidade": 30,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947408087@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "1AC2dJsPmIeVy7n8"
+        },
+        {
+            "nome": "Concurrent User",
+            "email": "lock_20251112120628@locktest.com",
+            "password": "lock123",
+            "administrador": "true",
+            "_id": "3ofbjG4AihXc296R"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762948271846@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "433fyVCCUTrwTTIp"
+        },
+        {
+            "nome": "Final Update",
+            "email": "lock_20251112122151@locktest.com",
+            "password": "lock123",
+            "administrador": "true",
+            "_id": "4R2Kom7CjKcPjUBN"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762946949417@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "5Q72GLHdVh0nSora"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762948058187@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "6HU8bMKibZL9PrHt"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762949862297@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "6PHri73wZtIJUTN5"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947185671@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ABnYJr8ULGHinzd7"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947879450@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "C0oqCBo6hsM1TO1g"
+        },
+        {
+            "nome": "Concurrent User",
+            "email": "lock_20251112120027@locktest.com",
+            "password": "lock123",
+            "administrador": "true",
+            "_id": "F5SvwMA8F1bs3VoC"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947335273@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "GLDnQuqYdiCb0OK8"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947903542@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JTni6CV6haQ5xctd"
+        },
+        {
+            "nome": "Shawna Wiegand",
+            "email": "shawnawiegand@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "KJs79ygczfZcoXQB"
+        },
+        {
+            "nome": "Tosha",
+            "email": "aida.waters@hotmail.com",
+            "password": "dxd6v51jkml2t",
+            "administrador": "true",
+            "_id": "KxoOApVfOcFfvfGC"
+        },
+        {
+            "nome": "Clarence Kutch",
+            "email": "clarencekutch@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "SSLS7SjNgSwXZb0Y"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947124054@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "V8p0n0Avy7Itafe1"
+        },
+        {
+            "nome": "Mr. Eva Wilderman",
+            "email": "mr.evawilderman@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "WcjRT65oMkSZp7zR"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762946982781@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "YLGerL5fsncfkdCI"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762948386780@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Z3IYXxQsOTLLzuYa"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947725359@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "a1bRtHraywDDodxB"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947253113@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "fhvF8YiBMhOdYQMt"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947562920@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "hdxedutvjDSIw81F"
+        },
+        {
+            "nome": "Angelo Anderson",
+            "email": "shermanrodriguez@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "htmzvtLzoCAffGi1"
+        },
+        {
+            "nome": "Adam Mante",
+            "email": "adammante@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "i99jSdhvztNEinue"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762948195213@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "idIVU8tYA8R2lYm6"
+        },
+        {
+            "nome": "Claire Runolfsdottir",
+            "email": "clairerunolfsdottir@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "kBZKa3VrM9qVVLfq"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947807929@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "miHlizjPCvlIE5hQ"
+        },
+        {
+            "nome": "Henrique QA",
+            "email": "henrique1762947015229@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "napuO6Zsiu9Qq553"
+        },
+        {
+            "nome": "Daisy Cummings",
+            "email": "daisycummings@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "sjE2OxYiaF4XfONa"
+        }
+    ]
+}
