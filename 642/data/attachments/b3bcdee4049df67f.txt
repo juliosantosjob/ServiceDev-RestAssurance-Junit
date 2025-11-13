@@ -1,0 +1,991 @@
+Status Code: 200
+Headers: access-control-allow-origin=*
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+content-type=application/json; charset=utf-8
+x-cloud-trace-context=f92d7d7f1fea9040c26c1b74e11faf9c
+date=Thu, 13 Nov 2025 12:22:27 GMT
+server=Google Frontend
+Content-Length=31081
+Body: {
+    "quantidade": 139,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "1nno2F0rO6Otn0c3"
+        },
+        {
+            "nome": "Test User testuser1@emailtest.com",
+            "email": "testuser1@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "27xLgNVRG9hIp5X9"
+        },
+        {
+            "nome": "Reginald Davis",
+            "email": "adriangregory@example.org",
+            "password": "(_YxiFLTV3",
+            "administrador": "true",
+            "_id": "2Ha2pG9OYZ79yfto"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "test_1763025493215@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "2uaHZOtl5hXnsc6s"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763032431@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "3WiVNGMlvZ3ScMFc"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763031761@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "42QkoPZFNi15h9GN"
+        },
+        {
+            "nome": "Robin Taylor",
+            "email": "russelltiffany@example.org",
+            "password": "%2iR5hZiI0",
+            "administrador": "true",
+            "_id": "4PDkprWxWDWCkF3K"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763031091@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "552MOBDomszP7fK5"
+        },
+        {
+            "nome": "Teresa Smith",
+            "email": "xcoleman@example.com",
+            "password": "y#klV2Nq%i",
+            "administrador": "true",
+            "_id": "58SWFCNGQICHpQ9K"
+        },
+        {
+            "nome": "Test User testuser2@emailtest.com",
+            "email": "testuser2@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "5sdwz7m88D2m6VaA"
+        },
+        {
+            "nome": "Timothy Anderson",
+            "email": "qsmith@example.org",
+            "password": "(1C6Y*9aKS",
+            "administrador": "true",
+            "_id": "5sidxpHPg9FCnmpJ"
+        },
+        {
+            "nome": "Krystal Jones",
+            "email": "calvinmurillo@example.org",
+            "password": "mp1UF2568(",
+            "administrador": "true",
+            "_id": "6wWHtZRK20iLgbTj"
+        },
+        {
+            "nome": "Mitchell",
+            "email": "adminQA58@gmail.com",
+            "password": "wrSoVmEO",
+            "administrador": "true",
+            "_id": "7Y40UQXVtAKiSGDW"
+        },
+        {
+            "nome": "Ellis Parisian",
+            "email": "ellisparisian_Jacobson19@serverest.dev",
+            "password": "HMIJ76R3HKea",
+            "administrador": "false",
+            "_id": "7umb2rxa4NcrEkWZ"
+        },
+        {
+            "nome": "Holly Greene",
+            "email": "garciathomas@example.com",
+            "password": "wf^6PhzjG2",
+            "administrador": "false",
+            "_id": "8XWPhx7xBucWv47J"
+        },
+        {
+            "nome": "Linda Smith",
+            "email": "mariah55@example.net",
+            "password": "YB&3jA8tn*",
+            "administrador": "false",
+            "_id": "8a8dRJat3dw2BNeX"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763033099@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "9YiA9DQxBUNNjgHm"
+        },
+        {
+            "nome": "Test User testuser4@emailtest.com",
+            "email": "testuser4@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "BmKuhodPBLEiIqNp"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763034444@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "BnwSfj6HAjJGN6MK"
+        },
+        {
+            "nome": "Lauren Edwards",
+            "email": "lopezkenneth@example.com",
+            "password": "VbKcEv&y(7",
+            "administrador": "true",
+            "_id": "CupkoG4vCY0ECcrs"
+        },
+        {
+            "nome": "Lisa Stanley",
+            "email": "tinamatthews@example.com",
+            "password": ")%LStsPV*6",
+            "administrador": "false",
+            "_id": "Eez5CrK61WsSn58p"
+        },
+        {
+            "nome": "Peter Webb",
+            "email": "kevin88@example.org",
+            "password": "@04X4aUqbQ",
+            "administrador": "true",
+            "_id": "F28kEXrffFrXmFR2"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763033099@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "FNOPdpdKWX9gXblG"
+        },
+        {
+            "nome": "Gary Patterson",
+            "email": "jack31@example.net",
+            "password": "&6AVnlJ5@o",
+            "administrador": "false",
+            "_id": "FRPZbh9cqB36vApB"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763033730@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "G3d0W0ejyLN1w7F1"
+        },
+        {
+            "nome": "Michael Kidd",
+            "email": "louis82@example.org",
+            "password": "+z4VXwTn$V",
+            "administrador": "true",
+            "_id": "GBFmEyLo99deyuDe"
+        },
+        {
+            "nome": "Pamela Bishop",
+            "email": "harrisondonna@example.org",
+            "password": "V^38jpRarY",
+            "administrador": "true",
+            "_id": "Gqn6H3suWnISwVJA"
+        },
+        {
+            "nome": "Steven Johnson",
+            "email": "brianturner@example.net",
+            "password": "eu0tgUbMd@",
+            "administrador": "false",
+            "_id": "I74Xj6lpICUW0tMs"
+        },
+        {
+            "nome": "Daniel",
+            "email": "test@test.com",
+            "password": "12345678",
+            "administrador": "false",
+            "_id": "IJMbov49Pgb4JqW7"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763029766@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "IotIvGsQDLjz9pA3"
+        },
+        {
+            "nome": "CRUD Test 1763025495215",
+            "email": "crud_1763025495215@example.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "JHeQn4i4s2L7YooS"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763030464@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "JVfa5Ndl5OiJLQLe"
+        },
+        {
+            "nome": "Kathleen Johnson",
+            "email": "jennifer50@example.org",
+            "password": "#2)&pMpoMm",
+            "administrador": "true",
+            "_id": "JfhqyPkqOak1LElI"
+        },
+        {
+            "nome": "Timothy Flynn",
+            "email": "brownmichael@example.net",
+            "password": "29R0k8Hj&#",
+            "administrador": "true",
+            "_id": "Jgb0jSAZfHttpC6B"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763035048@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "Kyn5KdLz8Ix4gp0X"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763036370@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "LEbolBcTPzPBtf6Z"
+        },
+        {
+            "nome": "James Salas",
+            "email": "karen42@example.net",
+            "password": "&1NJZd&r)7",
+            "administrador": "true",
+            "_id": "LhZXoVzdao2Y4i51"
+        },
+        {
+            "nome": "Gene Steuber",
+            "email": "genesteuber_Kerluke@serverest.dev",
+            "password": "PLiKmKUALAoC",
+            "administrador": "true",
+            "_id": "LrlxHC8L60mtIdlC"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763028501@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "LvM8wknIxSlIZnvd"
+        },
+        {
+            "nome": "Keith",
+            "email": "userQA75@hotmail.com",
+            "password": "omrkfLeA",
+            "administrador": "false",
+            "_id": "MOz37byTUVK5eK9Z"
+        },
+        {
+            "nome": "Teste curso ABC",
+            "email": "testandocurso@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "MhMjDhLP7eolSPc1"
+        },
+        {
+            "nome": "Sonia Jones",
+            "email": "kevinwillis@example.com",
+            "password": "l1H5wDcB+a",
+            "administrador": "true",
+            "_id": "NeFw6MZr8Sd7Z1Jk"
+        },
+        {
+            "nome": "Christopher Griffin",
+            "email": "bwheeler@example.org",
+            "password": "ODj4L#5z)9",
+            "administrador": "true",
+            "_id": "O1b2vrezpc2gHRhB"
+        },
+        {
+            "nome": "Renee Fleming",
+            "email": "idavis@example.net",
+            "password": "_T6Sh^2+#4",
+            "administrador": "true",
+            "_id": "OVAyUX1NX3tehIJm"
+        },
+        {
+            "nome": "Jennifer Johnson",
+            "email": "marshallthomas@example.com",
+            "password": "$U14AobLj^",
+            "administrador": "true",
+            "_id": "Odhun0axCCxYWvkC"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763030464@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "P4P1F97N6orE9LTg"
+        },
+        {
+            "nome": "Stephanie Davis",
+            "email": "athompson@example.org",
+            "password": "u17PVm)i*v",
+            "administrador": "true",
+            "_id": "P87aNnAQvKOYBDZW"
+        },
+        {
+            "nome": "Test User testuser3@emailtest.com",
+            "email": "testuser3@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "PfQkZIgHjRrbk45g"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763028502@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "QOdzNLivroH0f8HP"
+        },
+        {
+            "nome": "Aubrey",
+            "email": "adminQA.Barrows20@hotmail.com",
+            "password": "BIvy7ixc",
+            "administrador": "true",
+            "_id": "QV7sjatyQlKnW4XX"
+        },
+        {
+            "nome": "Matthew Hart",
+            "email": "christydavis@example.net",
+            "password": "UWS(_3Wz$d",
+            "administrador": "true",
+            "_id": "QcilkmDbPSPPLTfE"
+        },
+        {
+            "nome": "Marcus Chan",
+            "email": "knightjoseph@example.org",
+            "password": "$2X5)%Fz1z",
+            "administrador": "true",
+            "_id": "RBEFh4SKpRYDFd9F"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763027142@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "RcoUttG2VVqchreu"
+        },
+        {
+            "nome": "Test User admin@emailtest.com",
+            "email": "admin@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "SNYqlAFCn3GfKSd0"
+        },
+        {
+            "nome": "nome cliente",
+            "email": "email@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "TGwqNUcT0Lz81AIb"
+        },
+        {
+            "nome": "Test User testuser5@emailtest.com",
+            "email": "testuser5@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "UFdRhJnLfnpv7gRh"
+        },
+        {
+            "nome": "Samantha Jimenez",
+            "email": "ghall@example.net",
+            "password": "&eIMf4viW0",
+            "administrador": "true",
+            "_id": "UJdxIDkRbXjDRmFg"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763035731@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "USFWgpCFYks36D65"
+        },
+        {
+            "nome": "Mr. Mitchell Heller",
+            "email": "mr.mitchellheller58@serverest.dev",
+            "password": "fXt8jYWnoX3r",
+            "administrador": "false",
+            "_id": "Ugp4008Ub2ipb4Kz"
+        },
+        {
+            "nome": "Kelly Blackwell",
+            "email": "qmcguire@example.org",
+            "password": "o!PqjomG!3",
+            "administrador": "true",
+            "_id": "UxP1U7LBP5O5qdGf"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763033729@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "X7LTNNA0IrWcDbGT"
+        },
+        {
+            "nome": "Pam House",
+            "email": "danielgonzalez@example.com",
+            "password": "KW&16Q8o!+",
+            "administrador": "true",
+            "_id": "X8Jh9JykE6cvwhs3"
+        },
+        {
+            "nome": "Sharon Carter",
+            "email": "zmiller@example.net",
+            "password": "guA1D&ok%J",
+            "administrador": "true",
+            "_id": "XB3QOjAvBwM0nVRN"
+        },
+        {
+            "nome": "Brittany Mills",
+            "email": "brittanymills@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "XWwZa1414xMOaTmA"
+        },
+        {
+            "nome": "Ada McCullough",
+            "email": "adamccullough@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "Xq76ZP6YLCj9RtvG"
+        },
+        {
+            "nome": "Ian Gardner",
+            "email": "sarahalvarado@example.com",
+            "password": "X%5XAotl&7",
+            "administrador": "true",
+            "_id": "Y8TsrV2axlJdPhaI"
+        },
+        {
+            "nome": "John Jones",
+            "email": "powerssamantha@example.com",
+            "password": "l6uo+MRh&g",
+            "administrador": "true",
+            "_id": "YGlQoJPTzQPXR6Wg"
+        },
+        {
+            "nome": "Alberto Wolff",
+            "email": "albertowolff@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YzSuaJfAzUQ3yqIa"
+        },
+        {
+            "nome": "David Perez",
+            "email": "ryan91@example.org",
+            "password": "iDw0jOYd$_",
+            "administrador": "true",
+            "_id": "ZmtNLBoVYWoIK4KO"
+        },
+        {
+            "nome": "Daniel Reeves",
+            "email": "steven04@example.org",
+            "password": "ul45A8rB&0",
+            "administrador": "false",
+            "_id": "a40nDljMFVjWlaPu"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763035048@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "aPBTyQbciMmthUkn"
+        },
+        {
+            "nome": "Franklin",
+            "email": "userQA.Jaskolski@hotmail.com",
+            "password": "cAaCozVu",
+            "administrador": "false",
+            "_id": "amyViCPD9vqPz49m"
+        },
+        {
+            "nome": "arapinha da budega",
+            "email": "bolsa@gmail.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "asarkTUrNpxJdLBh"
+        },
+        {
+            "nome": "Test User testuser9@emailtest.com",
+            "email": "testuser9@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "bAPCQIfACmj8QZSp"
+        },
+        {
+            "nome": "Andrea Norman",
+            "email": "pecklisa@example.com",
+            "password": "jI@@R78w_1",
+            "administrador": "true",
+            "_id": "bEXX538mut9DGblM"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763029168@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "bZtVeKVsbsrOMYil"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763027831@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "bdCxd1asjvdzpvOI"
+        },
+        {
+            "nome": "Adrian Kim",
+            "email": "brookstoni@example.org",
+            "password": "#OJ4CRXiA*",
+            "administrador": "true",
+            "_id": "corAb3oP4ZFhvlUd"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763029765@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "cwHtJO3qpGMi3Pyw"
+        },
+        {
+            "nome": "usuarioTest",
+            "email": "testeQA1@gmail.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "d5cKOF5hiO6QXW7i"
+        },
+        {
+            "nome": "Margaret Reynolds",
+            "email": "kelsey00@example.com",
+            "password": "f@4rYrR0vP",
+            "administrador": "true",
+            "_id": "d5l7hxbmDOKqSMxx"
+        },
+        {
+            "nome": "Howard Murphy",
+            "email": "kimholly@example.net",
+            "password": "q$$8HwWwe#",
+            "administrador": "true",
+            "_id": "eWgE0Ht3YJbiZlWK"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763031090@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "fGl3NepKPYnW7isH"
+        },
+        {
+            "nome": "Kerry Shields IV",
+            "email": "kerryshieldsiv@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "fI3QgE6tegP5Vdbx"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763034445@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "fIbCRw6rrkUyCQGh"
+        },
+        {
+            "nome": "Sarah Rodriguez",
+            "email": "derrickwalker@example.net",
+            "password": "_K5NMRg1*#",
+            "administrador": "true",
+            "_id": "fgqbpPjJQToKIL5Z"
+        },
+        {
+            "nome": "Clayton Koelpin Sr.",
+            "email": "claytonkoelpinsr.30@serverest.dev",
+            "password": "BtLnTmpT0rkG",
+            "administrador": "true",
+            "_id": "gcVyc73kWVqzhguG"
+        },
+        {
+            "nome": "Outro Usuário",
+            "email": "duplicate_1763025494755@example.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "gjiFPBhjWQSX82FH"
+        },
+        {
+            "nome": "Timothy Short",
+            "email": "michaeljohnson@example.com",
+            "password": "A6V(XQkX*+",
+            "administrador": "false",
+            "_id": "glgs0JoIjdy3RJPm"
+        },
+        {
+            "nome": "Deborah Glover",
+            "email": "Wendy_Greenholt@hotmail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "gzx2708tTNjeL1V7"
+        },
+        {
+            "nome": "Marlene Pfeffer IV",
+            "email": "rachelleannon@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "hAFHvwpPne3QO3WD"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763036370@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "hApRBEm0BiZxCici"
+        },
+        {
+            "nome": "Stephanie Williams",
+            "email": "erica02@example.net",
+            "password": "H+xEr1onTY",
+            "administrador": "true",
+            "_id": "hrbz8KbjQifYvoQq"
+        },
+        {
+            "nome": "Test User testuser7@emailtest.com",
+            "email": "testuser7@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "hrypCE9yVsxizHTL"
+        },
+        {
+            "nome": "Stacy Long",
+            "email": "mnoble@example.com",
+            "password": "^k0FngK04Z",
+            "administrador": "true",
+            "_id": "hsndK1BK2x4HbuV2"
+        },
+        {
+            "nome": "Malcolm Hintz",
+            "email": "malcolmhintz@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "i7BghI91mTVeV660"
+        },
+        {
+            "nome": "Mr. Ron Halvorson",
+            "email": "mr.ronhalvorson@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "iHvrIFGisq0RMpyV"
+        },
+        {
+            "nome": "Kevin Jackson",
+            "email": "llewis@example.net",
+            "password": "*!OrsX*r&4",
+            "administrador": "false",
+            "_id": "iLUqY2ITdyhOJw2I"
+        },
+        {
+            "nome": "Cody Carroll",
+            "email": "jennifer64@example.org",
+            "password": "+n3sF&9hy_",
+            "administrador": "true",
+            "_id": "iq5XTDV3IilOyF8X"
+        },
+        {
+            "nome": "Fulano da Silva1",
+            "email": "larai1@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "jqwSDlyX2xZyOeMh"
+        },
+        {
+            "nome": "Amanda Jones",
+            "email": "krichardson@example.net",
+            "password": "5MEbrapi%8",
+            "administrador": "true",
+            "_id": "k9CrlIvaf8JKgNlX"
+        },
+        {
+            "nome": "Gregory Chandler",
+            "email": "jeffmeyers@example.net",
+            "password": "%St7$ByRP#",
+            "administrador": "false",
+            "_id": "kzv6yyidk4h3XTvC"
+        },
+        {
+            "nome": "Novo Usuário",
+            "email": "new_user_1763025494868@example.com",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "lRRqYs0i5sIOdWmV"
+        },
+        {
+            "nome": "Adrianna",
+            "email": "colin.johnston@hotmail.com",
+            "password": "55fmmce8",
+            "administrador": "true",
+            "_id": "lSyZE9MC64ODmh6r"
+        },
+        {
+            "nome": "Alan Montgomery",
+            "email": "sanderscynthia@example.com",
+            "password": "yz%TgtDx*8",
+            "administrador": "true",
+            "_id": "lnIRKXBLkTF1mKpp"
+        },
+        {
+            "nome": "Test User testuser8@emailtest.com",
+            "email": "testuser8@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "mPzsKjKStKfWVdpD"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "mQugSAD2NlH9Wbhe"
+        },
+        {
+            "nome": "Jay Bishop",
+            "email": "mosleybrendan@example.net",
+            "password": "@nX5VZoeNc",
+            "administrador": "false",
+            "_id": "mTbAgc9gs6PcDqgC"
+        },
+        {
+            "nome": "Jason Owens",
+            "email": "fisherronald@example.net",
+            "password": "^*18*SnnPD",
+            "administrador": "false",
+            "_id": "mwdwSo1DdmpzZxHm"
+        },
+        {
+            "nome": "Teste curso ABC",
+            "email": "testandocurso1@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mz5UNjuafozUJy3K"
+        },
+        {
+            "nome": "Marcus Smith",
+            "email": "stephenbyrd@example.com",
+            "password": "0R0WGu9p!!",
+            "administrador": "false",
+            "_id": "n4N6lqHY2JMq9vBm"
+        },
+        {
+            "nome": "Kari Day",
+            "email": "amandamartinez@example.com",
+            "password": "&5tmNgWy^0",
+            "administrador": "true",
+            "_id": "nmo7umLEo2VUpTFw"
+        },
+        {
+            "nome": "Michelle Cobb",
+            "email": "xperez@example.net",
+            "password": "&1B1CEvqEQ",
+            "administrador": "true",
+            "_id": "ntIP4jIX84DR78bj"
+        },
+        {
+            "nome": "TestUser",
+            "email": "admin@serverest.dev",
+            "password": "admin",
+            "administrador": "true",
+            "_id": "oRXwURd4UcyVa5ns"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763027831@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "oTUltFU1QUl7bpVx"
+        },
+        {
+            "nome": "Willie Kent",
+            "email": "glenevans@example.net",
+            "password": "C8U0Njb1+)",
+            "administrador": "true",
+            "_id": "p3LKUFP2vM5ibseG"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763029168@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "p7yu7Jae01mBF9jK"
+        },
+        {
+            "nome": "Anthony Olson",
+            "email": "amy41@example.org",
+            "password": "Vn$4_Cf^P2",
+            "administrador": "false",
+            "_id": "pBfPuULENAi0wfxf"
+        },
+        {
+            "nome": "Linda Taylor",
+            "email": "fisherjames@example.com",
+            "password": "#*J8SVRvQu",
+            "administrador": "false",
+            "_id": "q4a3mB2XVoN3ur7n"
+        },
+        {
+            "nome": "Joseph Forbes",
+            "email": "jenniferkennedy@example.org",
+            "password": "$91HrpFw*u",
+            "administrador": "true",
+            "_id": "qFaQ1njaXooNJQSt"
+        },
+        {
+            "nome": "Crystal Torres",
+            "email": "reyesmadison@example.net",
+            "password": "(Vd+Prerr0",
+            "administrador": "false",
+            "_id": "qK9JpLkxRV1S2AS3"
+        },
+        {
+            "nome": "Adrian Ponce",
+            "email": "philipchandler@example.com",
+            "password": "E6X4ClpCe+",
+            "administrador": "true",
+            "_id": "qqhIFKYIlBxudGiJ"
+        },
+        {
+            "nome": "Test User testuser6@emailtest.com",
+            "email": "testuser6@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "rY91hRtSSq0SLJo2"
+        },
+        {
+            "nome": "Beth Cox",
+            "email": "gwebb@example.org",
+            "password": "F)P6M9qzxy",
+            "administrador": "true",
+            "_id": "rc0wox87UcxlyRsv"
+        },
+        {
+            "nome": "Admin 1763025493850",
+            "email": "admin_1763025493850@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "sYB6hc44S5nfp32a"
+        },
+        {
+            "nome": "Test User testuser@emailtest.com",
+            "email": "testuser@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "soprR8nDOTAMppe0"
+        },
+        {
+            "nome": "Donna Patel",
+            "email": "amitchell@example.org",
+            "password": "4a&eBv$Q&l",
+            "administrador": "false",
+            "_id": "t5iWfXWpHPmIcBR3"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763032431@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "tNhsbcwjiANL0Rur"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "thkcCHH3UEWV4yVb"
+        },
+        {
+            "nome": "Test User testuser0@emailtest.com",
+            "email": "testuser0@emailtest.com",
+            "password": "initialPass",
+            "administrador": "true",
+            "_id": "trxvXxyAbHdUMViF"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763027142@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "uOwCYAu99S4NrtLy"
+        },
+        {
+            "nome": "Aaron Matthews",
+            "email": "jeffrey86@example.org",
+            "password": "%6hXyTho%@",
+            "administrador": "false",
+            "_id": "uj41PZSkUd3cM91n"
+        },
+        {
+            "nome": "Julie Richardson",
+            "email": "kevin28@example.com",
+            "password": "%9mUZxjxCZ",
+            "administrador": "true",
+            "_id": "vHNNkyt5zTKisno9"
+        },
+        {
+            "nome": "Elizabeth Robinson MD",
+            "email": "zmoore@example.org",
+            "password": "_mV2Wna0Z$",
+            "administrador": "true",
+            "_id": "vbgKvhqWqGpTrals"
+        },
+        {
+            "nome": "Amanda Cole",
+            "email": "goldenalyssa@example.org",
+            "password": "_8&B6PmT!r",
+            "administrador": "true",
+            "_id": "vhRfSwfP5ktgIlSC"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "unique_fulano_1763035730@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "wQstnADLadvkqpYa"
+        },
+        {
+            "nome": "Joshua Freeman",
+            "email": "sandersnicholas@example.com",
+            "password": "BN1yWk#Ap%",
+            "administrador": "false",
+            "_id": "yOv7bjSJCm2VmBvl"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "duplicate_test_1763031762@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "yrAuWbrs65SAcuRY"
+        }
+    ]
+}
